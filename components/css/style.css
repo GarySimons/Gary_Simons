@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.3rem;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+}
+
+#home {
+    background-color: red;
+}
+
+.sectionhead {
+    color: red;
+}

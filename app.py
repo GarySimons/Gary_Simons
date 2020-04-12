@@ -10,14 +10,14 @@ app = Flask(__name__)
 
 MONGODB_URI = os.environ.get("MONGO_URI")
 DBS_NAME = "skills_manager"
-COLLECTION_NAME = "skills_manager"
+COLLECTION_NAME = "skill"
 
 mongo = PyMongo(app)
 
 @app.route('/')
 @app.route('/get_skill')
 def get_skill():
-    return render_template("skill.html", skill=mongo.db.skill.find())
+    return render_template("skill.html", skill=mongo.db.skills_manager.find())
 
 
 if __name__ == '__main__':

@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="{{url_for('components', filename='css/style.css')}}" type="text/css"/>
+    <link rel="stylesheet" href="components/css/style.css" type="text/css" />
+
+
+
+
     <title>Gary Simons</title>
 </head>
-<body>
 
+
+<body>
+<!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">CS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,32 +47,125 @@
   </div>
 </nav>
 
-    <div>
+<!-- HomePage -->
+<section  id="home" class="container-fluid">
+    
+    <div class="d-none d-sm-block col-md-12 col-lg-12">
+        <h1 id="name">GARY SIMONS</h1>
+        <h2 id="strapline">creative full-stack developer</h2>
+        <img src="components/images/bird80black.png" alt="Bird" class="img-fluid">
+    </div>
+</section>
+
+<section id="about" class="container-fluid">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 sectionhead">about</div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+        <p class="whitetext">I am creative, enthusiastic full-stack web developer, 
+        who is passionate about great design and building dynamic, responsive and 
+        intuitive websites using the latest programs and languages
+
+        With a solid background in graphic design, I understand how to 
+        signpost and guide users on a journey through a site 
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+        <p class="whitetext">HTML</p>
+        <p class="whitetext">CSS</p>
+        <p class="whitetext">JavaScript</p>
+        <p class="whitetext">JQuery</p>
+        <p class="whitetext">Python</p>
+        <div class="col-4">
+        <p class="whitetext">Full-Stack Web Development</p>
+        <p class="blacktext">Code Institute</p>
+        <p class="whitetext">HND Graphic Design</p>
+        <p class="blacktext">Lincoln Art</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+    
+</section>
+
+<!--Footer-->
+
+    <footer id="footer">
+      
+        <div class="col-sm-12">
+          <ul class="list-inline sociallinks">
+            <li class="list-inline-item">
+            <a href="#" aria-label="Like us on Facebook">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="#" aria-label="Follow us on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="#" aria-label="Follow us on Pinterest">
+                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                <span class="sr-only">Pinterest</span>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="#" aria-label="Follow us on Instagram">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="#" aria-label="Watch us on Youtube">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+            </a>
+            </li>
+          </ul>
+        </div>
+      
+    </footer>
+
+<div>
         <div class="container-fluid" id="homepage">
+
         </div>
         <footer>
         </footer>
     </div>
 
     <div class="container">
-        {% block content %} {% endblock %}
+        
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<!-- From Bootstrap temp -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- From Bootstrap temp -->
+
     <script type="text/javascript">
+
         $(document).ready(function() {
             $('.collapsible').collapsible();
             $('select').material_select();
             $(".button-collapse").sideNav();
-        });
-
-        $('.datepicker').pickadate({
-            selectMonths: true, // Creates a dropdown to control month
-            selectYears: 15, // Creates a dropdown of 15 years to control year,
-            today: 'Today',
-            clear: 'Clear',
-            close: 'Ok',
-            closeOnSelect: false // Close upon selecting a date,
         });
     </script>
 </body>
