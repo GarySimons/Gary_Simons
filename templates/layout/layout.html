@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="components/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="{{ url_for('templates/components/css', filename='style.css')}}" type="text/css"/>
 
     {% if title %}
         <title>Gary Simons - {{ title }}</title>
