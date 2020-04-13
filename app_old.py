@@ -8,23 +8,17 @@ if path.exists("env.py"):
 
 app = Flask(__name__)
 
+MONGODB_URI = os.environ.get("MONGO_URI")
+DBS_NAME = "skills_manager"
+COLLECTION_NAME = "skill" 
+
+
+mongo = PyMongo(app)
 
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('pages/home.html')
-
-@app.route('/about')
-def about():
-    return render_template('pages/about.html')
-
-@app.route('/projects')
-def projects():
-    return render_template('pages/projects.html')
-
-@app.route('/contact')
-def contact():
-    return render_template('pages/contact.html')
+    return render_template("home.html")
 
 
 if __name__ == '__main__':
