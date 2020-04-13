@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% if title %}
-        <title>Gary Simons - {{ title }}</title>
-    {% else %}
-        <title>Gary Simons</title>
-    {% endif %}
-</head>
-<body>
-   <h1>Home</h1>
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="row" id="home">
+      <div class="col-12">
+        <div class="row col-12 justify-content-center">
+        <h1 id="name">GARY SIMONS</h1>
+      </div>
+      <div class="row col-12 justify-content-center">
+        <p id="strapline">creative full-stack web developer</p>
+      </div>
+      <div class="row col-12 justify-content-center">
+        <img id="birdmain" src="components/images/bird80black.png" alt="Bird" class="img-fluid">
+      </div>
+      <div class="row col-12 justify-content-center">
+        <p id="v">V</p>
+      </div>
+      </div>
+</div>
+
+{% endblock content %}

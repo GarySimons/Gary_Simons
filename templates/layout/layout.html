@@ -23,10 +23,85 @@
 </head>
 
 <body>
-    {% block content %}{% endblock %}
+
+<!-- Nav Bar -->
+    <div id="navigationbar">
+      <nav class="navbar navbar-expand-sm navbar-light">
+         <a class="navbar-brand" href="#">GS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="ml-auto navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<!-- code block -->
+    <div class="container-fluid">
+        {% block content %}{% endblock %}
+    </div>
+
+<!-- Footer -->
+    <footer id="footer">
+        
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <ul class="list-inline sociallinks">
+                    <li class="list-inline-item">
+                    <a href="#" target="_blank" aria-label="Follow me on LinkedIn">
+                        <p>Li</p>
+                    <span class="sr-only">LinkedIn</span>
+                    </a>
+                    <li class="list-inline-item">
+                    <a href="#" target="_blank" aria-label="Follow me on Twitter">
+                        <p>Tw</p>
+                    <span class="sr-only">Twitter</span>
+                    </a>
+                    <li class="list-inline-item">
+                    <a href="#" target="_blank" aria-label="Follow me on Instagram">
+                        <p>Ig</p>
+                    <span class="sr-only">Instagram</span>
+                    </a>
+                    <li class="list-inline-item">
+                    <a href="#" target="_blank" aria-label="Follow me on GitHub">
+                        <p>Gh</p>
+                    <span class="sr-only">GitHub</span>
+                    </a>
+                    <li class="list-inline-item">
+                    <a href="#" target="_blank" aria-label="Download my CV">
+                        <p>Cv</p>
+                    <span class="sr-only">CV</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12">
+            <p id="copyright">copyright &copy gary simons <script>document.write( new Date().getFullYear() );</script> </p>
+        </div>
+            
+        </div>
+        
+    </footer>
+
 
 <!-- Scripts -->
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
