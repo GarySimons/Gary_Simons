@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap');
 
 
 
@@ -10,28 +10,104 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    color: black;
-    letter-spacing: 0.3rem;
-    line-height: 1.6;
-    text-align: center;
     text-decoration: none;
 }
 
-#home {
-    background-color: red;
+/* Navbar */
+
+#navbarNavDropdown {
+    font-size: 1rem;
 }
 
+#navigationbar {
+    position: sticky;
+    width: 98vw;
+    top: 0;
+    left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 1;
+    background-color: #a6a6a6 !important;
+}
+
+#navbarbrand {
+    font-size: 4rem !important;
+    color: red !important;
+}
+
+.nav-link {
+    font-size: .9rem;
+    color: #000000 !important;
+    text-align: right !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    transition: .1s ease-in-out;
+}
+
+
+/* Home page */
+
+
+#home {
+    background-color: #a6a6a6;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1.5rem;
+
+}
+
+#strapline {
+    color:#fff;
+    font-size: 1.65rem;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+
+#birdmain {
+    width: 250px;
+    height: 100%;
+    text-align: center;
+}
+
+#v {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+/* General */
+
 .sectionhead {
-    color: red;
+    color: #000;
+    font-size: 3.5rem;
+    padding-top: 6rem;
 }
 
 .whitetext {
-    color: green;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 100;
 }
 
 .blacktext {
-    color: purple;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 100;
 }
 
 .sociallinks {
@@ -50,12 +126,41 @@ body {
     color: fuchsia;
 }
 
+/* About page */
+
 #about {
-    background-color: yellow;
+    background-color: #fff;
 }
+
+.aboutpanel {
+    background-color: #333333;
+}
+
+
+.skillspanel {
+    background-color: #a34966;
+}
+
+.educationpanel {
+    background-color: #b88192;
+}
+
+.aboutsocial {
+    background-color: #a6a6a6;
+}
+
+/* Projects page */
 
 #projects {
     background-color: tan;
+}
+
+.projectpaneldk {
+    background-color: green;
+}
+
+.projectpanellight {
+    background-color: mediumseagreen;
 }
 
 #contact {
