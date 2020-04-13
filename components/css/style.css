@@ -25,3 +25,43 @@ body {
 .sectionhead {
     color: red;
 }
+
+.whitetext {
+    color: green;
+}
+
+.blacktext {
+    color: purple;
+}
+
+.sociallinks {
+    color: orange;
+}
+
+.projectname {
+    color: plum;
+}
+
+.projecttext {
+    color: brown;
+}
+
+.projectprogram {
+    color: fuchsia;
+}
+
+#about {
+    background-color: yellow;
+}
+
+#projects {
+    background-color: tan;
+}
+
+#contact {
+    background-color: turquoise;
+}
+
+#footer {
+    background-color: tomato;
+}
