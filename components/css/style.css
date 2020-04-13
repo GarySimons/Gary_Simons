@@ -92,11 +92,19 @@ body {
 
 /* General */
 
+#birdsmall {
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .sectionhead {
     color: #000;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    letter-spacing: .3rem; 
     padding-top: 6rem;
-    margin-bottom: -.9rem;
+    margin-bottom: -.8rem;
     z-index: 1;
 }
 
@@ -119,7 +127,6 @@ body {
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
-    word-spacing: 10rem;
 }
 
 /* About page */
@@ -139,13 +146,13 @@ body {
 }
 
 .educationpanel {
-    background-color: #b88192;
+    background-color: #d996a9;
     padding: 2rem 2rem 8rem;
 }
 
 .aboutsocial {
-    background-color: #a6a6a6;
-    padding: 2rem;
+    background-color: #dbaf7b;
+    padding: 1rem;
 }
 
 .listtext {
@@ -174,12 +181,12 @@ body {
 }
 
 .projectpanel2 {
-    background-color: #303a63;
+    background-color: #273461;
     padding: 1rem;
 }
 
 .projectpanel3 {
-    background-color: #095741;
+    background-color: #0d5e4f;
     padding: 1rem;
 }
 
@@ -210,6 +217,7 @@ body {
     line-height: 1rem;
     font-weight: 100;
     text-align: center;
+    word-spacing: 1rem;
 }
 
 .laptop {
@@ -223,7 +231,7 @@ body {
 }
 
 .contactbox {
-    background-color: #12795c;
+    background-color: #cca416;
     padding-bottom: 2rem;
     padding-top: 2rem;
     margin-bottom: 2rem;
@@ -238,7 +246,7 @@ body {
 
 .btnsend {
     width: 100%;
-    background-color: #095741;
+    background-color: #cca416;
     color: #fff;
     border-color: #fff;
     text-align: left;
@@ -246,7 +254,7 @@ body {
 
 .btnadmin {
     width: 100%;
-    background-color: #82ab87;
+    background-color: #ebd581;
     color: #fff; 
     border-color: #fff;
     text-align: left;
@@ -255,7 +263,8 @@ body {
 /* Footer */
 
 #footer {
-    background-color: #82ab87;
+    background-color: #94b59d;
+    padding: 1rem;
 }
 
 #copyright {
