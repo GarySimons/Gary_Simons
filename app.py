@@ -16,15 +16,15 @@ def home():
 
 @app.route('/about')
 def about():
-    return render_template('pages/about.html')
+    return render_template('pages/about.html', title='About')
 
 @app.route('/projects')
 def projects():
-    return render_template('pages/projects.html')
+    return render_template('pages/projects.html', title='Projects')
 
 @app.route('/contact')
 def contact():
-    return render_template('pages/contact.html')
+    return render_template('pages/contact.html', title='Contact')
 
 
 if __name__ == '__main__':
