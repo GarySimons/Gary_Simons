@@ -28,11 +28,13 @@ body {
     padding-right: 1rem;
     z-index: 1;
     background-color: #a6a6a6 !important;
+    letter-spacing: 0.1rem;
 }
 
-#navbarbrand {
-    font-size: 4rem !important;
-    color: red !important;
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff !important;
+    letter-spacing: 0.6rem;
 }
 
 .nav-link {
@@ -61,7 +63,7 @@ body {
 
 #name {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-align: center;
     letter-spacing: 1.5rem;
 
@@ -69,7 +71,7 @@ body {
 
 #strapline {
     color:#fff;
-    font-size: 1.65rem;
+    font-size: 1.3rem;
     text-align: center;
     letter-spacing: .3rem;
 }
@@ -100,30 +102,24 @@ body {
     color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .blacktext {
     color: #000;
     font-size: 1rem;
     line-height: 1.3rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .sociallinks {
-    color: orange;
-}
-
-.projectname {
-    color: plum;
-}
-
-.projecttext {
-    color: brown;
-}
-
-.projectprogram {
-    color: fuchsia;
+    color: #000;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none !important;
+    padding-top: 1.5rem;
 }
 
 /* About page */
@@ -133,9 +129,9 @@ body {
 }
 
 .aboutpanel {
-    background-color: #333333;
+    background-color: #4d4d4d;
+    border: 1rem;
 }
-
 
 .skillspanel {
     background-color: #a34966;
@@ -149,24 +145,85 @@ body {
     background-color: #a6a6a6;
 }
 
+.listtext {
+    color: #fff;
+    font-size: 1rem;
+    line-height: .4rem;
+    font-weight: 300;
+}
+
+.listtextblack {
+    color: #000;
+    font-size: 1rem;
+    line-height: .4rem;
+    font-weight: 300;
+}
+
 /* Projects page */
 
 #projects {
-    background-color: tan;
+    background-color: #fff;
 }
 
-.projectpaneldk {
-    background-color: green;
+.projectpanel1 {
+    background-color: #b3762d;
 }
 
-.projectpanellight {
-    background-color: mediumseagreen;
+.projectpanel2 {
+    background-color: #303a63;
 }
+
+.projectpanel3 {
+    background-color: #095741;
+}
+
+.projectpanel4 {
+    background-color: #688499;
+}
+
+.projectname {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.projecttext {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.projectprogram {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.laptop {
+    width: 100%;
+}
+
+/* Contact page */
 
 #contact {
-    background-color: turquoise;
+    background-color: #fff;
 }
 
+/* Footer */
+
 #footer {
-    background-color: tomato;
+    background-color: #82ab87;
+}
+
+#copyright {
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 100;
+    text-align: center;
 }
