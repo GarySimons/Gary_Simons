@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,14 +15,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="components/css/style.css" type="text/css"/>
 
-
-
-
     <title>Gary Simons</title>
 </head>
 
 
 <body>
+
+<!-- Start of main container div -->
+
+<div class="container-fluid" id="maincontainer">
+
 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">CS</a>
@@ -58,122 +60,109 @@
 </section>
 
 <!-- AboutPage -->
-<section id="about justify-content-center">
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8 sectionhead">about</div>
-        <div class="col-2"></div>
+<section id="about">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 sectionhead">about</div>
     </div>
 
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-        <p class="whitetext">I am creative, enthusiastic full-stack web developer, 
-        who is passionate about great design and building dynamic, responsive and 
-        intuitive websites using the latest programs and languages
-        <br />
-        <br />
-        With a solid background in graphic design, I understand how to 
-        signpost and guide users on a journey through a site </p>
-        </div>
-        <div class="col-2"></div>
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-8">
+            <p class="whitetext">I am creative, enthusiastic full-stack web developer, 
+            who is passionate about great design and building dynamic, responsive and 
+            intuitive websites using the latest programs and languages
+            <br />
+            <br />
+            With a solid background in graphic design, I understand how to 
+            signpost and guide users on a journey through a site </p>
+            </div>
     </div>
 
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-4">
         <p class="whitetext">HTML</p>
         <p class="whitetext">CSS</p>
         <p class="whitetext">JavaScript</p>
         <p class="whitetext">JQuery</p>
         <p class="whitetext">Python</p>
         </div>
-        <div class="col-4">
+        <div class="col-sm-8 col-md-4">
         <p class="whitetext">Full-Stack Web Development</p>
         <p class="blacktext">Code Institute</p>
         <p class="whitetext">HND Graphic Design</p>
         <p class="blacktext">Lincoln Art</p>
         </div>
-        <div class="col-2"></div>
     </div>
     
-    <div class="row">
-        <div class="col-2"></div>
+    <div class="row justify-content-center">
         <div class="col-8">
         <ul class="list-inline sociallinks">
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on LinkedIn">
-                <p>Li</p>
-              <span class="sr-only">LinkedIn</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on Twitter">
-                <p>Tw</p>
-              <span class="sr-only">Twitter</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on Instagram">
-                <p>Ig</p>
-              <span class="sr-only">Instagram</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on GitHub">
-                <p>Gh</p>
-              <span class="sr-only">GitHub</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Downlaod my CV">
-                <p>Cv</p>
-              <span class="sr-only">CV</span>
-            </a>
-            </li>
-          </ul>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on LinkedIn">
+                    <p>Li</p>
+                <span class="sr-only">LinkedIn</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on Twitter">
+                    <p>Tw</p>
+                <span class="sr-only">Twitter</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on Instagram">
+                    <p>Ig</p>
+                <span class="sr-only">Instagram</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on GitHub">
+                    <p>Gh</p>
+                <span class="sr-only">GitHub</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Downlaod my CV">
+                    <p>Cv</p>
+                <span class="sr-only">CV</span>
+                </a>
+                </li>
+            </ul>
         </div>
-        <div class="col-2"></div>
     </div>
     
 </section>
 
 <!-- ProjectsPage -->
-<section id="about justify-content-center">
-    <div class="row">
-        <div class="col-2"></div>
+<section id="projects">
+
+    <div class="row justify-content-center">
         <div class="col-8 sectionhead">projects</div>
-        <div class="col-2"></div>
     </div>
 
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-4">
-        <img src="components/images/xxxxx.png" alt="Wild Bunch Project" class="img-fluid">
-        <p class="projectname">Wildbunch Florist</p>
-        <p class="projecttext">Wild Bunch Florist is a fictional business in Soho</p>
-        <p class="projectprogram">HTML CSS</p>
-        </div>
-        <div class="col-4">
-        <img src="components/images/xxxxx.png" alt="Handpicked Brighton Project" class="img-fluid">
-        <p class="projectname">Handpicked Brighton</p>
-        <p class="projecttext">This is a Brighton city guide for visitors and locals to find places to eat, drink and stay</p>
-        <p class="projectprogram">HTML   CSS   JavaScript   JQuery    GoogleMap API</p>
-        </div>
-        <div class="col-2"></div>
-    </div>
-
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-4">
         <img src="components/images/wildbunch.png" alt="Wild Bunch Project" class="img-fluid">
         <p class="projectname">Wildbunch Florist</p>
         <p class="projecttext">Wild Bunch Florist is a fictional business in Soho</p>
         <p class="projectprogram">HTML CSS</p>
         </div>
-        <div class="col-4">
+        <div class="col-sm-8 col-md-4">
         <img src="components/images/handpicked.png" alt="Handpicked Brighton Project" class="img-fluid">
         <p class="projectname">Handpicked Brighton</p>
         <p class="projecttext">This is a Brighton city guide for visitors and locals to find places to eat, drink and stay</p>
         <p class="projectprogram">HTML   CSS   JavaScript   JQuery    GoogleMap API</p>
         </div>
-        <div class="col-2"></div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-4">
+        <img src="components/images/wildbunch.png" alt="Wild Bunch Project" class="img-fluid">
+        <p class="projectname">Another website</p>
+        <p class="projecttext">This is just dummy copy this is just dummy copy this is just dummy copy</p>
+        <p class="projectprogram">HTML CSS</p>
+        </div>
+        <div class="col-sm-10 col-md-4">
+        <img src="components/images/handpicked.png" alt="Handpicked Brighton Project" class="img-fluid">
+        <p class="projectname">Website</p>
+        <p class="projecttext">This is just dummy copy this is just dummy copy this is just dummy copy</p>
+        <p class="projectprogram">HTML   CSS   JavaScript   JQuery    GoogleMap API</p>
+        </div>
     </div>
     
 </section>
@@ -184,44 +173,51 @@
       
         <div class="row">
         <div class="col-12">
-        <ul class="list-inline sociallinks">
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on LinkedIn">
-                <p>Li</p>
-              <span class="sr-only">LinkedIn</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on Twitter">
-                <p>Tw</p>
-              <span class="sr-only">Twitter</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on Instagram">
-                <p>Ig</p>
-              <span class="sr-only">Instagram</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Follow me on GitHub">
-                <p>Gh</p>
-              <span class="sr-only">GitHub</span>
-            </a>
-            <li class="list-inline-item">
-            <a href="#" aria-label="Downlaod my CV">
-                <p>Cv</p>
-              <span class="sr-only">CV</span>
-            </a>
-            </li>
-          </ul>
+            <ul class="list-inline sociallinks">
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on LinkedIn">
+                    <p>Li</p>
+                <span class="sr-only">LinkedIn</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on Twitter">
+                    <p>Tw</p>
+                <span class="sr-only">Twitter</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on Instagram">
+                    <p>Ig</p>
+                <span class="sr-only">Instagram</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Follow me on GitHub">
+                    <p>Gh</p>
+                <span class="sr-only">GitHub</span>
+                </a>
+                <li class="list-inline-item">
+                <a href="#" target="_blank" aria-label="Download my CV">
+                    <p>Cv</p>
+                <span class="sr-only">CV</span>
+                </a>
+                </li>
+            </ul>
+        </div>
         </div>
 
         <div class="row">
         <div class="col-12">
-        <p class="whitetext">copyright gary simons</p>
+        <p class="whitetext">copyright &copy gary simons <script>document.write( new Date().getFullYear() );</script> </p>
         </div>
+        
         <div class="col-2"></div>
     </div>
       
     </footer>
+
+        <!-- End of main container div -->
+
+
+  </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
