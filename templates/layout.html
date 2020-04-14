@@ -34,16 +34,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="ml-auto navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">home</a>
+              <a class="nav-link" href="{{url_for('home')}}">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
+              <a class="nav-link" href="{{url_for('about')}}">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">projects</a>
+              <a class="nav-link" href="{{url_for('projects')}}">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link" href="{{url_for('contact')}}">contact</a>
             </li>
           </ul>
         </div>
@@ -55,50 +55,6 @@
         {% block content %}{% endblock %}
     </div>
 
-<!-- Footer -->
-    <footer id="footer">
-        
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <ul class="list-inline sociallinks">
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="#" target="_blank" aria-label="Follow me on LinkedIn">
-                        <p class="sociallinks">Li</p>
-                    <span class="sr-only ">LinkedIn</span>
-                    </a>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="#" target="_blank" aria-label="Follow me on Twitter">
-                        <p class="sociallinks">Tw</p>
-                    <span class="sr-only">Twitter</span>
-                    </a>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="#" target="_blank" aria-label="Follow me on Instagram">
-                        <p class="sociallinks">Ig</p>
-                    <span class="sr-only">Instagram</span>
-                    </a>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="#" target="_blank" aria-label="Follow me on GitHub">
-                        <p class="sociallinks">Gh</p>
-                    <span class="sr-only">GitHub</span>
-                    </a>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="#" target="_blank" aria-label="Download my CV">
-                        <p class="sociallinks">Cv</p>
-                    <span class="sr-only">CV</span>
-                    </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-12">
-            <p id="copyright">copyright &copy gary simons <script>document.write( new Date().getFullYear() );</script> </p>
-        </div>
-            
-        </div>
-        
-    </footer>
 
 
 <!-- Scripts -->
