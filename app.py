@@ -12,19 +12,19 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('pages/home.html')
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
-    return render_template('pages/about.html', title='About')
+    return render_template('about.html', title='About')
 
 @app.route('/projects')
 def projects():
-    return render_template('pages/projects.html', title='Projects')
+    return render_template('projects.html', title='Projects')
 
 @app.route('/contact')
 def contact():
-    return render_template('pages/contact.html', title='Contact')
+    return render_template('contact.html', title='Contact')
 
 
 if __name__ == '__main__':

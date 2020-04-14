@@ -124,9 +124,16 @@ body {
 
 .sociallinks {
     color: #000;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 300;
     text-align: center;
+    text-decoration: none;
+}
+
+.sociallinks:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+    transition: .1s ease-in-out;
 }
 
 /* About page */
