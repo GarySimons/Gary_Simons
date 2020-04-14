@@ -21,7 +21,7 @@ body {
 
 #navigationbar {
     position: sticky;
-    width: 98vw;
+    width: 99vw;
     top: 0;
     left: 0;
     padding-left: 1rem;
@@ -39,7 +39,7 @@ body {
 
 .nav-link {
     font-size: .9rem;
-    color: #000000 !important;
+    color: #4d4d4d !important;
     text-align: right !important;
 }
 
@@ -83,11 +83,18 @@ body {
     text-align: center;
 }
 
-#v {
+#me {
     color: #fff;
-    font-size: 1rem;
+    font-size: .8rem;
     text-align: center;
-    padding-top: 6rem;
+    letter-spacing: .3rem;
+    padding-top: 6rem;  
+}
+
+#me:hover{
+    text-decoration: none !important;
+    color: #4d4d4d !important;
+    transition: .1s ease-in-out;
 }
 
 /* General */
@@ -127,6 +134,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     text-align: center;
+    margin-top: 1rem;
     text-decoration: none;
 }
 
@@ -270,8 +278,8 @@ body {
 /* Footer */
 
 #footer {
+    width: 98vw;
     background-color: #94b59d;
-    padding: 1rem;
 }
 
 #copyright {
