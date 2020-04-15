@@ -26,6 +26,10 @@ def projects():
 def contact():
     return render_template('contact.html', title='Contact')
 
+@app.route('/admin')
+def contact():
+    return render_template('admin.html', title='Administrator')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
