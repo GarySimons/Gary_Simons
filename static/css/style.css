@@ -103,13 +103,14 @@ body {
     width: 150px;
     height: 100%;
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .sectionhead {
     color: #000;
     font-size: 3rem;
-    letter-spacing: .3rem; 
+    letter-spacing: 0.3rem; 
     padding-top: 6rem;
     margin-bottom: -.8rem;
     margin-top: -1rem;
@@ -120,6 +121,7 @@ body {
     color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -127,6 +129,7 @@ body {
     color: #000;
     font-size: 1rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -169,13 +172,13 @@ body {
 .aboutsocial {
     background-color: #dbaf7b;
     padding: 1rem;
-     margin-bottom: 2rem;
 }
 
 .listtext {
     color: #fff;
     font-size: 1rem;
     line-height: .4rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -183,6 +186,7 @@ body {
     color: #000;
     font-size: 1rem;
     line-height: .4rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -205,19 +209,18 @@ body {
 .projectpanel3 {
     background-color: #0d5e4f;
     padding: 1rem;
-     margin-bottom: 2rem;
 }
 
 .projectpanel4 {
     background-color: #688499;
     padding: 1rem;
-     margin-bottom: 2rem;
 }
 
 .projectname {
     color: #fff;
     font-size: 1.4rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 500;
     text-align: center;
 }
@@ -226,6 +229,7 @@ body {
     color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 100;
     text-align: center;
 }
@@ -243,6 +247,7 @@ body {
     width: 100%;
 }
 
+
 /* Contact page */
 
 #contact {
@@ -253,13 +258,13 @@ body {
     background-color: #cca416;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .contacttext {
     color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -285,7 +290,6 @@ body {
     background-color: #688499;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .admintext {
@@ -293,6 +297,7 @@ body {
     text-underline-position: 1rem;
     font-size: 1rem;
     line-height: 1.3rem;
+    letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
@@ -301,6 +306,7 @@ body {
     font-size: 1rem;
     line-height: 1.3rem;
     font-weight: 500; 
+    letter-spacing: 0.1rem; 
     text-decoration: none;
 }
 
@@ -315,6 +321,7 @@ body {
     font-size: 0.8rem;
     line-height: 1.3rem;
     font-weight: 300; 
+    letter-spacing: 0.1rem; 
     text-decoration: none;
 }
 
@@ -329,5 +336,6 @@ body {
     color: #fff;
     font-size: .8rem;
     font-weight: 100;
+    letter-spacing: 0.1rem; 
     text-align: center;
 }
