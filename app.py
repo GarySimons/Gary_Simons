@@ -8,6 +8,9 @@ if path.exists("env.py"):
 
 app = Flask(__name__)
 
+MONGODB_URI = os.environ.get("MONGO_URI")
+DBS_NAME = "skills_manager"
+COLLECTION_NAME = os.environ.get("COLLECTION_NAME")
 
 @app.route('/')
 @app.route('/home')
@@ -32,4 +35,6 @@ def admin():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host=os.environ.get('IP'),
+            port=int(os.environ.get('PORT')),
+            debug=(os.environ.get('DEBUG'))

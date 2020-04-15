@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 MONGODB_URI = os.environ.get("MONGO_URI")
 DBS_NAME = "skills_manager"
-COLLECTION_NAME = "skill" 
+COLLECTION_NAME = "skills" 
 
 
 mongo = PyMongo(app)
