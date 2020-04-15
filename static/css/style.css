@@ -112,6 +112,7 @@ body {
     letter-spacing: .3rem; 
     padding-top: 6rem;
     margin-bottom: -.8rem;
+    margin-top: -1rem;
     z-index: 1;
 }
 
@@ -168,6 +169,7 @@ body {
 .aboutsocial {
     background-color: #dbaf7b;
     padding: 1rem;
+     margin-bottom: 2rem;
 }
 
 .listtext {
@@ -203,11 +205,13 @@ body {
 .projectpanel3 {
     background-color: #0d5e4f;
     padding: 1rem;
+     margin-bottom: 2rem;
 }
 
 .projectpanel4 {
     background-color: #688499;
     padding: 1rem;
+     margin-bottom: 2rem;
 }
 
 .projectname {
@@ -273,6 +277,45 @@ body {
     color: #fff; 
     border-color: #fff;
     text-align: left;
+}
+
+/* Admin page */
+
+.adminbox {
+    background-color: #688499;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.admintext {
+    color: #fff;
+    text-underline-position: 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 300;
+}
+
+.adminsub {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500; 
+    text-decoration: none;
+}
+
+.adminsub:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+    transition: .1s ease-in-out;
+}
+
+.list {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    font-weight: 300; 
+    text-decoration: none;
 }
 
 /* Footer */
