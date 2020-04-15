@@ -27,8 +27,8 @@ def contact():
     return render_template('contact.html', title='Contact')
 
 @app.route('/admin')
-def contact():
-    return render_template('admin.html', title='Administrator')
+def admin():
+    return render_template('admin.html', title='Admin')
 
 
 if __name__ == '__main__':
