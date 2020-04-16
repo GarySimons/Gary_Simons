@@ -9,12 +9,17 @@
 
     <div class="row justify-content-center">
         <div class="col-sm-8 col-md-4 projectpanel1">
-        <img src="static/images/wildbunch.png" alt="Wild Bunch Project" class="img-fluid laptop">
-        <p class="projectname">Wildbunch Florist</p>
+        <img src="static/images/wildbunch.png" alt="Wild Bunch Project" class="img-fluid laptop" data-toggle="modal" data-target="#modal1">
+        <p class="projectname">Wildbunch Florist</p> 
         <p class="projecttext">Wild Bunch Florist is a fictional business in Soho</p>
         <p class="projectprogram">HTML CSS</p>
-        </div>
-        <div class="col-sm-8 col-md-4 projectpanel2">
+        <a class="view" aria-label="View website" data-toggle="modal" data-target="#modal1">
+            <p class="view">view</p>
+        <span class="sr-only">view</span>
+        </a>
+    </div>
+
+    <div class="col-sm-8 col-md-4 projectpanel2">
         <img src="static/images/handpicked.png" alt="Handpicked Brighton Project" class="img-fluid laptop">
         <p class="projectname">Handpicked Brighton</p>
         <p class="projecttext">This is a Brighton city guide for visitors and locals to find places to eat, drink and stay</p>
@@ -44,4 +49,64 @@
             <img id="birdsmall" src="static/images/bird80black.png" alt="Bird" class="img-fluid">
         </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="x" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <a class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">x</span>
+        </a>
+
+      <div class="modal-header">
+        <h5 class="modaltitle" id="exampleModalCenterTitle">Wildbunch Florist</h5>
+      </div>
+
+      <div class="modalbody">
+        dummy text in here to be filled in laterdummy text in here to be filled 
+        in laterdummy text in here to be filled in laterdummy text in here to be 
+        filled in laterdummy text in here to be filled in laterdummy text in here 
+        to be filled in laterdummy text in here to be filled in later  
+      </div>
+      
+      <div class="row justify-content-center button">
+          <a class="close" data-dismiss="modal">close</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- from wild -->
+<div class="modal" tabindex="-1" role="dialog" id="modal1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <a class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">x</span>
+        </a>
+
+        <div class="col-sm-12 model">
+        
+          <img src="static/images/wildbunch.png" alt="Wild Bunch Project" class="img-fluid laptop" data-toggle="modal" data-target="#modal1">
+        </div>
+        <h5 class="modaltitle" id="exampleModalCenterTitle">Wildbunch Florist</h5>
+        
+        <div class="modalbody">
+        dummy text in here to be filled in laterdummy text in here to be filled 
+        in laterdummy text in here to be filled in laterdummy text in here to be 
+        filled in laterdummy text in here to be filled in laterdummy text in here 
+        to be filled in laterdummy text in here to be filled in later  
+      </div>
+        
+        <div class="row justify-content-center">
+          <a class="close" data-dismiss="modal">close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 {% endblock content %}
+
+
