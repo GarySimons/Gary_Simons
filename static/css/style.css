@@ -223,10 +223,11 @@ body {
     letter-spacing: 0.1rem; 
     font-weight: 500;
     text-align: center;
+    padding-top: 0.5rem;
 }
 
 .projecttext {
-    color: #000;
+    color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
     letter-spacing: 0.1rem; 
@@ -235,7 +236,7 @@ body {
 }
 
 .projectprogram {
-    color: #000;
+    color: #ffffff;
     font-size: 0.8rem;
     line-height: 1rem;
     font-weight: 300;
@@ -265,7 +266,7 @@ body {
 
 
 .modaltitle {
-    color: #000;
+    color: #fff;
     font-size: 1.4rem;
     line-height: 1.3rem;
     letter-spacing: 0.1rem; 
@@ -275,7 +276,7 @@ body {
 }
 
 .modalbody {
-    color: #000;
+    color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
     letter-spacing: 0.1rem; 
@@ -284,18 +285,24 @@ body {
     padding: 0.5rem;
 }
 
-.close {
-    color: #000 !important;
-    font-size: 1rem !important;
+.shut {
+    color: #fff !important;
+    font-size: 0.7rem !important;
     letter-spacing: 0.1rem !important; 
     font-weight: 300 !important;
     text-align: center !important;
-    padding: 2rem !important;
+    padding: 1rem !important;
     text-decoration: none !important;
+    cursor: pointer;
+}
+
+.shut:hover{
+    color:#000!important;
+    transition: .1s ease-in-out;
 }
 
 .weblink {
-    color: #000;
+    color: #fff;
     font-size: 0.8rem;
     line-height: 0.8rem;
     font-weight: 500;
@@ -304,8 +311,12 @@ body {
 }
 
 .weblink:hover{
-    color: #4d4d4d !important;
+    color: #000 !important;
     transition: .1s ease-in-out;
+}
+
+.modal-content {
+    background-color: #4d4d4d;
 }
 
 /* Contact page */
