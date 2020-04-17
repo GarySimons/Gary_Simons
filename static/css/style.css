@@ -177,15 +177,15 @@ body {
 .listtext {
     color: #fff;
     font-size: 1rem;
-    line-height: .4rem;
+    line-height: 1.1rem;
     letter-spacing: 0.1rem; 
     font-weight: 300;
 }
 
 .listtextblack {
-    color: #000;
+    color:#000;
     font-size: 1rem;
-    line-height: .4rem;
+    line-height: 1.1rem;
     letter-spacing: 0.1rem; 
     font-weight: 300;
 }
