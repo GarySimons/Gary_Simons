@@ -355,6 +355,7 @@ body {
     text-align: left;
 }
 
+
 /* Admin page */
 
 .adminbox {
@@ -403,9 +404,26 @@ body {
     background-color: #94b59d;
 }
 
+#adminlink {
+    color: #fff !important;
+    font-size: 0.7rem !important;
+    letter-spacing: 0.1rem !important; 
+    font-weight: 300 !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+#adminlink:hover{
+    color:#000!important;
+    transition: .1s ease-in-out;
+}
+
+
 #copyright {
     color: #fff;
-    font-size: .8rem;
+    font-size: 0.7rem;
     font-weight: 100;
     letter-spacing: 0.1rem; 
     text-align: center;
