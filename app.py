@@ -32,7 +32,7 @@ def contact():
 
 @app.route('/admin')
 def admin():
-    return render_template('admin.html', title='Admin')
+    return render_template('admin.html', title='Admin', skills=mongo.db.skills.find())
 
 
 if __name__ == '__main__':

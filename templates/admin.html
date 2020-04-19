@@ -25,17 +25,11 @@
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
                 <ul class="list-group">
-                    <li class="list">HTML</li>
-                    <li class="list">CSS</li>
-                    <li class="list">JavaScript</li>
-                    <li class="list">JQuery</li>
-                    <li class="list">Python</li>
-                    <li class="list">MongoDB</li>
-                    <li class="list">mySQL</li>
-                    <li class="list">Angular</li>
-                    <li class="list">Flutter</li>
-                    <li class="list">React</li>
-                    <li class="list">UX</li>
+
+                {% for skills in skills %}
+                    <ul class="list">{{skills.skill}}   {{skills.level}}</ul>
+                {% endfor %}
+                    
                 </ul>
                 </div>
             </div>

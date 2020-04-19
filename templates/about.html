@@ -21,18 +21,9 @@
 
     <div class="row justify-content-center">
         <div class="col-sm-8 col-md-4 skillspanel">
-        {% for skills in skills %}
-        <p class="listtext">{{skills.skill_html}}</p>
-        <p class="listtext">{{skills.skill_css}}</p>
-        <p class="listtext">{{skills.skill_javascript}}</p>
-        <p class="listtext">{{skills.skill_jquery}}</p>
-        <p class="listtext">{{skills.skill_python}}</p>
-        <p class="listtext">{{skills.skill_mongodb}}</p>
-        <p class="listtext">{{skills.skill_mysql}}</p>
-        <p class="listtext">{{skills.skill_angular}}</p>
-        <p class="listtext">{{skills.skill_flutter}}</p>
-        <p class="listtext">{{skills.skill_react}}</p>
-    {% endfor %}
+            {% for skills in skills %}
+                <p class="listtext">{{skills.skill}}   {{skills.level}}</p>
+            {% endfor %}
         </div>
         <div class="col-sm-8 col-md-4 educationpanel">
         <p class="listtextblack">Full-Stack Web Development</p>
