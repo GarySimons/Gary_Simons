@@ -4,12 +4,16 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from os import path
 if path.exists("env.py"):
-  import env 
+    import env 
 
 app = Flask(__name__)
 
-app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
-app.config['MONGO_NAME'] = os.environ.get('MONGO_NAME')
+MONGODB_URI = os.environ.get("MONGO-URI")
+DBS_NAME = "skills_manager"
+COLLECTION_NAME = "skills"
+
+mongo = PyMongo(app)
+
 
 @app.route('/')
 @app.route('/home')
@@ -18,7 +22,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return render_template('about.html', title='About')
+    return render_template('about.html', title='About', skills=mongo.db.skills.find())
 
 @app.route('/projects')
 def projects():

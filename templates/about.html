@@ -21,17 +21,24 @@
 
     <div class="row justify-content-center">
         <div class="col-sm-8 col-md-4 skillspanel">
-        <p class="listtext">HTML</p>
-        <p class="listtext">CSS</p>
-        <p class="listtext">JavaScript</p>
-        <p class="listtext">JQuery</p>
-        <p class="listtext">Python</p>
+        {% for skills in skills %}
+        <p class="listtext">{{skills.skill_html}}</p>
+        <p class="listtext">{{skills.skill_css}}</p>
+        <p class="listtext">{{skills.skill_javascript}}</p>
+        <p class="listtext">{{skills.skill_jquery}}</p>
+        <p class="listtext">{{skills.skill_python}}</p>
+        <p class="listtext">{{skills.skill_mongodb}}</p>
+        <p class="listtext">{{skills.skill_mysql}}</p>
+        <p class="listtext">{{skills.skill_angular}}</p>
+        <p class="listtext">{{skills.skill_flutter}}</p>
+        <p class="listtext">{{skills.skill_react}}</p>
+    {% endfor %}
         </div>
         <div class="col-sm-8 col-md-4 educationpanel">
-        <p class="listtextblack ">Full-Stack Web Development</p>
+        <p class="listtextblack">Full-Stack Web Development</p>
         <p class="listtext">Code Institute</p>
         <br />
-        <p class="listtextblack ">HND Graphic Design</p>
+        <p class="listtextblack">HND Graphic Design</p>
         <p class="listtext">Lincoln Art College</p>
         </div>
     </div>
