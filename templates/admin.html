@@ -16,27 +16,30 @@
 
         <div class="row col-sm-8 col-md-8  justify-content-center">
              
-            <div class="panel-group">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" class="adminsub" href="#collapse1">Add Skill</a>
-                    </h4>
-                </div>
-                <div id="collapse1" class="panel-collapse collapse">
-                <ul class="list-group">
+            <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Add Skill
+                </button>
+            </h2>
+            </div>
 
-                {% for skills in skills %}
-                    <ul class="list">{{skills.skill}}   {{skills.level}}</ul>
-                {% endfor %}
-                    
-                </ul>
-                </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                    {% for skills in skills %}
+                        <ul class="listx">{{skills.skill}}   {{skills.level}}</ul>
+                    {% endfor %}
             </div>
             </div>
+        </div>
+        </div>
 
         </div>
     </div>
+
+
 
 </section>
 
