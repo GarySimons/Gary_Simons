@@ -6,12 +6,10 @@ from os import path
 if path.exists("env.py"):
     import env 
 
-app = Flask(__name__)
-
-MONGODB_URI = os.environ.get("MONGO-URI")
-DBS_NAME = "skills_manager"
-COLLECTION_NAME = "skills"
-
+app = Flask(__name__)    
+# Configuration values for flask_pymongo  
+# Documentation at http://flask-pymongo.readthedocs.io/en/latest/#configuration app.config['MONGO_DBNAME'] = 'skills_manager'  
+app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 mongo = PyMongo(app)
 
 
