@@ -99,6 +99,10 @@ body {
 
 /* General */
 
+.x {
+    background-color: tomato;
+}
+
 #birdsmall {
     width: 150px;
     height: 100%;
