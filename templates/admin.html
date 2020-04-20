@@ -7,14 +7,16 @@
     </div>
 
 <!--Skills Form-->        
-        <div class="container adminbox col-sm-12 col-md-8">
+    <div class="container adminbox col-sm-12 col-md-8">
+
+         <div class="justify-content-center">   
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-8">
                     <p class="admintext">Fill in below form</p>
                 </div>
             </div>
 
-            <div class="row col-sm-8 col-md-8  justify-content-center">
+            <div class="row col-sm-12 col-md-8  justify-content-center">
                 <div class="accordion" id="accordionExample">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -32,13 +34,14 @@
                         {% endfor %}
                     </div>
                 </div>
+                </div>
+                
             </div>
             </div>
-        </div>
 
 <!--Add Skills Form-->  
-            <div class="row justify-content-center col-sm-12 col-md-8">
-            <form>
+            <div class="row col-sm-12 col-md-12 justify-content-center">
+            <form action="{{ url_for('insert_skill') }}" method="POST">
                 <h6 class="row formhead">Add Skill</h6>   
                     <div class="form-group">
                         <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill"><br />
@@ -47,25 +50,26 @@
                 <button type="submit" class="btn btn-primary">Add Skill</button>
             </form>
             </div>
+
 <!--Edit Skills Form--> 
-            <div class="row justify-content-center col-sm-12 col-md-8">
+            <div class="row justify-content-center">
             <form>
                 <h6 class="row formhead">Edit Skill</h6>   
                     <div class="form-group">
                         <input type="text" class="form-control" id="skillx" name="skillx" placeholder="Enter Skill"><br />
                         <input type="text" class="form-control" id="levelx" name="levelx" placeholder="Enter Level">
                     </div>
-                <button type="submit" class="btn btn-primary">Add Skill</button>
+                <button type="submit" class="btn btn-primary">Edit Skill</button>
             </form>
             </div>
     </div>
     
-
+</div>
 <!-- Bird -->
         <div class="row col-12 justify-content-center">
             <img id="birdsmall" src="static/images/bird80black.png" alt="Bird" class="img-fluid">
         </div>
-        
+
 </section>
 
 

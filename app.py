@@ -34,6 +34,12 @@ def contact():
 def admin():
     return render_template('admin.html', title='Admin', skills=mongo.db.skills.find())
 
+@app.route('/insert_skill', methods=['POST'])
+def insert_skill():
+    skills = mongo.db.skills
+    skills.insert_one(request.form.to_dict())
+    return redirect(url_for('admin'))
+
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
