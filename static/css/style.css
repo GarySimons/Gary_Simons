@@ -358,6 +358,11 @@ body {
 
 /* Admin page */
 
+#admincontainer {
+    background-color: red;
+    height: 100vh;
+}
+
 .adminbox {
     background-color: #688499;
     padding-bottom: 2rem;
