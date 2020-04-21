@@ -100,7 +100,6 @@ body {
 /* General */
 
 .x {
-    background-color: tomato;
     text-align: center;
 }
 
@@ -328,8 +327,8 @@ body {
 /* Contact page */
 
 #contact {
-    background-color: #fff;
-    height: 75vh;
+    background-color: pink;
+    height: 100vh;
 }
 
 .contactbox {
@@ -364,7 +363,6 @@ body {
 /* Admin page */
 
 #admincontainer {
-    background-color: red;
     height: 100vh;
 }
 
