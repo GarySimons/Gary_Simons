@@ -195,6 +195,11 @@ body {
     font-weight: 300;
 }
 
+.progress-bar {
+    color: #fff;
+    background-color: #d996a9;
+}
+
 /* Projects page */
 
 #projects {
