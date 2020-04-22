@@ -43,6 +43,13 @@ def insert_skill():
 @app.route('/add_skill')
 def add_skill():
     return render_template('addskill.html', title='Adimin - Add Skill')
+
+@app.route('/edit_skill/<skill_id>')
+def edit_skill(skill_id):
+    the_skill = mongo.db.skills.find_one({"_id": ObjectId(skill_id)})
+    all_skills = mongo.db.skills.find()
+    skill_list = [skill for skill in _skills]
+    return render_template('editskill.html', title='Adimin - Edit Skill', skill=the_skill, skills=all_skills)   
     
 
 if __name__ == '__main__':

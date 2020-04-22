@@ -368,7 +368,7 @@ body {
 /* Admin page */
 
 #admincontainer {
-    background-color: goldenrod;
+    background-color:#fff;
 }
 
 .adminbox {
@@ -421,7 +421,9 @@ body {
 
 .btn-outline-dark_delete {
     font-size: 0.8rem;
-    height: 1.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    margin: 0.4rem;
     background-color: red;
     color: #fff;
 }
