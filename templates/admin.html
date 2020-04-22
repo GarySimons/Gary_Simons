@@ -15,7 +15,7 @@
             {% for skills in skills %}
             <div class="row col-sm-5 col-md-5">
                 <button type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btn btn-outline-dark">edit</button>
-                <button type="button" class="btn btn-outline-dark_delete">delete</button>
+                <button type="button" class="btn btn-outline-dark">delete</button>
             </div>         
             <div class="row col-sm-7 col-md-7">
                 <p class="listtext">skill: {{skills.skill}} - level: {{skills.level}}%</p>

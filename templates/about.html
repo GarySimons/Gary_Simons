@@ -24,7 +24,7 @@
             {% for skills in skills %}
                 <p class="listtext">{{skills.skill}}</p>
             <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{{skills.level}}
+                <div class="progress-bar" role="progressbar" style="width: {{skills.level}}%;" aria-valuenow="{{skills.level}}" aria-valuemin="0" aria-valuemax="100">{{skills.level}}%
                 </div>
             </div>
             {% endfor %}
