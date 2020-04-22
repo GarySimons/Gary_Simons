@@ -7,13 +7,22 @@
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 adminbox">
-        <div class="row col-sm-12 col-md-12">
-                    <p class="adminsubhead">Skills</p>
-                </div>
+        <div class="row col-sm-12 col-md-8 adminbox">
+
+            <div class="row col-sm-12 col-md-12">
+                <p class="adminsubhead">Skills</p>
+            </div>
             {% for skills in skills %}
+            <div class="row col-sm-2 col-md-2">
+                <button type="button" class="btn btn-outline-dark">edit</button>
+            </div>
+            <div class="row col-sm-2 col-md-2">
+                <button type="button" class="btn btn-outline-dark_delete">delete</button>
+            </div>           
+            <div class="row col-sm-6 col-md-8">
                 <p class="listtext">skill: {{skills.skill}} - level: {{skills.level}}%</p>
-            
+            </div>
+
             {% endfor %}
             
     </div>

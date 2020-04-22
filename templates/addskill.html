@@ -14,10 +14,12 @@
                     <div class="row justify-content-center">
             <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill"><br />
-                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level">
+                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter skill - ie HTML"><br />
+                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter level number - ie 80">
                     </div>
-                <button type="submit" class="btn btn-primary">Add Skill</button>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Add Skill</button>
+                    </div>
             </form>
             </div>
             </div>

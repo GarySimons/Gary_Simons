@@ -419,6 +419,13 @@ body {
     text-decoration: none;
 }
 
+.btn-outline-dark_delete {
+    font-size: 0.8rem;
+    height: 1.2rem;
+    background-color: red;
+    color: #fff;
+}
+
 /* Footer */
 
 #footer {
