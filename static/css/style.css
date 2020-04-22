@@ -368,8 +368,7 @@ body {
 /* Admin page */
 
 #admincontainer {
-    height: 100vh;
-    background-color: green;
+    background-color: goldenrod;
 }
 
 .adminbox {

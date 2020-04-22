@@ -40,6 +40,10 @@ def insert_skill():
     skills.insert_one(request.form.to_dict())
     return redirect(url_for('admin'))
 
+@app.route('/add_skill')
+def add_skill():
+    return render_template('addskill.html', title='Adimin - Add Skill')
+    
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
