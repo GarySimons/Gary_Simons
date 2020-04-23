@@ -50,7 +50,7 @@ def edit_skill(skill_id):
     all_skills = mongo.db.skills.find()
     return render_template('editskill.html', skill=the_skill, skills=all_skills)   
 
-@app.route('/update_skill/<skill_id>', methods=["POST"])
+@app.route('/update_skill/<skill_id>')
 def update_skill(skill_id):
     skills = mongo.db.skills
     skills.update( {'_id': ObjectId(skill_id)},
