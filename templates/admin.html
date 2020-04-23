@@ -22,6 +22,18 @@
             </div>
 
             {% endfor %}
+
+            <!--Add Skills Form --> 
+            <div class="row justify-content-center">
+            <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
+                <h6 class="row formhead">Add Skill</h6>   
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill - ie HTML"><br />
+                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level - ie 80">
+                    </div>
+                <button type="submit" class="btn btn-primary">Add Skill</button>
+            </form>
+            </div>
             
     </div>
 
