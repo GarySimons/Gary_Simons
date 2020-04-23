@@ -56,9 +56,8 @@ def update_skill(skill_id):
     skills.update( {'_id': ObjectId(skill_id)},
     {
         'skill':request.form.get('skill')
-        'level':request.form.get('level')
     })
-    return redirect()
+    return redirect(url_for('admin'))
     
 
 if __name__ == '__main__':
