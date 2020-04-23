@@ -10,7 +10,7 @@
         <div class="row col-sm-12 col-md-8 adminbox">
 
             <div class="row col-sm-12 col-md-12">
-                <p class="adminsubhead">Skills</p>
+                <p class="adminsubhead">skills</p>
             </div>
             {% for skills in skills %}
             <div class="row col-sm-5 col-md-5">
@@ -23,21 +23,11 @@
 
             {% endfor %}
 
-            <div class="row col-12 justify-content-center">
-                <a type="button" href="{{ url_for('add_skill') }}" class="btn btn-outline-dark">Add New Skill</a>
+            <div class="row col-12">
+                <a type="button" href="{{ url_for('add_skill') }}" class="btn btn-outline-dark">add new skill</a>
             </div>
 
-            <!--Add Skills Form --> 
-            <div class="row justify-content-center">
-            <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
-                <h6 class="row formhead">Add Skill</h6>   
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill - ie HTML"><br />
-                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level - ie 80">
-                    </div>
-                <button type="submit" class="btn btn-primary">Add Skill</button>
-            </form>
-            </div>
+            
             
     </div>
 
@@ -53,7 +43,20 @@
                 </div>
             </div>
 
-        
+
+     Add Skills Form 
+            <div class="row justify-content-center">
+            <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
+                <h6 class="row formhead">Add Skill</h6>   
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill - ie HTML"><br />
+                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level - ie 80">
+                    </div>
+                <button type="submit" class="btn btn-primary">Add Skill</button>
+            </form>
+            </div>   
+
+
 
     <div class="row col-sm-8 col-md-4">
         <div class="col-sm-8 col-md-4 skillspanel">
