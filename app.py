@@ -48,7 +48,7 @@ def add_skill():
 def edit_skill(skill_id):
     the_skill = mongo.db.skills.find_one({"_id": ObjectId(skill_id)})
     all_skills = mongo.db.skills.find()
-    return render_template('editskill.html', skill=the_skill, skills=all_skills)   
+    return render_template('editskill.html', skill=the_skill, skills=all_skills, title='Adimin - Edit Skill')   
 
 @app.route('/update_skill/<skill_id>', methods=["POST"])
 def update_skill(skill_id):
