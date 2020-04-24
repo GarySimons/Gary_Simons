@@ -212,7 +212,7 @@ body {
 }
 
 .projectpanel2 {
-    background-color: #273461;
+    background-color: #3c5682;
     padding: 1rem;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 .projectpanel4 {
-    background-color: #688499;
+    background-color: #de9c73;
     padding: 1rem;
 }
 
@@ -274,6 +274,25 @@ body {
 
 /* Project modals */
 
+.modal-content {
+    background-color: #4d4d4d;
+}
+
+#modalbackground1 {
+    background-color: #a34966;
+}
+
+#modalbackground2 {
+    background-color: #3c5682;
+}
+
+#modalbackground3 {
+    background-color: #5c9990;
+}
+
+#modalbackground4 {
+    background-color: #de9c73;
+}
 
 .modaltitle {
     color: #fff;
@@ -325,9 +344,7 @@ body {
     transition: .1s ease-in-out;
 }
 
-.modal-content {
-    background-color: #4d4d4d;
-}
+
 
 /* Contact page */
 
