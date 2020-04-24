@@ -3,11 +3,11 @@
 
 <div class="container-fluid" id="about">
     <div class="row justify-content-center">
-        <h3 class="col-sm-12 col-md-8 sectionhead">about.</h3>
+        <h3 class="col-sm-8 col-md-8 sectionhead">about.</h3>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-4 aboutpanel">
+        <div class="col-sm-8 col-md-8 col-lg-4 aboutpanel">
             <p class="whitetext">I am creative, enthusiastic full-stack web developer, 
             who is passionate about great design and building dynamic, responsive and 
             intuitive websites using the latest programs and languages
@@ -16,11 +16,11 @@
             With a solid background in graphic design, I understand how to 
             signpost and guide users on a journey through a site </p>
             </div>
-            <div class="col-sm-8 col-md-4 aboutpanel"></div>
+            <div class="col-sm-4 col-md-8 d-none d-lg-block  col-lg-4 aboutpanel"></div>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-4 skillspanel">
+        <div class="col-sm-8 col-md-8 col-lg-4 skillspanel">
             {% for skills in skills %}
                 <div class="row col-12">
                     <div class="listtext col-6 col-md-6 col-lg-5">{{skills.skill}}</div><br>
@@ -33,7 +33,7 @@
             
     </div>
         
-        <div class="col-sm-8 col-md-4 educationpanel">
+        <div class="col-sm-8 col-md-8 col-lg-4 educationpanel">
         <p class="listtextblack">Full-Stack Web Development</p>
         <p class="listtext">Code Institute</p>
         <br />
