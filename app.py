@@ -55,7 +55,8 @@ def update_skill(skill_id):
     skills = mongo.db.skills
     skills.update( {'_id': ObjectId(skill_id)},
     {
-        'skill':request.form.get('skill')
+        'skill':request.form.get('skill'),
+        'level':request.form.get('level')
     })
     return redirect(url_for('admin'))
     
