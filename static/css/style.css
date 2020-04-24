@@ -472,27 +472,32 @@ body {
 .btneditskill {
     height: 1.6rem;
     width: 5rem;
+    font-size: 0.9rem;
     background-color: #bacfb2;
-    color: #fff;
+    color: #000;
+    font-weight: 300;
     text-align: center;
-    margin-right: 0rem;
+    margin-right: 1rem;
     padding: 0.1rem;
     text-decoration: none !important;
 }
 
 .btneditskill:hover {
     text-decoration: none !important;
-    color: #000 !important;
+    color: #fff; !important;
     transition: .1s ease-in-out;
+
 }
 
 .btndeleteskill {
     height: 1.6rem;
     width: 5rem;
+    font-size: 0.9rem;
     background-color: #a34966;
     color: #fff;
+    font-weight: 300;
     text-align: center;
-    margin-right: 0rem;
+    margin-right: 1rem;
     padding: 0.1rem;
     text-decoration: none !important;
 }
@@ -501,15 +506,6 @@ body {
     text-decoration: none !important;
     color: #000 !important;
     transition: .1s ease-in-out;
-}
-
-.btn-outline-dark_delete {
-    font-size: 0.8rem;
-    height: 1rem;
-    line-height: 1rem;
-    margin: 0.4rem;
-    background-color: red;
-    color: #fff;
 }
 
 
@@ -542,7 +538,7 @@ body {
 #copyright {
     color: #fff;
     font-size: 0.7rem;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 0.1rem; 
     text-align: center;
 }
