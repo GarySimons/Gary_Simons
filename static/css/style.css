@@ -175,7 +175,7 @@ body {
 }
 
 .aboutsocial {
-    background-color: #dbaf7b;
+    background-color: #a6a6a6;
     padding: 1rem;
 }
 
@@ -207,7 +207,7 @@ body {
 }
 
 .projectpanel1 {
-    background-color: #b3762d;
+    background-color: #a34966;
     padding: 1rem;
 }
 
@@ -217,7 +217,7 @@ body {
 }
 
 .projectpanel3 {
-    background-color: #0d5e4f;
+    background-color: #5c9990;
     padding: 1rem;
 }
 
@@ -332,12 +332,12 @@ body {
 /* Contact page */
 
 #contact {
-    background-color: pink;
+    background-color: #fff;
     height: 100vh;
 }
 
 .contactbox {
-    background-color: #cca416;
+    background-color: #5c9990;
     padding: 2rem 2rem 8rem;    
 }
 
@@ -351,7 +351,7 @@ body {
 
 .btnsend {
     width: 100%;
-    background-color: #cca416;
+    background-color: #5c9990;
     color: #fff;
     border-color: #fff;
     text-align: left;
@@ -373,6 +373,16 @@ body {
 
 .adminbox {
     background-color: #688499;
+    padding: 2rem 2rem 8rem;
+}
+
+.adminaddbox {
+    background-color: #d996a9;
+    padding: 2rem 2rem 8rem;
+}
+
+.admineditbox {
+    background-color: #bacfb2;
     padding: 2rem 2rem 8rem;
 }
 
@@ -431,7 +441,7 @@ body {
 /* Footer */
 
 #footer {
-    background-color: #94b59d;
+    background-color: #bacfb2;
     position: relative;
     height: 10rem;
     clear: both;
