@@ -475,7 +475,7 @@ body {
     background-color: #bacfb2;
     color: #fff;
     text-align: center;
-    margin-right: 1rem;
+    margin-right: 0rem;
     padding: 0.1rem;
     text-decoration: none !important;
 }
@@ -492,7 +492,7 @@ body {
     background-color: #a34966;
     color: #fff;
     text-align: center;
-    margin-right: 1rem;
+    margin-right: 0rem;
     padding: 0.1rem;
     text-decoration: none !important;
 }
