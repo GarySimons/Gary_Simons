@@ -60,6 +60,10 @@ def update_skill(skill_id):
     })
     return redirect(url_for('admin'))
     
+@app.route('/delete_skill/<skill_id>')
+def delete_skill(skill_id):
+    mongo.db.skills.remove({'_id': ObjectId(skill_id)})
+    return redirect(url_for('admin'))
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
