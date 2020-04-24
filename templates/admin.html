@@ -14,8 +14,8 @@
             </div>
             {% for skills in skills %}
             <div class="row col-sm-5 col-md-5">
-                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btn btn-outline-dark">edit</a>
-                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btn btn-outline-dark">delete</a>
+                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btneditskill">edit</a>
+                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill">delete</a>
             </div>         
             <div class="row col-sm-7 col-md-7">
                 <p class="listtext">skill: {{skills.skill}} - level: {{skills.level}}%</p>
@@ -24,131 +24,11 @@
             {% endfor %}
 
             <div class="row col-12">
-                <a type="button" href="{{ url_for('add_skill') }}" class="btn btn-outline-dark">add new skill</a>
+                <a type="button" href="{{ url_for('add_skill') }}" class="btnaddskill">  add new skill</a>
             </div>
-
             
             
     </div>
-
-<!--Skills Form       
-    <div class="container adminbox col-sm-12 col-md-8 justify-content-center">
-
-    <div class="row x justify-content-center">
-        <div class="col">
-         <div class="justify-content-center">   
-            <div class="row justify-content-center">
-                <div class="row col-sm-8 col-md-8">
-                    <p class="adminsubhead">Skills</p>
-                </div>
-            </div>
-
-
-     Add Skills Form 
-            <div class="row justify-content-center">
-            <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
-                <h6 class="row formhead">Add Skill</h6>   
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill - ie HTML"><br />
-                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level - ie 80">
-                    </div>
-                <button type="submit" class="btn btn-primary">Add Skill</button>
-            </form>
-            </div>   
-
-
-
-    <div class="row col-sm-8 col-md-4">
-        <div class="col-sm-8 col-md-4 skillspanel">
-            {% for skills in skills %}
-                <p class="listtext">skill: {{skills.skill}} - level: {{skills.level}}%</p>
-            {% endfor %}
-            
-    </div> 
- 
-    </div>
-    </div>
-        </div>
-        </div>
-    </div>
-
-    -->
-<!--
-
-    <div class="row col-sm-12 col-md-8">
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <i class="fas fa-chevron-down"></i>  Skills
-                                </button>
-                            </h2>
-                    </div>
-
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                {% for skills in skills %}
-                                    <p class="listx">skill: {{skills.skill}} - level: {{skills.level}}%</p>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </div>
-
-
-       <div class="row">
-        <div class="row ">
-            {% for skills in skills %}
-                <p class="row listtext">skill: {{skills.skill}} - level: {{skills.level}}%</p><br />
-            {% endfor %}
-       </div>      
-
--->
-<!--Add Skills Form  
-            <div class="row justify-content-center">
-            <form action="{{ url_for('insert_skill') }}" method="POST" class="col-10">
-                <h6 class="row formhead">Add Skill</h6>   
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter Skill"><br />
-                        <input type="text" class="form-control" id="level" name="level" placeholder="Enter Level">
-                    </div>
-                <button type="submit" class="btn btn-primary">Add Skill</button>
-            </form>
-            </div>
-
--Edit Skills Form
-            <div class="row justify-content-center">
-            <form action="" method="POST" class="col-10">
-                <h6 class="row formhead">Edit Skill</h6>   
-                    <div class="form-group" id="selectskill" name="selectskill">
-                        <label for="exampleFormControlSelect1">Select Skill</label>
-                        <select class="form-control">
-                        {% for skills in skills %}
-                            <option value="{{skills.skill}}">{{skills.skill}}</option>
-                        {% endfor %}
-                        </select>
-                        <button type="submit" class="btn btn-primary">Edit Skill</button>
-                    </div>
-
-                    <div>
-                        <form action="/action_page.php">
-                            <input type="checkbox" id="editskill" name="editskill" value="">
-                            <label for="vehicle1"> Confirm Changes</label><br>
-                            <input type="submit" value="Confirmed">
-                        </form>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="skillx" name="skillx" placeholder="Enter Skill">
-                    </div>
-            </form>
--->  
-            
-
-
-
 </div>
 </div>
 

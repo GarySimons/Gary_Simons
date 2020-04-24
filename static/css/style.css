@@ -453,6 +453,56 @@ body {
     text-decoration: none;
 }
 
+.btnaddskill {
+    height: 1.6rem;
+    background-color: #d996a9;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    text-decoration: none !important;
+}
+
+.btnaddskill:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+    transition: .1s ease-in-out;
+}
+
+.btneditskill {
+    height: 1.6rem;
+    width: 5rem;
+    background-color: #bacfb2;
+    color: #fff;
+    text-align: center;
+    margin-right: 1rem;
+    padding: 0.1rem;
+    text-decoration: none !important;
+}
+
+.btneditskill:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+    transition: .1s ease-in-out;
+}
+
+.btndeleteskill {
+    height: 1.6rem;
+    width: 5rem;
+    background-color: #a34966;
+    color: #fff;
+    text-align: center;
+    margin-right: 1rem;
+    padding: 0.1rem;
+    text-decoration: none !important;
+}
+
+.btndeleteskill:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+    transition: .1s ease-in-out;
+}
+
 .btn-outline-dark_delete {
     font-size: 0.8rem;
     height: 1rem;
@@ -461,6 +511,7 @@ body {
     background-color: red;
     color: #fff;
 }
+
 
 /* Footer */
 
