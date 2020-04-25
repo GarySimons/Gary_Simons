@@ -373,12 +373,31 @@ body {
     font-weight: 300;
 }
 
-.btnsend {
+.btnse {
     width: 100%;
     background-color: #5c9990;
     color: #fff;
     border-color: #fff;
     text-align: left;
+}
+
+.btnsend {
+    height: 1.3rem;
+    width: 4rem;
+    font-size: 0.85rem;
+    background-color: #bacfb2;
+    border: #bacfb2;
+    color: #000;
+    font-weight: 300;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.btnsend:hover {
+    text-decoration: none !important;
+    background-color: #fff;
+    color: #000 !important;
+    transition: .1s ease-in-out;
 }
 
 .btnadmin {
@@ -391,10 +410,6 @@ body {
 
 /* Admin page */
 
-#admincontainer {
-    background-color:#fff;
-}
-
 .adminbox {
     background-color: #688499;
     padding: 2rem 2rem 8rem;
@@ -402,7 +417,7 @@ body {
 
 .adminaddbox {
     background-color: #d996a9;
-    padding-left: 2rem 2rem 8rem;
+    padding: 2rem 2rem 8rem;
 }
 
 .admineditbox {
@@ -496,7 +511,6 @@ body {
     text-decoration: none !important;
     color: #fff !important;
     transition: .1s ease-in-out;
-
 }
 
 .btndeleteskill {
@@ -507,13 +521,90 @@ body {
     color: #fff;
     font-weight: 300;
     text-align: center !important;
-    margin-right: 0rem;
     text-decoration: none !important;
 }
 
 .btndeleteskill:hover {
     text-decoration: none !important;
     color: #000 !important;
+    transition: .1s ease-in-out;
+}
+
+.btnwhiteedit {
+    height: 1.3rem;
+    width: 9.2rem;
+    font-size: 0.85rem;
+    background-color: #fff;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+.btnwhiteedit:hover {
+    text-decoration: none !important;
+    color: #fff;
+    background-color: #5c9990 !important;
+    transition: .1s ease-in-out;
+}
+
+.btnblackedit {
+    height: 1.3rem;
+    width: 9.2rem;
+    font-size: 0.85rem;
+    background-color: #000;
+    border: #000;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+.btnblackedit:hover {
+    text-decoration: none !important;
+    color: #fff;
+    background-color: #5c9990 !important;
+    transition: .1s ease-in-out;
+}
+
+.btnwhiteadd {
+    height: 1.3rem;
+    width: 9.2rem;
+    font-size: 0.85rem;
+    background-color: #fff;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+.btnwhiteadd:hover {
+    text-decoration: none !important;
+    color: #fff;
+    background-color: #a34966 !important;
+    transition: .1s ease-in-out;
+}
+
+.btnblackadd {
+    height: 1.3rem;
+    width: 9.2rem;
+    font-size: 0.85rem;
+    background-color: #000;
+    border: #000;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+.btnblackadd:hover {
+    text-decoration: none !important;
+    color: #fff;
+    background-color: #a34966 !important;
     transition: .1s ease-in-out;
 }
 
