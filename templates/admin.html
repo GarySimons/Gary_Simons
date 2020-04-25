@@ -1,26 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="container-fluid">
+<div class="container-fluid justify-content-center">
     <div class="row justify-content-center">
         <h3 class="col-sm-8 col-md-8 sectionhead">admin.</h3>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-8 col-lg-8 adminbox">
+        <div class="col-sm-12 col-md-8 adminbox">
             {% for skills in skills %}
-                <div class="row col-12">
-                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btneditskill col-sm-4 col-md-2">edit</a>
-                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill col-sm-4 col-md-2">delete</a>
-                <p class="listtext col-sm-10 col-md-6 ">skill: {{skills.skill}} - level: {{skills.level}}%</p>
-            </div>         
+                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btneditskill col-sm-2 col-md-2">edit</a>
+                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill col-sm-2 col-md-2">delete</a>
+                <p class="adminlisttext col-sm-6 col-md-6 ">skill: {{skills.skill}} - level: {{skills.level}}%</p>
 
             {% endfor %}
-            <div class="row col-12">         
-            <div class="row col-sm-10 col-md-4">
-                <a type="button" href="{{ url_for('add_skill') }}" class="btnaddskill">  add new skill</a>
-            </div> 
-            </div>
+        
+                <a type="button" href="{{ url_for('add_skill') }}" class="btnaddskill col-sm-5 col-md-2">  add new skill</a>
     </div>
     </div>
 

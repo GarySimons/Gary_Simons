@@ -402,7 +402,7 @@ body {
 
 .adminaddbox {
     background-color: #d996a9;
-    padding: 2rem 2rem 8rem;
+    padding-left: 2rem 2rem 8rem;
 }
 
 .admineditbox {
@@ -427,6 +427,15 @@ body {
     letter-spacing: 0.1rem; 
     text-decoration: none;
     padding-bottom: 1rem;
+}
+
+.adminlisttext {
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 300; 
+    letter-spacing: 0.1rem; 
+    text-decoration: none;
 }
 
 .adminsub {
