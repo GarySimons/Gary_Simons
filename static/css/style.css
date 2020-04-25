@@ -463,13 +463,14 @@ body {
 }
 
 .btnaddskill {
-    height: 1.6rem;
+    height: 1.3rem;
+    width: 9.2rem;
+    font-size: 0.85rem;
     background-color: #d996a9;
     color: #fff;
     font-weight: 300;
     text-align: center;
     margin-top: 1rem;
-    padding: 0.1rem;
     text-decoration: none !important;
 }
 
@@ -480,33 +481,33 @@ body {
 }
 
 .btneditskill {
-    height: 1.6rem;
-    font-size: 0.9rem;
+    height: 1.3rem;
+    width: 4rem;
+    font-size: 0.85rem;
     background-color: #bacfb2;
     color: #000;
     font-weight: 300;
-    text-align: center;
+    text-align: center !important;
     margin-right: 1rem;
-    padding: 0.1rem;
     text-decoration: none !important;
 }
 
 .btneditskill:hover {
     text-decoration: none !important;
-    color: #fff; !important;
+    color: #fff !important;
     transition: .1s ease-in-out;
 
 }
 
 .btndeleteskill {
-    height: 1.6rem;
-    font-size: 0.9rem;
+    height: 1.3rem;
+    width: 4rem;
+    font-size: 0.85rem;
     background-color: #a34966;
     color: #fff;
     font-weight: 300;
-    text-align: center;
-    margin-right: 1rem;
-    padding: 0.1rem;
+    text-align: center !important;
+    margin-right: 0rem;
     text-decoration: none !important;
 }
 
