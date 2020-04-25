@@ -10,20 +10,23 @@
         <div class="col-sm-8 col-md-8 col-lg-8 adminbox">
             {% for skills in skills %}
                 <div class="row col-12">
-                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btneditskill col-sm-10 col-md-2">edit</a>
-                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill col-sm-10 col-md-2">delete</a>
+                <a type="button" href="{{url_for('edit_skill', skill_id=skills._id)}}" class="btneditskill col-sm-4 col-md-2">edit</a>
+                <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill col-sm-4 col-md-2">delete</a>
                 <p class="listtext col-sm-10 col-md-6 ">skill: {{skills.skill}} - level: {{skills.level}}%</p>
             </div>         
-            <div class="row col-sm-12 col-md-4">
-                
-            </div>
+
             {% endfor %}
-            
+            <div class="row col-12">         
+            <div class="row col-sm-10 col-md-4">
+                <a type="button" href="{{ url_for('add_skill') }}" class="btnaddskill">  add new skill</a>
+            </div> 
+            </div>
+    </div>
     </div>
 
-
-
-
-
-
+<!-- Bird -->
+        <div class="row col-12 justify-content-center">
+            <img id="birdsmall" src="{{url_for('static', filename='images/bird80black.png')}}" alt="Bird" class="img-fluid">
+        </div>
+        
 {% endblock content %}

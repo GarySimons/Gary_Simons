@@ -457,6 +457,7 @@ body {
     height: 1.6rem;
     background-color: #d996a9;
     color: #fff;
+    font-weight: 300;
     text-align: center;
     margin-top: 1rem;
     padding: 0.1rem;
@@ -471,7 +472,6 @@ body {
 
 .btneditskill {
     height: 1.6rem;
-    width: 5rem;
     font-size: 0.9rem;
     background-color: #bacfb2;
     color: #000;
@@ -491,7 +491,6 @@ body {
 
 .btndeleteskill {
     height: 1.6rem;
-    width: 5rem;
     font-size: 0.9rem;
     background-color: #a34966;
     color: #fff;
