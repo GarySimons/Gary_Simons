@@ -34,10 +34,12 @@
                         <p class="modalbody">once you press this button <br>it's gone for good!</p>
                     </div>
 
-                    <div>
-                        <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btndeleteskill" >yes i'm sure</a>
-                        </div>
-
+                    <div class="row justify-content-center">
+                        <a type="button" href="{{url_for('delete_skill', skill_id=skills._id)}}" class="btnwhiteadd" >yes. i'm sure</a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <a type="button" href="{{url_for('admin')}}" class="btnwhiteadd">no. keep it</a>
+                    </div>
                     <a class="shut" data-dismiss="modal">close</a>
                     </div>
                 </div>
