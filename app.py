@@ -7,8 +7,7 @@ if path.exists("env.py"):
     import env 
 
 app = Flask(__name__)    
-# Configuration values for flask_pymongo  
-# Documentation at http://flask-pymongo.readthedocs.io/en/latest/#configuration app.config['MONGO_DBNAME'] = 'skills_manager'  
+
 app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 mongo = PyMongo(app)
 
@@ -42,13 +41,13 @@ def insert_skill():
 
 @app.route('/add_skill')
 def add_skill():
-    return render_template('pages/addskill.html', title='Adimin - Add Skill')
+    return render_template('pages/addskill.html', title='Admin - Add Skill')
 
 @app.route('/edit_skill/<skill_id>')
 def edit_skill(skill_id):
     the_skill = mongo.db.skills.find_one({"_id": ObjectId(skill_id)})
     all_skills = mongo.db.skills.find()
-    return render_template('pages/editskill.html', skill=the_skill, skills=all_skills, title='Adimin - Edit Skill')   
+    return render_template('pages/editskill.html', skill=the_skill, skills=all_skills, title='Admin - Edit Skill')   
 
 @app.route('/update_skill/<skill_id>', methods=["POST"])
 def update_skill(skill_id):
