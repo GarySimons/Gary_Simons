@@ -85,7 +85,7 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Features left to implement
 
-1.xxxxxxxxxxxx
+1.If time allowed I would have liked to xxx
 
 ---
 
