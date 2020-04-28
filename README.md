@@ -1,4 +1,8 @@
 
+
+![IMG](/images/bird80black.png)
+
+
 # Gary Simons - personal resume website
 
 ---
