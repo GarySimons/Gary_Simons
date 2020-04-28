@@ -6,10 +6,10 @@
     </div>
 
 <!--Form-->        
-<div class="container contactbox col-sm-12 col-md-8">
+<div class="container col-sm-12 col-md-8" id="contactbox">
         <div class="row justify-content-center">
         <div class="col-sm-8 col-md-8">
-            <p class="contacttext">please feel free to get in touch. 
+            <p id="contacttext">please feel free to get in touch. 
             <br />
             let's do something amazing!</p>
         </div>
@@ -40,9 +40,7 @@
 </div>
 
 <!-- Bird -->
-        <div class="row justify-content-center">
-            <img id="birdsmall" src="{{url_for('static', filename='images/bird80black.png')}}" alt="Bird" class="img-fluid">
-        </div>
+        {% include 'layout/bird.html' %}
 
 <!-- Footer -->
     <footer id="footer">

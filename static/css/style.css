@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap');
 
 
-
 html {
     scroll-behavior: smooth;
     position: relative;
@@ -47,9 +46,7 @@ body {
     transition: .1s ease-in-out;
 }
 
-
 /* Home page */
-
 
 #home {
     background-color: #a6a6a6;
@@ -66,7 +63,6 @@ body {
     font-size: 2.7rem;
     text-align: center;
     letter-spacing: 1.5rem;
-
 }
 
 #strapline {
@@ -75,7 +71,6 @@ body {
     text-align: center;
     letter-spacing: .3rem;
 }
-
 
 #birdmain {
     width: 250px;
@@ -103,7 +98,7 @@ body {
     text-align: center;
 }
 
-#birdsmall {
+.birdsmall {
     width: 150px;
     height: 100%;
     text-align: center;
@@ -155,26 +150,22 @@ body {
 
 /* About page */
 
-#about {
-    background-color: #fff;
-}
-
 .aboutpanel {
     background-color: #4d4d4d;
     padding: 2rem 2rem 8rem;
 }
 
-.skillspanel {
+#skillspanel {
     background-color: #a34966;
     padding: 2rem 2rem 8rem;
 }
 
-.educationpanel {
+#educationpanel {
     background-color: #d996a9;
     padding: 2rem 2rem 8rem;
 }
 
-.aboutsocial {
+#aboutsocial {
     background-color: #a6a6a6;
     padding: 1rem;
 }
@@ -209,26 +200,22 @@ body {
 
 /* Projects page */
 
-#projects {
-    background-color: #fff;
-}
-
-.projectpanel1 {
+#projectpanel1 {
     background-color: #a34966;
     padding: 1rem;
 }
 
-.projectpanel2 {
+#projectpanel2 {
     background-color: #3c5682;
     padding: 1rem;
 }
 
-.projectpanel3 {
+#projectpanel3 {
     background-color: #5c9990;
     padding: 1rem;
 }
 
-.projectpanel4 {
+#projectpanel4 {
     background-color: #d996a9;
     padding: 1rem;
 }
@@ -280,10 +267,6 @@ body {
 }
 
 /* Project modals */
-
-.modal-content {
-    background-color: #4d4d4d;
-}
 
 #modalbackground1 {
     background-color: #a34966;
@@ -351,34 +334,19 @@ body {
     transition: .1s ease-in-out;
 }
 
-
-
 /* Contact page */
 
-#contact {
-    background-color: #fff;
-    height: 100vh;
-}
-
-.contactbox {
+#contactbox {
     background-color: #5c9990;
     padding: 2rem 2rem 8rem;    
 }
 
-.contacttext {
+#contacttext {
     color: #fff;
     font-size: 1rem;
     line-height: 1.3rem;
     letter-spacing: 0.1rem; 
     font-weight: 300;
-}
-
-.btnse {
-    width: 100%;
-    background-color: #5c9990;
-    color: #fff;
-    border-color: #fff;
-    text-align: left;
 }
 
 .btnsend {
@@ -400,7 +368,7 @@ body {
     transition: .1s ease-in-out;
 }
 
-.btnadmin {
+#btnadmin {
     width: 100%;
     background-color: #ebd581;
     color: #fff; 
@@ -687,7 +655,6 @@ body {
     color:#000!important;
     transition: .1s ease-in-out;
 }
-
 
 #copyright {
     color: #fff;

@@ -7,7 +7,7 @@
     </div>
     
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-4 projectpanel1">
+        <div class="col-sm-8 col-md-4" id="projectpanel1">
             <img src="static/images/wildbunch.png" alt="Wild Bunch Florist" class="img-fluid laptop" data-toggle="modal" data-target="#modal1">
                 <p class="projectname">wildbunch florist</p> 
                     <a class="view" aria-label="View website" data-toggle="modal" data-target="#modal1">
@@ -16,7 +16,7 @@
             </a>
         </div>
 
-        <div class="col-sm-8 col-md-4 projectpanel2">
+        <div class="col-sm-8 col-md-4" id="projectpanel2">
             <img src="static/images/handpicked.png" alt="Handpicked Brighton" class="img-fluid laptop" data-toggle="modal" data-target="#modal2">
                 <p class="projectname">handpicked brighton</p> 
                 <a class="view" aria-label="View website" data-toggle="modal" data-target="#modal2">
@@ -27,7 +27,7 @@
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-4 projectpanel3">
+        <div class="col-sm-8 col-md-4" id="projectpanel3">
             <img src="static/images/monsters.png" alt="Little Monsters" class="img-fluid laptop" data-toggle="modal" data-target="#modal3">
                 <p class="projectname">little monsters</p> 
                 <a class="view" aria-label="View website" data-toggle="modal" data-target="#modal3">
@@ -36,7 +36,7 @@
             </a>
         </div>
         
-        <div class="col-sm-8 col-md-4 projectpanel4">
+        <div class="col-sm-8 col-md-4" id="projectpanel4">
             <img src="static/images/hummingbird.png" alt="Hummingbird Family Services" class="img-fluid laptop" data-toggle="modal" data-target="#modal4">
                 <p class="projectname">hummingbird family services</p> 
                 <a class="view" aria-label="View website" data-toggle="modal" data-target="#modal4">
@@ -48,9 +48,7 @@
 </section>
 
 <!-- Bird -->
-        <div class="row justify-content-center">
-            <img id="birdsmall" src="{{url_for('static', filename='images/bird80black.png')}}" alt="Bird" class="img-fluid">
-        </div>
+        {% include 'layout/bird.html' %}
 
 <!-- Wildbunch modal1 -->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="Project" aria-hidden="true">

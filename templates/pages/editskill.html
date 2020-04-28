@@ -30,8 +30,6 @@
 </div>
 
 <!-- Bird -->
-    <div class="row col-12 justify-content-center">
-        <img id="birdsmall" src="{{url_for('static', filename='images/bird80black.png')}}" alt="Bird" class="img-fluid">
-    </div>
+        {% include 'layout/bird.html' %}
 
 {% endblock content %}

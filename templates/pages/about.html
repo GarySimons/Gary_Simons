@@ -19,7 +19,7 @@
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-8 col-lg-4 skillspanel">
+        <div class="col-sm-8 col-md-8 col-lg-4" id="skillspanel">
             {% for skills in skills %}
                 <div class="row">
                     <div class="listtext col-6 col-md-6 col-lg-5">{{skills.skill}}</div><br>
@@ -32,7 +32,7 @@
             
     </div>
         
-        <div class="col-sm-8 col-md-8 col-lg-4 educationpanel">
+        <div class="col-sm-8 col-md-8 col-lg-4" id="educationpanel">
         <p class="listtextblack">Full-Stack Web Development</p>
         <p class="listtext">Code Institute</p>
         <br />
@@ -42,7 +42,7 @@
     </div>
     
     <div class="row justify-content-center ">
-        <div class="col-sm-8 col-12 aboutsocial">
+        <div class="col-sm-8 col-12" id="aboutsocial">
             <ul class="list-inline sociallinks">
                     <li class="list-inline-item">
                     <a class="sociallinks" href="https://www.linkedin.com/in/gary-simons/" target="_blank" aria-label="Follow me on LinkedIn">
@@ -79,9 +79,7 @@
     </div>
 
 <!-- Bird -->
-        <div class="row justify-content-center">
-            <img id="birdsmall" src="{{url_for('static', filename='images/bird80black.png')}}" alt="Bird" class="img-fluid">
-        </div>
+        {% include 'layout/bird.html' %}
 
 
 {% endblock content %}
