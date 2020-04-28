@@ -16,39 +16,39 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    return render_template('pages/home.html')
 
 @app.route('/about')
 def about():
-    return render_template('about.html', title='About', skills=mongo.db.skills.find())
+    return render_template('pages/about.html', title='About', skills=mongo.db.skills.find())
 
 @app.route('/projects')
 def projects():
-    return render_template('projects.html', title='Projects')
+    return render_template('pages/projects.html', title='Projects')
 
 @app.route('/contact')
 def contact():
-    return render_template('contact.html', title='Contact')
+    return render_template('pages/contact.html', title='Contact')
 
 @app.route('/admin')
 def admin():
-    return render_template('admin.html', title='Admin', skills=mongo.db.skills.find())
+    return render_template('pages/admin.html', title='Admin', skills=mongo.db.skills.find())
 
 @app.route('/insert_skill', methods=['POST'])
 def insert_skill():
     skills = mongo.db.skills
     skills.insert_one(request.form.to_dict())
-    return redirect(url_for('admin'))
+    return redirect(url_for('pages/admin'))
 
 @app.route('/add_skill')
 def add_skill():
-    return render_template('addskill.html', title='Adimin - Add Skill')
+    return render_template('pages/addskill.html', title='Adimin - Add Skill')
 
 @app.route('/edit_skill/<skill_id>')
 def edit_skill(skill_id):
     the_skill = mongo.db.skills.find_one({"_id": ObjectId(skill_id)})
     all_skills = mongo.db.skills.find()
-    return render_template('editskill.html', skill=the_skill, skills=all_skills, title='Adimin - Edit Skill')   
+    return render_template('pages/editskill.html', skill=the_skill, skills=all_skills, title='Adimin - Edit Skill')   
 
 @app.route('/update_skill/<skill_id>', methods=["POST"])
 def update_skill(skill_id):
@@ -63,7 +63,7 @@ def update_skill(skill_id):
 @app.route('/delete_skill/<skill_id>')
 def delete_skill(skill_id):
     mongo.db.skills.remove({'_id': ObjectId(skill_id)})
-    return redirect(url_for('admin'))
+    return redirect(url_for('pages/admin'))
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
