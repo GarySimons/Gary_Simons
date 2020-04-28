@@ -349,7 +349,7 @@ body {
     font-weight: 300;
 }
 
-.btnsend {
+#btnsend {
     height: 1.3rem;
     width: 4rem;
     font-size: 0.85rem;
@@ -361,7 +361,7 @@ body {
     text-decoration: none !important;
 }
 
-.btnsend:hover {
+#btnsend:hover {
     text-decoration: none !important;
     background-color: #fff;
     color: #000 !important;
