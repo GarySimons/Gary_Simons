@@ -22,22 +22,22 @@ I carried the same basic grid throught the pages to add contsiancy and easy of n
 I created an image of a woodcut style bird carrying a card with the coding symbol on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the site and a visual logo of the site and of me.
 
 **The goals of this website are:**
-To build brand awareness.
-To showcase my coding skills to potential employers and recruiters.
-To exibit my creative style to potential employers and recruiters.
-Intuitive navigation to keep the user engaged.
+1. To build brand awareness.
+2. To showcase my coding skills to potential employers and recruiters.
+3. To exibit my creative style to potential employers and recruiters.
+4. Intuitive navigation to keep the user engaged.
 
 ---
 
 ## UX
 
 **This website is:**
-Easy to navigate.
-Displays easy to read, simple, usefull information.
-Has pleasing colours and typography.
-Fully responsive to display correctly on all divices.
-Enabling recruiters and employers to see my work.
-Enabling recruiters and employers to contact me.
+1. Easy to navigate.
+2. Displays easy to read, simple, usefull information.
+3. Has pleasing colours and typography.
+4. Fully responsive to display correctly on all divices.
+5. Enabling recruiters and employers to see my work.
+6. Enabling recruiters and employers to contact me.
 
 Using the Bootstrap framework, the site is fully responsive. Each element on the pages has been designed to work and look visually appealing depending on the viewing device. 
  
@@ -89,7 +89,8 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Features left to implement
 
-1.If time allowed I would have liked to xxx
+1. If time allowed I would have liked to add to the Admin page, to enable me to build more projects. I would build a template that would allow me to quickly and simply add as many as needed.
+2. It would be good to add a blog page. This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
 
 ---
 
