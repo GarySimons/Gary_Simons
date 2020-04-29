@@ -121,7 +121,16 @@ The Projects page highlighs some of the work I have been doing. Each project is 
 The Contact page simply holds an email for for users to fill in and contact me. I kept the wording on the page very inviting and conversational to help the user feel more at ease and give a friendly vibe. At the bottom of this page is the footer, which again holds links to my LinkedIn, Twitter, Instagram, GitHub and a downloadable pdf of my CV. It has a copyright sign off and a link to the 'hidden' **Admin** page.  
 
 ### Admin
-The Admin page is the interface with the MongoDB database. It shows a panel showing the stored data. Beside each of the listings are two buttons, edit and delete. Below is a add new skill button. The edit button opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a back to skills button which takes you back to the list of skills on the Admin page. The delete button simply deletes that data from the MongoDB database. The add skills button opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a add skill button which adds that skill and level to the MongoDB database. Again there is a back to skills button which takes you back to the list of skills on the Admin page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **About** page.
+The Admin page is the interface with the MongoDB database. It shows a panel showing the stored data. Beside each of the listings are two buttons, edit and delete. Below is a add new skill button. 
+
+#### Edit
+The **edit button** opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a **back to skills button** which takes you back to the list of skills on the **Admin** page. 
+
+#### Delete
+The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **Admin** page with no harm done.
+
+#### Add
+The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **Admin** page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **About** page.
 
 ### Favicon
 The site has a Favicon to visually show the user where the site is in their open tabs. It uses the GS logo from the Nav Bar on the same grey background to tie it together.
@@ -143,15 +152,20 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Technologies used
 
+#### Languages
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Python](https://www.python.org/)
+
+#### Frameworks and libraries
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
-* [MongoDB](https://account.mongodb.com/account/login)
-* [Heroku](https://www.heroku.com/)
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+
+#### Tools
+* [MongoDB](https://account.mongodb.com/account/login)
+* [Heroku](https://www.heroku.com/)
 * [Balsamiq Wireframes](https://wireframestogo.com/)
 * [TinyPNG](https://tinypng.com/)
 * [Genfavicon](http://www.genfavicon.com/)
@@ -222,7 +236,4 @@ All text written by me.
 ### Corey Schafer
 I watched Corey Schafer's YouTube tutorial [Python Flask Tutorial: Full-Featured Web App Part 2 - Templates](https://www.youtube.com/watch?v=QnDWIZuWYW0) to help me understand Template Inheritance better.
 
-### xxxxxxx
-xxxxxxxxx.
-[xxxxxxxx](https://axxxxx)
 
