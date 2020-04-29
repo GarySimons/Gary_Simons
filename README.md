@@ -60,6 +60,8 @@ The users here are other developers looking to see what other people in their fi
 
 These are my original wireframes for my site. 
 
+![IMG](/wireframes/png/gs-01-desktop-home.png)
+
 ---
 
 ## Features
