@@ -13,19 +13,19 @@ This is a website to **promote me as a Full Stack Web Developer**. In the future
 
 The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The site has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the user of that interface will be **me** as the site's owner. I have 'hidden' an admin section, which can be accessed from the footer on the **Contact** page. This takes you to the **Admin** page, from which you can read, add, update or delete the data. The data is diplayed to the users in a panel on the **About** page, using easy to diguest text and progress bars to show skills and skill levels attained. 
 
-The site is designed to reflect me as a creative full stack web developer and show my style. The site is clean and stylish, using muted blocks of colour to define areas. I created a simple, complimentary, sophisticated colour scheme that carries through the site. This enables the different pages to have their own feel and identity, while maintaining a holding colour theme that ties them all together, giving an upmarket feel.
+***The site is designed to reflect me as a creative full stack web developer** and show my style. The site is clean and stylish, using muted blocks of colour to define areas. I created a simple, complimentary, sophisticated colour scheme that carries through the site. This enables the different pages to have their own feel and identity, while maintaining a holding colour theme that ties them all together, giving an upmarket feel.
 
 I've used the san serif font **Montserrat** in two weights (300 and 500) with some sophisticated letter spacing to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the site perfectly.
 
 I carried the same basic grid throught the pages to add contsiancy and easy of navigation. A lager section header quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
 
-I created an image of a woodcut style bird carrying a card with the coding symbol on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the site and a visual logo of the site and of me.
+I created an image of a woodcut style bird carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the site and a visual logo of the site and of me.
 
-**The goals of this website are:**
-1. To build brand awareness.
-2. To showcase my coding skills to potential employers and recruiters.
-3. To exibit my creative style to potential employers and recruiters.
-4. Intuitive navigation to keep the user engaged.
+###The goals of this website are:
+* To build brand awareness.
+* To showcase my coding skills to potential employers and recruiters.
+* To exibit my creative style to potential employers and recruiters.
+* Intuitive navigation to keep the user engaged.
 
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -35,12 +35,12 @@ I created an image of a woodcut style bird carrying a card with the coding symbo
 ## UX
 
 **This website is:**
-1. Easy to navigate.
-2. Displays easy to read, simple, usefull information.
-3. Has pleasing colours and typography.
-4. Fully responsive to display correctly on all divices.
-5. Enabling recruiters and employers to see my work.
-6. Enabling recruiters and employers to contact me.
+* Easy to navigate.
+* Displays easy to read, simple, usefull information.
+* Has pleasing colours and typography.
+* Fully responsive to display correctly on all divices.
+* Enabling recruiters and employers to see my work.
+* Enabling recruiters and employers to contact me.
 
 Using the Bootstrap framework, the site is fully responsive. Each element on the pages has been designed to work and look visually appealing depending on the viewing device. 
 
@@ -68,7 +68,7 @@ The users here are other developers looking to see what other people in their fi
 
 These are my original wireframes for my site. 
 
-**Desktop**
+###Desktop
 
 ![IMG](/wireframes/png/gs-01-desktop-home.png)
 ![IMG](/wireframes/png/gs-02-desktop-about.png)
@@ -78,7 +78,7 @@ These are my original wireframes for my site.
 ![IMG](/wireframes/png/gs-06-desktop-edit.png)
 ![IMG](/wireframes/png/gs-07-desktop-new.png)
 
-**Tablet**
+###Tablet
 
 ![IMG](/wireframes/png/gs-08-tablet-home.png)
 ![IMG](/wireframes/png/gs-09-tablet-about.png)
@@ -88,7 +88,7 @@ These are my original wireframes for my site.
 ![IMG](/wireframes/png/gs-13-tablet-edit.png)
 ![IMG](/wireframes/png/gs-14-tablet-new.png)
 
-**Phone**
+###Phone
 
 ![IMG](/wireframes/png/gs-15-phone-home.png)
 ![IMG](/wireframes/png/gs-16-phone-about.png)
@@ -133,8 +133,8 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Features left to implement
 
-1. If time allowed I would have liked to add to the Admin page, to enable me to build more projects. I would build a template that would allow me to quickly and simply add as many as needed.
-2. It would be good to add a blog page. This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
+* If time allowed I would have liked to add to the Admin page, to enable me to build more projects. I would build a template that would allow me to quickly and simply add as many as needed.
+* It would be good to add a blog page. This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
 
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -143,18 +143,18 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Technologies used
 
-1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. [Python](https://www.python.org/)
-4. [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
-4. [MongoDB](https://account.mongodb.com/account/login)
-5. [Heroku](https://www.heroku.com/)
-6. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-7. [Font Awesome](https://fontawesome.com/)
-8. [Google Fonts](https://fonts.google.com/)
-9. [Balsamiq Wireframes](https://wireframestogo.com/)
-10. [TinyPNG](https://tinypng.com/)
-10. [Genfavicon](http://www.genfavicon.com/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Python](https://www.python.org/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+* [MongoDB](https://account.mongodb.com/account/login)
+* [Heroku](https://www.heroku.com/)
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Balsamiq Wireframes](https://wireframestogo.com/)
+* [TinyPNG](https://tinypng.com/)
+* [Genfavicon](http://www.genfavicon.com/)
 
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -203,7 +203,7 @@ My site is deployed on Heroku and GitHub.
 
 ### Thanks
 
-My mentor **Simen Dehlin** for all the advice and pointers. And for always pushing me to go further.
+My mentor **Simen Daehlin** for all the advice and pointers. And for always pushing me to go further.
 
 All the **tutors** that helped me along the way on the **Tutor Support**. 
 
