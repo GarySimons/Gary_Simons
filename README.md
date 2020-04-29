@@ -1,6 +1,6 @@
 
 
-![IMG](/images/bird80black.png)
+![IMG](/static/images/bird80black.png)
 
 
 # Gary Simons - personal resume website
@@ -60,7 +60,36 @@ The users here are other developers looking to see what other people in their fi
 
 These are my original wireframes for my site. 
 
+**Desktop**
+
 ![IMG](/wireframes/png/gs-01-desktop-home.png)
+![IMG](/wireframes/png/gs-02-desktop-about.png)
+![IMG](/wireframes/png/gs-03-desktop-projects.png)
+![IMG](/wireframes/png/gs-04-desktop-contact.png)
+![IMG](/wireframes/png/gs-05-desktop-admin.png)
+![IMG](/wireframes/png/gs-06-desktop-edit.png)
+![IMG](/wireframes/png/gs-07-desktop-new.png)
+
+**Tablet**
+
+![IMG](/wireframes/png/gs-08-tablet-home.png)
+![IMG](/wireframes/png/gs-09-tablet-about.png)
+![IMG](/wireframes/png/gs-10-tablet-projects.png)
+![IMG](/wireframes/png/gs-11-tablet-contact.png)
+![IMG](/wireframes/png/gs-12-tablet-admin.png)
+![IMG](/wireframes/png/gs-13-tablet-edit.png)
+![IMG](/wireframes/png/gs-14-tablet-new.png)
+
+**Phone**
+
+![IMG](/wireframes/png/gs-15-phone-home.png)
+![IMG](/wireframes/png/gs-16-phone-about.png)
+![IMG](/wireframes/png/gs-17-phone-projects.png)
+![IMG](/wireframes/png/gs-18-phone-contact.png)
+![IMG](/wireframes/png/gs-19-phone-admin.png)
+![IMG](/wireframes/png/gs-20-phone-edit.png)
+![IMG](/wireframes/png/gs-21-phone-new.png)
+
 
 ---
 
