@@ -1,3 +1,4 @@
+  
 import os
 from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
@@ -37,7 +38,7 @@ def admin():
 def insert_skill():
     skills = mongo.db.skills
     skills.insert_one(request.form.to_dict())
-    return redirect(url_for('pages/admin'))
+    return redirect(url_for('admin'))
 
 @app.route('/add_skill')
 def add_skill():
@@ -62,7 +63,7 @@ def update_skill(skill_id):
 @app.route('/delete_skill/<skill_id>')
 def delete_skill(skill_id):
     mongo.db.skills.remove({'_id': ObjectId(skill_id)})
-    return redirect(url_for('pages/admin'))
+    return redirect(url_for('admin'))
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
