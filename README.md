@@ -1,6 +1,6 @@
 
 
-![IMG](/static/images/bird80black.png)
+![IMG](/static/images/birdreadme.png)
 
 
 # Gary Simons - personal resume website
@@ -27,6 +27,9 @@ I created an image of a woodcut style bird carrying a card with the coding symbo
 3. To exibit my creative style to potential employers and recruiters.
 4. Intuitive navigation to keep the user engaged.
 
+
+![IMG](/static/images/birdreadmesmall.png)
+
 ---
 
 ## UX
@@ -40,6 +43,9 @@ I created an image of a woodcut style bird carrying a card with the coding symbo
 6. Enabling recruiters and employers to contact me.
 
 Using the Bootstrap framework, the site is fully responsive. Each element on the pages has been designed to work and look visually appealing depending on the viewing device. 
+
+
+![IMG](/static/images/birdreadmesmall.png)
  
 ---
 
@@ -53,6 +59,8 @@ The users here are looking to find a developer to work with or employ. When tryi
 
 ### User three: developers
 The users here are other developers looking to see what other people in their field are doing. They want to get ideas, or see who is out there. They may be looking to reach out to fellow developers for advice, inspiration or collaboration. On this site they can quickly decide if they like what they see, and they are able to get in touch.
+
+![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -91,6 +99,8 @@ These are my original wireframes for my site.
 ![IMG](/wireframes/png/gs-21-phone-new.png)
 
 
+![IMG](/static/images/birdreadmesmall.png)
+
 ---
 
 ## Features
@@ -116,12 +126,18 @@ The Admin page is the interface with the MongoDB database. It shows a panel show
 ### Favicon
 The site has a Favicon to visually show the user where the site is in their open tabs. It uses the GS logo from the Nav Bar on the same grey background to tie it together.
 
+
+![IMG](/static/images/birdreadmesmall.png)
+
 ---
 
 ## Features left to implement
 
 1. If time allowed I would have liked to add to the Admin page, to enable me to build more projects. I would build a template that would allow me to quickly and simply add as many as needed.
 2. It would be good to add a blog page. This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
+
+
+![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -140,11 +156,15 @@ The site has a Favicon to visually show the user where the site is in their open
 10. [TinyPNG](https://tinypng.com/)
 10. [Genfavicon](http://www.genfavicon.com/)
 
+
+![IMG](/static/images/birdreadmesmall.png)
+
 ---
 
 ## Testing
 xxxxxxx
 
+![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -173,6 +193,11 @@ My site is deployed on Heroku and GitHub.
 19. Click on Enable Automatic Deloys, underneath that.
 20. Finally, deploy it by clicking the Deploy Branch button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
+
+
+![IMG](/static/images/birdreadmesmall.png)
+
+---
 
 ## Credits
 
