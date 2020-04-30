@@ -133,35 +133,37 @@ body {
     font-weight: 300;
 }
 
-.sociallink {
-    color: red;
-    font-size: 1rem;
+.sociallinkcv {
+    color: #fff;
+    font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
     margin-top: 1rem;
+    margin-left: 0.15rem;
     text-decoration: none;
 }
 
-.sociallink:hover{
+.sociallinkcv:hover{
     text-decoration: none !important;
-    color: yellow !important;
+    color: #4d4d4d!important;
     transition: .1s ease-in-out;
 }
 
 .sociallinks li a i {
+    color: #fff;
     width: 40px;
     height: 40px;
-    padding: 1.5rem;
+    padding: 0.5rem;
     font-size: 1.5rem;
     line-height: .25rem;
     text-align: center;
-    color: green;
+
 }
 
 .sociallinks li a i:hover {
-    text-decoration: none !important;
     color: #4d4d4d;
     transition: .1s ease-in-out;
+    text-decoration: none !important;
 }
 
 
@@ -185,6 +187,7 @@ body {
 #aboutsocial {
     background-color: #a6a6a6;
     padding: 1rem;
+    text-align: center !important;
 }
 
 .listtext {
