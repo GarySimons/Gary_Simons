@@ -68,7 +68,7 @@ The users here are other developers looking to see what other people in their fi
 
 These are my original wireframes for my site. 
 
-###Desktop
+### Desktop
 
 ![IMG](/wireframes/png/gs-01-desktop-home.png)
 ![IMG](/wireframes/png/gs-02-desktop-about.png)
@@ -78,7 +78,7 @@ These are my original wireframes for my site.
 ![IMG](/wireframes/png/gs-06-desktop-edit.png)
 ![IMG](/wireframes/png/gs-07-desktop-new.png)
 
-###Tablet
+### Tablet
 
 ![IMG](/wireframes/png/gs-08-tablet-home.png)
 ![IMG](/wireframes/png/gs-09-tablet-about.png)
@@ -88,7 +88,7 @@ These are my original wireframes for my site.
 ![IMG](/wireframes/png/gs-13-tablet-edit.png)
 ![IMG](/wireframes/png/gs-14-tablet-new.png)
 
-###Phone
+### Phone
 
 ![IMG](/wireframes/png/gs-15-phone-home.png)
 ![IMG](/wireframes/png/gs-16-phone-about.png)
@@ -186,26 +186,28 @@ xxxxxxx
 
 My site is deployed on Heroku and GitHub.
 
-1. First log onto Heroku.
-2. In the App Name form, create a uniquie app name.
-3. In the Choose a Region dropdown, choose Europe as that's our region and delivery will be quicker.
-4. Click on Create App.
-5. Next, log in to Heroku in the terminal with 'heroku login'. You will need to enter you email and password. This allows the connection from your project to Heroku and allows us to push changes to Heroku using git.
-6. If not using GitPod, you will have to create a new Git repository with the command, git innit.
-7. Do a 'git add .' to add the files and git commit -m "Intial commit' to commit those files.
-8. We need now to associate Heroku as our remote master branch. Back on Heroku you will find the command 'heroku git:remote -a (name of your app)', in the Deploy using Heroku Git section. Paste this into the terminal to set it up.
-9. Create a requirements.txt file which will contain a list of all the applications required for Heroku to run the application.To do this type 'sudo pip3 freeze --local > requirements.txt' in the terminal. This will create a txt file with the list in.
-10. Add this file, commit it and push it to Heroku with 'git push heroku master'.
-11. You now have to create a Procfile which will tell Heroku which file to call to get the application running. To do this, in the terminal write 'echo web: python app.py >Procfile'. Add this to GitHub, and commit. Then 'git push heroku master' to save it to Heroku.
-12. Next, we want to get our application running on Heroku. In the terminal, type 'heroku ps:scale web=1'. 
-13. On Heroku, go to 'settings', and click on the 'Reveal Config Vars' button. 
-14. In here we need to supply a our IP address and our port. The first key is 'IP' and it's value is '0.0.0.0'. The second key is 'PORT' and it's value is '5000'. If you have hidden sensitive data such as your MONGO_URI in your env.py file, you must also put in the key of MONGO_URI, and the value of the password code from the env.py file. This is so Heroku can see it.
-15. Click on the button 'Open app' and it will start the app and show your page.
+I've been using **GitPod**. These are the steps that I used in a **Unique Linux environment**. Please make sure you read your documentation that comples with your operating system.
+
+1. First log onto **Heroku**.
+2. In the **App Name form**, create a uniquie app name.
+3. In the **Choose a Region** dropdown, choose **Europe** as that's our region and delivery will be quicker.
+4. Click on **Create App**.
+5. Next, log in to Heroku in the terminal with ```heroku login```. You will need to enter you email and password. This allows the connection from your project to Heroku and **allows us to push changes to Heroku using git**.
+6. Create a new Git repository with the command, git innit.
+7. Do a ```git add .``` to add the files and ```git commit -m "Intial commit"``` to commit those files.
+8. We need now to associate Heroku as our remote master branch. Back on Heroku you will find the command ```heroku git:remote -a (name of your app)```, in the Deploy using Heroku Git section. Paste this into the terminal to set it up.
+9. Create a **requirements.txt** file which will contain a list of all the applications required for Heroku to run the application.To do this type ```pip3 freeze --local > requirements.txt``` in the terminal. This will create a txt file with the list in.
+10. Add this file, commit it and push it to Heroku with ```git push heroku master```.
+11. You now have to create a **Procfile** which will tell Heroku which file to call to get the application running. To do this, in the terminal write ```echo web: python app.py >Procfile```. Add this to GitHub, and commit. Then ```git push heroku master``` to save it to Heroku.
+12. Next, we want to get our application running on Heroku. In the terminal, type ```heroku ps:scale web=1```. 
+13. On Heroku, go to **'settings'**, and click on the **'Reveal Config Vars'** button. 
+14. In here we need to supply a our IP address and our port. The first key is **'IP'** and it's value is **'0.0.0.0'**. The second key is **'PORT'** and it's value is **'5000'**. If you have hidden sensitive data such as your **MONGO_URI** in your **env.py** file, you must also put in the key of **MONGO_URI**, and the value of the **password code** from the env.py file. This is so Heroku can see it.
+15. Click on the button **'Open app'** and it will start the app and show your page.
 16. To make sure you push to Heroku automatically each time you push to GitHub, you can set it up in Heroku.
-17. First click on Deploy, and click on Deployment Method. Then click on the GitHub selection.
-18. Below that in click on Connect to GitHub, and enter your repository's name, and search for it. Connect.
-19. Click on Enable Automatic Deloys, underneath that.
-20. Finally, deploy it by clicking the Deploy Branch button.
+17. First click on **Deploy**, and click on **Deployment Method**. Then click on the **GitHub** selection.
+18. Below that in click on **Connect to GitHub**, and enter your repository's name, and search for it. **Connect**.
+19. Click on **Enable Automatic Deloys**, underneath that.
+20. Finally, deploy it by clicking the **Deploy Branch** button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
 
 
