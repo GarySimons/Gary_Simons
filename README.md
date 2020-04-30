@@ -186,7 +186,7 @@ xxxxxxx
 
 My site is deployed on Heroku and GitHub.
 
-I've been using **GitPod**. These are the steps that I used in a **Unique Linux environment**. Please make sure you read your documentation that comples with your operating system.
+I've been using **GitPod**. These are the steps that I used in a **Unique Linux environment**. Please make sure you read your documentation that complies with your operating system.
 
 1. First log onto **Heroku**.
 2. In the **App Name form**, create a uniquie app name.
