@@ -470,7 +470,7 @@ body {
     width: 9.2rem;
     font-size: 0.85rem;
     background-color: #d996a9;
-    color: #fff;
+    color: #000;
     font-weight: 300;
     text-align: center;
     margin-top: 1rem;
@@ -479,7 +479,8 @@ body {
 
 .btnaddskill:hover {
     text-decoration: none !important;
-    color: #000 !important;
+    background-color: #a34966;
+    color: #fff !important;
     transition: .1s ease-in-out;
 }
 
@@ -497,6 +498,7 @@ body {
 
 .btneditskill:hover {
     text-decoration: none !important;
+    background-color: #5c9990;
     color: #fff !important;
     transition: .1s ease-in-out;
 }
@@ -514,6 +516,7 @@ body {
 
 #btndeleteskill:hover {
     text-decoration: none !important;
+    background-color: #d996a9;
     color: #000 !important;
     transition: .1s ease-in-out;
 }

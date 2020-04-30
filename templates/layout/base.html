@@ -2,27 +2,28 @@
 <html lang="en">
 
 <head>
-   {% include 'layout/head.html' %}
+	{% include 'layout/head.html' %}
 
-    {% if title %}
-        <title>Gary Simons - {{ title }}</title>
-    {% else %}
-        <title>Gary Simons</title>
-    {% endif %}
+	{% if title %}
+	<title>Gary Simons - {{ title }}</title>
+	{% else %}
+	<title>Gary Simons</title>
+	{% endif %}
 </head>
 
 <body>
 
-<!-- Nav Bar -->
-    {% include 'components/navbar.html' %}
+	<!-- Nav Bar -->
+	{% include 'components/navbar.html' %}
 
-<!-- code block -->
-    <div class="container-fluid">
-        {% block content %}{% endblock %}
-    </div>
+	<!-- code block -->
+	<div class="container-fluid">
+		{% block content %}{% endblock %}
+	</div>
 
-<!-- Scripts -->
-{% include 'layout/scripts.html' %}
+	<!-- Scripts -->
+	{% include 'layout/scripts.html' %}
 
 </body>
+
 </html>
