@@ -49,8 +49,8 @@ def admin():
     """
     return render_template('pages/admin.html', title='Admin', skills=mongo.db.skills.find())
 
-@app.route('/insert_skill', methods=['POST'])
-def insert_skill():
+@app.route('/insertskill', methods=['POST'])
+def insertskill():
     """
     Adds a skill to the database
     """
@@ -58,15 +58,15 @@ def insert_skill():
     skills.insert_one(request.form.to_dict())
     return redirect(url_for('admin'))
 
-@app.route('/add_skill')
-def add_skill():
+@app.route('/addskill')
+def addskill():
     """
     Renders the add skills page for user
     """
     return render_template('pages/addskill.html', title='Admin - Add Skill')
 
-@app.route('/edit_skill/<skill_id>')
-def edit_skill(skill_id):
+@app.route('/editskill/<skill_id>')
+def editskill(skill_id):
     """
     Renders the edit skills page for user
     """
@@ -74,8 +74,8 @@ def edit_skill(skill_id):
     all_skills = mongo.db.skills.find()
     return render_template('pages/editskill.html', skill=the_skill, skills=all_skills, title='Admin - Edit Skill')   
 
-@app.route('/update_skill/<skill_id>', methods=["POST"])
-def update_skill(skill_id):
+@app.route('/updateskill/<skill_id>', methods=["POST"])
+def updateskill(skill_id):
     """
     Updates a skill to the database
     """
@@ -87,8 +87,8 @@ def update_skill(skill_id):
     })
     return redirect(url_for('admin'))
     
-@app.route('/delete_skill/<skill_id>')
-def delete_skill(skill_id):
+@app.route('/deleteskill/<skill_id>')
+def deleteskill(skill_id):
     """
     Deletes a skill from the database
     """
