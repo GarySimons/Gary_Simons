@@ -94,10 +94,6 @@ body {
 
 /* General */
 
-.x {
-    text-align: center;
-}
-
 .birdsmall {
     width: 150px;
     height: 100%;
@@ -402,6 +398,7 @@ body {
 .adminbox {
     background-color: #688499;
     padding: 2rem 2rem 8rem;
+    align-content: center;
 }
 
 .adminaddbox {
@@ -443,7 +440,7 @@ body {
 }
 
 .adminsub {
-    color: #fff;
+    color: yellow;
     font-size: 1rem;
     line-height: 1.3rem;
     font-weight: 500; 
