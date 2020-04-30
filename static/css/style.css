@@ -657,6 +657,7 @@ body {
     position: relative;
     height: 10rem;
     clear: both;
+    padding-top: 1rem;
 }
 
 #adminlink {

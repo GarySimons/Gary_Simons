@@ -40,47 +40,15 @@
 </div>
 
 <!-- Bird -->
-        {% include 'layout/bird.html' %}
+        {% include 'components/bird.html' %}
 
 <!-- Footer -->
     <footer id="footer">
         
+<!-- Social Media -->
         <div class="row justify-content-center">
-            <div class="col-12">
-                <ul class="list-inline sociallinks">
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="https://www.linkedin.com/in/gary-simons/" target="_blank" aria-label="Follow me on LinkedIn">
-                        <p class="sociallinks">Li</p>
-                    <span class="sr-only ">LinkedIn</span>
-                    </a>
-                    </li>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="https://twitter.com/GaryColSim" target="_blank" aria-label="Follow me on Twitter">
-                        <p class="sociallinks">Tw</p>
-                    <span class="sr-only">Twitter</span>
-                    </a>
-                    </li>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="https://www.instagram.com/garycs/" target="_blank" aria-label="Follow me on Instagram">
-                        <p class="sociallinks">Ig</p>
-                    <span class="sr-only">Instagram</span>
-                    </a>
-                    </li>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="https://github.com/" target="_blank" aria-label="Follow me on GitHub">
-                        <p class="sociallinks">Gh</p>
-                    <span class="sr-only">GitHub</span>
-                    </a>
-                    </li>
-                    <li class="list-inline-item">
-                    <a class="sociallinks" href="static/images/Gary_Simons_CV.pdf" target="_blank" aria-label="Download my CV">
-                        <p class="sociallinks">Cv</p>
-                    <span class="sr-only">CV</span>
-                    </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        {% include 'components/social.html' %} 
+        </div>  
 
         <div class="row justify-content-center">
             <a id="adminlink" href="{{url_for('admin')}}">admin</a>
