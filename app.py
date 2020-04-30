@@ -16,42 +16,69 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/home')
 def home():
+    """
+    Renders the home page for user
+    """
     return render_template('pages/home.html')
 
 @app.route('/about')
 def about():
+    """
+    Renders the about page for user
+    """
     return render_template('pages/about.html', title='About', skills=mongo.db.skills.find())
 
 @app.route('/projects')
 def projects():
+    """
+    Renders the projects page for user
+    """
     return render_template('pages/projects.html', title='Projects')
 
 @app.route('/contact')
 def contact():
+    """
+    Renders the contact page for user
+    """
     return render_template('pages/contact.html', title='Contact')
 
 @app.route('/admin')
 def admin():
+    """
+    Renders the admin page for user
+    """
     return render_template('pages/admin.html', title='Admin', skills=mongo.db.skills.find())
 
 @app.route('/insert_skill', methods=['POST'])
 def insert_skill():
+    """
+    Adds a skill to the database
+    """
     skills = mongo.db.skills
     skills.insert_one(request.form.to_dict())
     return redirect(url_for('admin'))
 
 @app.route('/add_skill')
 def add_skill():
+    """
+    Renders the add skills page for user
+    """
     return render_template('pages/addskill.html', title='Admin - Add Skill')
 
 @app.route('/edit_skill/<skill_id>')
 def edit_skill(skill_id):
+    """
+    Renders the edit skills page for user
+    """
     the_skill = mongo.db.skills.find_one({"_id": ObjectId(skill_id)})
     all_skills = mongo.db.skills.find()
     return render_template('pages/editskill.html', skill=the_skill, skills=all_skills, title='Admin - Edit Skill')   
 
 @app.route('/update_skill/<skill_id>', methods=["POST"])
 def update_skill(skill_id):
+    """
+    Updates a skill to the database
+    """
     skills = mongo.db.skills
     skills.update( {'_id': ObjectId(skill_id)},
     {
@@ -62,6 +89,9 @@ def update_skill(skill_id):
     
 @app.route('/delete_skill/<skill_id>')
 def delete_skill(skill_id):
+    """
+    Deletes a skill from the database
+    """
     mongo.db.skills.remove({'_id': ObjectId(skill_id)})
     return redirect(url_for('admin'))
 
