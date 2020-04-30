@@ -133,8 +133,8 @@ body {
     font-weight: 300;
 }
 
-.sociallinks {
-    color: #000;
+.sociallink {
+    color: red;
     font-size: 1rem;
     font-weight: 300;
     text-align: center;
@@ -142,11 +142,28 @@ body {
     text-decoration: none;
 }
 
-.sociallinks:hover{
+.sociallink:hover{
     text-decoration: none !important;
-    color: #fff !important;
+    color: yellow !important;
     transition: .1s ease-in-out;
 }
+
+.sociallinks li a i {
+    width: 40px;
+    height: 40px;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    line-height: .25rem;
+    text-align: center;
+    color: green;
+}
+
+.sociallinks li a i:hover {
+    text-decoration: none !important;
+    color: #4d4d4d;
+    transition: .1s ease-in-out;
+}
+
 
 /* About page */
 
@@ -576,7 +593,6 @@ body {
     background-color: #d996a9 !important;
     transition: .1s ease-in-out;
 }
-
 
 .btnwhiteadd {
     height: 1.3rem;
