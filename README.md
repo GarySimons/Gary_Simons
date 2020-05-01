@@ -232,13 +232,24 @@ The planning for this project involved using my wireframes to sketch a plan of w
 ### Bugs
 
 #### Hamburger menu on mobile
-* xxxxxx
+* I am using the **Bootstrap hambuger menu** on the mobile version of my webite. This has been working will and I was happy with how it looked.
+* Towards the end of the build, I updated my jQuery script from **3.4.1** to **3.5.0** as it was discovered to be out of date. just after while carrying out some testing on my phone, I discovered that my hambuger menu was no longer firing. 
+* After looking for a solution and coming up blank, it was looked into by a **tutor** who did some investigating and found that the update was clashing with the nav bar.
+* I therefore reverted back to **3.4.1** and the hambuger worked again.
 
 #### Wiring up
 * After I had built my basic pages, before I set up much of my CSS styling, I then set about wiring up each element in sequence before moving on to the next one. Having set up my **skills** database in **MongoDB**, my first challenge was to wire up my **About** page to show the data. 
 
 #### Template Inheritance
 * When first trying to work with Template Inheritance I built a **base.html** page with a code block to hold the html from the other pages. But when I ran my app.py file, I was getting an error telling that it couldn't find my template. 
+* On investigation I discovered that my folder structure was wrong, so none of the files could be found.
+* I restructured by folders and put the files in their right pages, and was able to get the html pages to load inside the block code.
+
+#### Heroku app
+* Having linked my Heroku app to update every time I pushed to my repository. I was happy that all would be fine. It was deloying to Heroku and looked good. 
+* However, my app just kept giving me an error when I tried to launch it.
+* It was discovered that the problem was that I had set up an **env.py** file, that was being hidden in a **.gitignore file** to keep my password safe. This information wasn't being uploaded to Heroku, so it couldn't work.
+* I therefore had to set the value for the this in the **Config Vars** of Heroku. Once there, Heroku could read it and the app worked.
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -271,6 +282,15 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 19. Click on **Enable Automatic Deloys**, underneath that.
 20. Finally, deploy it by clicking the **Deploy Branch** button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
+
+![IMG](/static/images/birdreadmesmall.png)
+
+---
+
+## Closing notes
+
+* I've really enjoyed building this website has taught me lots of interesting new ways to do it. I really like using the **template inheritance** where you build a skeleton document, then **block codes** to allow you to place elements on pages. This seems to me to be a brilliant way to simplify and reduce the amoount to code that has to be written. It also would prevent errors where you might change one page, but forget another.
+* I've also found the database element of the challenge to be very interetsing and fun. I like how you can control the data on one page the website and it updates it on another.  
 
 ![IMG](/static/images/birdreadmesmall.png)
 
