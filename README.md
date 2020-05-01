@@ -156,22 +156,22 @@ These are my original wireframes for my website. The website
 ## Features
 
 ### Navigation bar
-This holds all the links to the sections of the site: Logo (home button), home, about, projects and contact. This allows the user to navigate quickly to the relevant section. The Navigation bar is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The home button and logo will take you right back to the landing page where you can get your bearings and start your journey.
+**This holds all the links to the sections of the site: Logo (home button), home, about, projects and contact.** This allows the user to navigate quickly to the relevant section. The Navigation bar is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The home button and logo will take you right back to the landing page where you can get your bearings and start your journey.
 
 ### Home
-This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with strong simple white typography on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code. A tasteful about me link invites them to enter the site andf takes the user straight to the About page where they can learn a bit more.
+This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful about me link invites them to enter the site andf takes the user straight to the About page where they can learn a bit more.
 
 ### About
-The About page shows some of the key information about me. There is a brief introduction to me and the things i stand for. Below that are two panels. One showing my skills with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my relevant education and qualification. Below them is a panel containing links to my LinkedIn, Twitter, Instagram, GitHub and a downloadable pdf of my CV.
+**The About page shows some of the key information about me.** There is a brief introduction to me and the things i stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, Twitter, Instagram, GitHub** and a **downloadable pdf of my CV**.
 
 ### Projects
-The Projects page highlighs some of the work I have been doing. Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A view button under each title opens a large modal with larger images of a laptop, tablet and phone. There is a short description of the site, a list of programs and languages used and a link to the live website. This gives the user an insite into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the live website to see for themselves.
+**The Projects page highlighs some of the work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. **A view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the site, a list of programs and languages used and a link to the **live website.** This gives the user an insite into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves.
 
 ### Contact
-The Contact page simply holds an email for for users to fill in and contact me. I kept the wording on the page very inviting and conversational to help the user feel more at ease and give a friendly vibe. At the bottom of this page is the footer, which again holds links to my LinkedIn, Twitter, Instagram, GitHub and a downloadable pdf of my CV. It has a copyright sign off and a link to the 'hidden' **Admin** page.  
+The Contact page simply holds an **email for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my LinkedIn, Twitter, Instagram, GitHub and a downloadable pdf of my CV. It has a copyright sign off and a link to the **'hidden' Admin page.** 
 
 ### Admin
-The Admin page is the interface with the MongoDB database. It shows a panel showing the stored data. Beside each of the listings are two buttons, edit and delete. Below is a add new skill button. 
+The Admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
 
 #### Edit
 The **edit button** opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a **back to skills button** which takes you back to the list of skills on the **Admin** page. 
@@ -183,7 +183,7 @@ The **delete button** on the page is actually a button that opens a **modal** th
 The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **Admin** page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **About** page.
 
 ### Favicon
-The site has a Favicon to visually show the user where the site is in their open tabs. It uses the GS logo from the Nav Bar on the same grey background to tie it together.
+The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the Nav Bar on the same grey background to tie it together.
 
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -192,8 +192,8 @@ The site has a Favicon to visually show the user where the site is in their open
 
 ## Features left to implement
 
-* If time allowed I would have liked to add to the Admin page, to enable me to build more projects. I would build a template that would allow me to quickly and simply add as many as needed.
-* It would be good to add a blog page. This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
+* If time allowed I would have liked to add to the Admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
+* It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
 
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -234,7 +234,7 @@ xxxxxxx
 
 ## Deployment
 
-My site is deployed on Heroku and GitHub.
+**My site is deployed on Heroku and GitHub.**
 
 I've been using **GitPod**. These are the steps that I used in a **Unique Linux environment**. Please make sure you read your documentation to comply with your operating system.
 
