@@ -9,9 +9,13 @@
 
 ## Overview
 
-This is a website to **promote me as a Full Stack Web Developer**. In the future, I shall be able to use it to send to protential employers as a way of advertising my skills. It has been built using template inheritance which will make it easier to add content as my projects and skills grow. 
+### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. The link for this is in the footer on the contact page.
 
-The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the user of that interface will be **me** as the website's owner. I have 'hidden' an admin section, which can be accessed from the footer on the **contact** page. This takes you to the **admin** page, from which you can read, add, update or delete the data. The data is diplayed to the users in a panel on the **about** page, using easy to diguest text and progress bars to show skills and skill levels attained. 
+This is a website to **promote me as a Full Stack Web Developer**. In the future, I shall be able to use it to send to protential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
+
+The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the **user** of that interface will be **me** as the website's owner. 
+
+**I have 'hidden' an admin section**, which can be accessed from the footer on the **contact page.** This takes you to the **admin page**, from which you can read, add, update or delete the data. The data is **diplayed to the user** in a panel on the **about page**, using easy to diguest text and progress bars to show skills and skill levels attained. 
 
 ### The goals of this website are:
 * To build brand awareness.
@@ -45,7 +49,7 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 ### User goals:
 * A website that allows the user to find a developer to employ.
 * Allow the user to see the developer's experience, skills and education.
-* Allow the user to see the develope's work and open their websites.
+* Allow the user to see the developer's work and open their websites.
 * Allow the user to interact with the developer.
 * Engaging design to be visually appealing and stimulating.
 * Good user experience to keep the user engaged.
@@ -53,14 +57,14 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 
 ### Website owner goals:
 * As a shop front for me as a developer.
-* Display skiils and work to potential employers.
+* Display skills and work to potential employers.
 * Recieve messages from users which could lead to employment. 
 * Recieve messages from users which could lead to collaboration with other developers. 
 * Update and add skills via the Admin page linked to my MongoDB database.
 * Update and add projects and work to enhance the opportunities for employment.
 
 ### User one: me
-As the **website owner** I am using it to **promote myself** and my work to **potential employers**. It is my shop front that refects me as a developer and my personality. I can quickly and easily add new skills as I aquire them via the Admin page to keep it up to date. I can also add or modify any projects I do. I can sent this as a link to anyone I want to market myself to.
+As the **website owner** I am using it to **promote myself** and my work to **potential employers**. It is my shop front that refects me as a developer and my personality. I can quickly and easily add new skills as I aquire them via the **admin page** to keep it up to date. I can also add or modify any projects I do. I can sent this as a link to anyone I want to market myself to.
 
 ### User two: recruiter
 The users here are looking to **find a developer to work with or employ**. When trying to decide if they want to work with someone, they can find the site and have all the information at their disposal. Not only is the site itself a showcase, the links to previous projects and relevant social media and work sites will help to give a wider picture of the person's workstyle and personality. The **downloadedable CV** is there too as an option if needed. They can get in **contact** for more information or to meet up.
@@ -115,7 +119,7 @@ I created an image of a **woodcut style bird** carrying a card with the coding s
 
 ## Wireframes
 
-I built my wireframes using **Balsamiq Wireframes**. This was a quick and easy way to work out the basic pages and element and how the would interact with each other. Then mocked up more detailed versions using **Adobe InDesign** to allow me to play with fonts, colours and images. The basic stucture of my wireframes remained much the same, but colours and styling was adapted as I built the website and saw how it worked as a whole.   
+I built my wireframes using **Balsamiq Wireframes**. This was a quick and easy way to work out the basic pages and element and how the would interact with each other. I then mocked up more detailed versions using **Adobe InDesign** to allow me to play with fonts, colours and images. The basic stucture of my wireframes remained much the same, but colours and styling was adapted as I built the website and saw how it worked as a whole.   
 
 View my **Balsamiq** wireframes <a href="https://github.com/GarySimons/Gary_Simons/tree/master/wireframes/png">here.</a>
 
@@ -126,34 +130,34 @@ View my **Adobe InDesign** wireframes <a href="https://github.com/GarySimons/Gar
 ## Features
 
 ### Navigation bar
-**This holds all the links to the sections of the site: Logo (home button), home, about, projects and contact.** This allows the user to navigate quickly to the relevant section. The Navigation bar is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The home button and logo will take you right back to the landing page where you can get your bearings and start your journey.
+**This holds all the links to the sections of the site:** Logo (home button), home, about, projects and contact. This allows the user to navigate quickly to the relevant section. The **navigation bar** is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The **home button and logo** will take you right back to the **home page** where you can get your bearings and start your journey.
 
 ### Home
-This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful about me link invites them to enter the site and takes the user straight to the **about** page where they can learn a bit more.
+This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful **about me** link invites them to enter the website and takes the user straight to the **about page** where they can learn a bit more.
 
 ### About
-**The about page shows some of the key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV**.
+The about page shows some of the **key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV**.
 
 ### Projects
-**The projects page highlighs some of the work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A **view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the site, a list of programs and languages used and a link to the **live website.** This gives the user an insite into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
+The projects page highlighs some of the **work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A **view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the website, a list of programs and languages used and a link to the **live website.** This gives the user an insight into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used the two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
 
 ### Contact
-The contact page simply holds an **email for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
+The contact page simply holds an **form for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
 
 ### Admin
 The admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
 
 #### Edit
-The **edit button** opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a **back to skills button** which takes you back to the list of skills on the **admin** page. 
+The **edit button** opened a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a **save changes button** with sends the updated data to **MongoDB**, and a **back to skills button** which takes you back to the list of skills on the **admin page.**
 
 #### Delete
 The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page with no harm done.
 
 #### Add
-The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **admin** page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **about** page.
+The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **admin** page. All the buttons on the website share common styles with two different widths. All the changes made in these panels are reflected in the information on the **about page.**
 
 ### Favicon
-The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the nav bar on the same grey background to tie it together.
+The website has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the navigation bar on the same grey background to tie it together.
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -161,7 +165,7 @@ The site has a **Favicon** to visually show the user where the site is in their 
 
 ## Features left to implement
 
-* If time allowed I would have liked to add to the Admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
+* If time allowed I would have liked to add to the admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
 
 ![IMG](/static/images/birdreadmesmall.png)
@@ -194,7 +198,7 @@ The site has a **Favicon** to visually show the user where the site is in their 
 ---
 
 ## Testing
-This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. Being very conscious of how easy it was fo these elements to fail, I had to **test constantly** to make sure they performed how I wanted them to. The testing involved myself and that of my friends and family.
+This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. Being very conscious of how easy it was fo these elements to fail.  I had to **test constantly** to make sure they performed how I wanted them to. The testing involved myself and that of my friends and family.
 
 ### Planning
 The planning for this project involved using my wireframes to sketch a plan of which pages, buttons and forms needed to link to the database and to other parts. 
@@ -209,7 +213,7 @@ The planning for this project involved using my wireframes to sketch a plan of w
 
 #### Responsiveness
 * I wanted my website to be fully responsive and work and look perfect on all devices. 
-* I used **Bootstrap** to build the basic grid of my website. This involved selection the best breakpoints to find the perfect balance on all devices. Reviewing the changes using the **Inspect** tools to get it right.
+* I used **Bootstrap** to build the basic grid of my website. This involved selection the best breakpoints to find the perfect balance on all devices. Reviewing the changes using the **Chrome Developer Tools** tools to get it right.
 * The result was a very balanced and dynamic website that looked slick and stylish when adapting to different devices.
 
 #### Design
@@ -232,13 +236,10 @@ The planning for this project involved using my wireframes to sketch a plan of w
 ### Bugs
 
 #### Hamburger menu on mobile
-* I am using the **Bootstrap hambuger menu** on the mobile version of my webite. This has been working will and I was happy with how it looked.
+* I am using the **Bootstrap hamburger menu** on the mobile version of my webite. This has been working will and I was happy with how it looked.
 * Towards the end of the build, I updated my jQuery script from **3.4.1** to **3.5.0** as it was discovered to be out of date. just after while carrying out some testing on my phone, I discovered that my hambuger menu was no longer firing. 
 * After looking for a solution and coming up blank, it was looked into by a **tutor** who did some investigating and found that the update was clashing with the nav bar.
 * I therefore reverted back to **3.4.1** and the hambuger worked again.
-
-#### Wiring up
-* After I had built my basic pages, before I set up much of my CSS styling, I then set about wiring up each element in sequence before moving on to the next one. Having set up my **skills** database in **MongoDB**, my first challenge was to wire up my **About** page to show the data. 
 
 #### Template Inheritance
 * When first trying to work with Template Inheritance I built a **base.html** page with a code block to hold the html from the other pages. But when I ran my app.py file, I was getting an error telling that it couldn't find my template. 
