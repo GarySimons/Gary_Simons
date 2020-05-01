@@ -13,14 +13,6 @@ This is a website to **promote me as a Full Stack Web Developer**. In the future
 
 The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the user of that interface will be **me** as the website's owner. I have 'hidden' an admin section, which can be accessed from the footer on the **Contact** page. This takes you to the **Admin** page, from which you can read, add, update or delete the data. The data is diplayed to the users in a panel on the **About** page, using easy to diguest text and progress bars to show skills and skill levels attained. 
 
-***The website is designed to reflect me as a creative full stack web developer** and show my style. The website is clean and stylish, using muted blocks of colour to define areas. I created a simple, complimentary, sophisticated colour scheme that carries through the site. This enables the different pages to have their own feel and identity, while maintaining a holding colour theme that ties them all together, giving an upmarket feel.
-
-I've used the san serif font **Montserrat** in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
-
-I carried the same basic grid throught the pages to add contsiancy and easy of navigation. A lager **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
-
-I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
-
 ### The goals of this website are:
 * To build brand awareness.
 * To showcase my coding skills to potential employers and recruiters.
@@ -75,6 +67,48 @@ The users here are looking to **find a developer to work with or employ**. When 
 
 ### User three: developers
 The users here are **other developers** looking to see what other people in their field are doing. They want to get ideas, or see who is out there. They may be looking to reach out to fellow developers for advice, inspiration or collaboration. On this site they can quickly decide if they like what they see, and they are able to get in touch.
+
+![IMG](/static/images/birdreadmesmall.png)
+
+---
+
+## User requirements and expectations
+
+* Navigate the website using navbar and buttons.
+* Content to be displayed in a visually way.
+* Be able to see developer's experience, skills and education.
+* Be able to see and interact with developer's work.
+* Be able to view responsively on all devices.
+* Be able to engage with developer.
+
+![IMG](/static/images/birdreadmesmall.png)
+
+---
+
+## Design choices
+
+**The website is designed to reflect me as a creative full stack web developer** and show my style. The website is clean and stylish, using muted blocks of colour to define areas. 
+
+### Colours
+I created a **simple, complimentary, sophisticated colour scheme** that carries through the site. This enables the different pages to have their own feel and identity, while maintaining a holding colour theme that ties them all together, giving an upmarket feel.
+```dark-grey: #4d4d4d```
+```light-grey: #a6a6a6```
+```dark-pink: #a34966```
+```light-pink: #d996a9```
+```dark-green: #5c9990```
+```light-green: #bacfb2```
+```dark-blue: #3c5682```
+```light-blue: #688499```
+
+### Fonts
+I've used the san serif font **Montserrat** in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
+
+### Grid
+I carried the same basic grid throught the pages to add contsiancy and easy of navigation. A lager **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
+
+### Illustration
+I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
+
 
 ![IMG](/static/images/birdreadmesmall.png)
 
