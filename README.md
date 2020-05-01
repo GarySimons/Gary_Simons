@@ -11,7 +11,7 @@
 
 This is a website to **promote me as a Full Stack Web Developer**. In the future, I shall be able to use it to send to protential employers as a way of advertising my skills. It has been built using template inheritance which will make it easier to add content as my projects and skills grow. 
 
-The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the user of that interface will be **me** as the website's owner. I have 'hidden' an admin section, which can be accessed from the footer on the **Contact** page. This takes you to the **Admin** page, from which you can read, add, update or delete the data. The data is diplayed to the users in a panel on the **About** page, using easy to diguest text and progress bars to show skills and skill levels attained. 
+The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the user of that interface will be **me** as the website's owner. I have 'hidden' an admin section, which can be accessed from the footer on the **contact** page. This takes you to the **admin** page, from which you can read, add, update or delete the data. The data is diplayed to the users in a panel on the **about** page, using easy to diguest text and progress bars to show skills and skill levels attained. 
 
 ### The goals of this website are:
 * To build brand awareness.
@@ -60,7 +60,7 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 * Update and add projects and work to enhance the opportunities for employment.
 
 ### User one: me
-As the **site owner** I am using it to **promote myself** and my work to **potential employers**. It is my shop front that refects me as a developer and my personality. I can quickly and easily add new skills as I aquire them via the Admin page to keep it up to date. I can also add or modify any projects I do. I can sent this as a link to anyone I want to market myself to.
+As the **website owner** I am using it to **promote myself** and my work to **potential employers**. It is my shop front that refects me as a developer and my personality. I can quickly and easily add new skills as I aquire them via the Admin page to keep it up to date. I can also add or modify any projects I do. I can sent this as a link to anyone I want to market myself to.
 
 ### User two: recruiter
 The users here are looking to **find a developer to work with or employ**. When trying to decide if they want to work with someone, they can find the site and have all the information at their disposal. Not only is the site itself a showcase, the links to previous projects and relevant social media and work sites will help to give a wider picture of the person's workstyle and personality. The **downloadedable CV** is there too as an option if needed. They can get in **contact** for more information or to meet up.
@@ -129,31 +129,31 @@ View my **Adobe InDesign** wireframes <a href="https://github.com/GarySimons/Gar
 **This holds all the links to the sections of the site: Logo (home button), home, about, projects and contact.** This allows the user to navigate quickly to the relevant section. The Navigation bar is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The home button and logo will take you right back to the landing page where you can get your bearings and start your journey.
 
 ### Home
-This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful about me link invites them to enter the site andf takes the user straight to the About page where they can learn a bit more.
+This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful about me link invites them to enter the site and takes the user straight to the **about** page where they can learn a bit more.
 
 ### About
-**The About page shows some of the key information about me.** There is a brief introduction to me and the things i stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, Twitter, Instagram, GitHub** and a **downloadable pdf of my CV**.
+**The about page shows some of the key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV**.
 
 ### Projects
-**The Projects page highlighs some of the work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. **A view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the site, a list of programs and languages used and a link to the **live website.** This gives the user an insite into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
+**The projects page highlighs some of the work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A **view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the site, a list of programs and languages used and a link to the **live website.** This gives the user an insite into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
 
 ### Contact
-The Contact page simply holds an **email for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my LinkedIn, Twitter, Instagram, GitHub and a downloadable pdf of my CV. It has a copyright sign off and a link to the **'hidden' Admin page.** 
+The contact page simply holds an **email for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
 
 ### Admin
-The Admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
+The admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
 
 #### Edit
-The **edit button** opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a **back to skills button** which takes you back to the list of skills on the **Admin** page. 
+The **edit button** opend a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a save changes button with sends the updated data to MongoDB, and a **back to skills button** which takes you back to the list of skills on the **admin** page. 
 
 #### Delete
-The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **Admin** page with no harm done.
+The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page with no harm done.
 
 #### Add
-The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **Admin** page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **About** page.
+The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **admin** page. All the buttons on the site share common styles wit two different widths. All the changes made in these panels are reflected in the information on the **about** page.
 
 ### Favicon
-The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the Nav Bar on the same grey background to tie it together.
+The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the nav bar on the same grey background to tie it together.
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -203,25 +203,39 @@ The planning for this project involved using my wireframes to sketch a plan of w
 
 * After deciding on a palette of colours for the website. It was felt I had too many and need to edit them down. I played around using a **Hex Colour Picker** website to find the colours that worked together as a family. Enough difference that they had their own identity, part similar enough to connect. I chose **four basic colours** and used a dark version and a light version.
 
-* On my mock ups and during most of the build, I had my social links as just letters 'Li' (LinkedIn), 'Tw' (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but they just had to go.
+* On my mock ups and during most of the build, I had my social links as just letters 'Li' (LinkedIn), 'Tw' (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but the world wasn't ready for them.
 
 ### Overall
 
 #### Responsiveness
 * I wanted my website to be fully responsive and work and look perfect on all devices. 
-* I used **Bootstrap** to build the basic grid of my website. This involved much testing of breakpoints to find the perfect balance on all devices. Contantly viewing using the **Inspect** tools to get it right.
+* I used **Bootstrap** to build the basic grid of my website. This involved selection the best breakpoints to find the perfect balance on all devices. Reviewing the changes using the **Inspect** tools to get it right.
 * The result was a very balanced and dynamic website that looked slick and stylish when adapting to different devices.
 
 #### Design
 * The design of the website needed to be clean, stylish and sophisticated. I had most of the elements and feel of the pages all worked out at the **wireframe** stage. Using the simple clean san serif font **Montserrat** in two weights, (300 and 500), and **opening up the letter spacing**, allowed me to create that feel. The **muted colours** all work together as a family to hold it together. 
-* Using **CSS** styling allowed to create styles for images, words and panels that could be replicated accross the website. This also meant that it was easy to change multiple elements quickly and simply. 
+* Using **CSS** styling allowed to create styles for images, words and panels that could be **replicated** accross the website. This also meant that it was easy to **change multiple elements quickly and simply.**
 * The result is a website that have an elegant, upmarket design to allow users to see my creative side.
+
+#### Projects page
+* The projects page needed a way to showcase my work to the user. Originally I simply had each project in a panel with an image of the homepage on a laptop with some text underneath describing the website and a link to the live version. However. it was felt that this wasn't very dynamic. 
+* To solve this, I created a **large modal** that pops up when the view button is clicked.
+* This was a better solution as it allowed me to create a graphic showing the home page on laptop, tablet and mobile. It gave me more room to write the description and add the link to the live website.
+* It is also better for **user experience** as it adds more interest and drama when it pops up. It also leaves the projects page cleaner and neater.
+
+#### Delete button
+* When I added the **delete** button to the admin page, it originally simply deleted any skill when clicked.
+* It was felt that this was a very dangerous thing to do, as there was no going back once it was clicked.
+* My solution was to wire up a modal that pops up when the **delete button** is clicked saying **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons. **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page.
+* This solution means that the data is better protected from being deleted by accident, so makes it **more secure.**
+
+### Bugs
+
+#### Hamburger menu on mobile
+* xxxxxx
 
 #### Wiring up
 * After I had built my basic pages, before I set up much of my CSS styling, I then set about wiring up each element in sequence before moving on to the next one. Having set up my **skills** database in **MongoDB**, my first challenge was to wire up my **About** page to show the data. 
-
-
-### Bugs
 
 #### Template Inheritance
 * When first trying to work with Template Inheritance I built a **base.html** page with a code block to hold the html from the other pages. But when I ran my app.py file, I was getting an error telling that it couldn't find my template. 
