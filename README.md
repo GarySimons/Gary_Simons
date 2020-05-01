@@ -91,14 +91,14 @@ The users here are **other developers** looking to see what other people in thei
 
 ### Colours
 I created a **simple, complimentary, sophisticated colour scheme** that carries through the site. This enables the different pages to have their own feel and identity, while maintaining a holding colour theme that ties them all together, giving an upmarket feel.
-```dark-grey: #4d4d4d```
-```light-grey: #a6a6a6```
-```dark-pink: #a34966```
-```light-pink: #d996a9```
-```dark-green: #5c9990```
-```light-green: #bacfb2```
-```dark-blue: #3c5682```
-```light-blue: #688499```
+* ```dark-grey: #4d4d4d```
+* ```light-grey: #a6a6a6```
+* ```dark-pink: #a34966```
+* ```light-pink: #d996a9```
+* ```dark-green: #5c9990```
+* ```light-green: #bacfb2```
+* ```dark-blue: #3c5682```
+* ```light-blue: #688499```
 
 ### Fonts
 I've used the san serif font **Montserrat** in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
@@ -116,7 +116,7 @@ I created an image of a **woodcut style bird** carrying a card with the coding s
 
 ## Wireframes
 
-These are my original wireframes for my website. The website 
+These are my original wireframes for my website.  
 
 ### Desktop
 
