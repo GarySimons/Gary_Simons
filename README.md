@@ -109,14 +109,17 @@ I carried the same basic grid throught the pages to add contsiancy and easy of n
 ### Illustration
 I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
 
-
 ![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
 ## Wireframes
 
-These are my original wireframes for my website.  
+I built my wireframes using **Balsamiq Wireframes**. This was a quick and easy way to work out the basic pages and element and how the would interact with each other. Then mocked up more detailed versions using **Adobe InDesign** to allow me to play with fonts, colours and images. The basic stucture of my wireframes remained much the same, but colours and styling was adapted as I built the website and saw how it worked as a whole.   
+
+View my **Balsamiq** wireframes <a href="https://github.com/GarySimons/Gary_Simons/tree/master/wireframes/png">here.</a>
+
+View my **Adobe InDesign** wireframes <a href="https://github.com/GarySimons/Gary_Simons/tree/master/wireframes/png">here.</a>
 
 ### Desktop
 
@@ -147,7 +150,6 @@ These are my original wireframes for my website.
 ![IMG](/wireframes/png/gs-19-phone-admin.png)
 ![IMG](/wireframes/png/gs-20-phone-edit.png)
 ![IMG](/wireframes/png/gs-21-phone-new.png)
-
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -185,7 +187,6 @@ The **add skills button** opens a page with a form that needs to be filled in wi
 ### Favicon
 The site has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the Nav Bar on the same grey background to tie it together.
 
-
 ![IMG](/static/images/birdreadmesmall.png)
 
 ---
@@ -194,7 +195,6 @@ The site has a **Favicon** to visually show the user where the site is in their 
 
 * If time allowed I would have liked to add to the Admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
-
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -226,7 +226,15 @@ The site has a **Favicon** to visually show the user where the site is in their 
 ---
 
 ## Testing
-xxxxxxx
+This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. Being very conscious of how easy it was fo these elements to fail, I had to **test constantly** to make sure they performed how I wanted them to. The testing involved myself and that of my friends and family.
+
+### Planning
+The planning for this project involved using my wireframes to sketch a plan of which pages, buttons and forms needed to link to the database and to other parts. 
+
+### Stories
+* 
+
+* After I had built my basic pages, before I set up much of my CSS styling, I then set about wiring up each element in sequence before moving on to the next one. Having set up my **skills** database in **MongoDB**, my first challenge was to wire up my **About** page to show the data. 
 
 ![IMG](/static/images/birdreadmesmall.png)
 
@@ -260,7 +268,6 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 20. Finally, deploy it by clicking the **Deploy Branch** button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
 
-
 ![IMG](/static/images/birdreadmesmall.png)
 
 ---
@@ -284,6 +291,10 @@ All text written by me.
 ---
 
 ## Acknowledgements
+
+### Anna Gilhespy website
+I used Anna Gilhespy's website to help me work out the structure of the grid.
+[Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Corey Schafer
 I watched Corey Schafer's YouTube tutorial [Python Flask Tutorial: Full-Featured Web App Part 2 - Templates](https://www.youtube.com/watch?v=QnDWIZuWYW0) to help me understand Template Inheritance better.
