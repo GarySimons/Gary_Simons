@@ -143,6 +143,7 @@ The website has a **Favicon** to visually show the user where the site is in the
 
 * If time allowed I would have liked to add to the admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
+* I would like to wire up the contact for to send messages to my email.
 
 ---
 
@@ -176,6 +177,80 @@ The website has a **Favicon** to visually show the user where the site is in the
 * This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. 
 * Being very conscious of how easy it was for these elements to fail. I **tested constantly** to make sure they performed how I wanted them to, each time I added or made a change to my code.
 * The testing involved myself and that of my friends and family.
+
+### Manual testing of all elements on pages
+
+#### Navigation bar
+* Click on logo to check it links to home page.
+* Click on all links to check they link to relevant page.
+* Hover over all links to check they change colour.
+* Change screen size to verify that it is responsive and switches from in-line menu to hambuger menu on mobile size.
+* Change screen size to small verify that the hambuger menu drops down and links work.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Home page
+* Change screen size to verify that it is responsive and the text and image work on all device sizes.
+* Click on about me button to check it links to about page.
+* Hover over about me link to check it changes colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### About page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Check that the skills panel is showing correct data (skill name and progress bar percentage) from MongoDB database.
+* Click on each social media button to check it takes you to the relevant website in a new window.
+* Click on CV to check it opens the downloadable pdf.
+* Hover over social and CV links to check it changes colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Projects page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Click on each view button to check it opens relevant modal.
+* Change screen size to verify that each modal is responsive and works on all device sizes.
+* Click on each modal's x and close buttons to check they close the modal.
+* Click on view website buttons on Wildbunch Florist and check it opens relevant website in new window.
+* Click on view website buttons on Handpicked Brighton and check it opens relevant website in new window.
+* Click on view website buttons on Little Monsters and check it is a link. This is a fake website so has no live link.
+* Click on view website buttons on Hummingbird Family Services and check it is a link. This is a fake website so has no live link.
+* Hover over links on main page and modals to check they change colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Contact page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Write into each form field to make sure it works.
+* The send button isn't wire up, so will not send anything.
+* Click on each social media button to check it takes you to the relevant website in a new windoow.
+* Click on CV to check it opens the downloadable pdf.
+* Click on admin button in footer to check it opens the admin page.
+* Hover over send button to check it changes colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Admin page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Check data from MongoDB database is correct and displays corectly.
+* Click on edit buttons to check they open the edit page with correct data.
+* Click on delete buttons to check they open the warning modal.
+* Click on x and close on modal to check they close the modal and go back to admin page.
+* Click on yes, I'm sure button on modal to check it removes correct data from MongoDB database.
+* Click on no, keep it button on modal to check it closes the modal and goes back to admin page leaving data in place.
+* Click on add new skill button to check it opens add skill page.
+* Hover over buttons to check they change colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Edit page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Check form is displaying correct data to be edited.
+* Edit data in form and click the save changes button to check it closes the page and returns to admin page, and that the admin page displays edited data.
+* Click on back to skills button to check it returns you to the admin page without changing data.
+* Hover over buttons to check they change colour.
+* Repeat checks on mobile and tablet to verify they are correct.
+
+#### Edit page
+* Change screen size to verify that it is responsive and the panels work on all device sizes.
+* Check form is displaying correct data to be edited.
+* Enter data in form and click the add skill button to check it closes the page and returns to admin page, and that the admin page displays added data.
+* Hover over buttons to check they change colour.
+* Click on back to skills button to check it returns you to the admin page without changing data.
+
 
 ### Planning
 The planning for this project involved using my **wireframes** to sketch a plan of which pages, buttons and forms needed to link to the database and to other parts. 
