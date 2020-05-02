@@ -11,11 +11,13 @@
 
 ### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. The link for this is in the footer on the contact page.
 
-This is a website to **promote me as a Full Stack Web Developer**. In the future, I shall be able to use it to send to protential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
+This is a website to **promote me as a full stack web developer**. In the future, I shall be able to use it to send to protential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
 
 The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the **user** of that interface will be **me** as the website's owner. 
 
 **I have 'hidden' an admin section**, which can be accessed from the footer on the **contact page.** This takes you to the **admin page**, from which you can read, add, update or delete the data. The data is **diplayed to the user** in a panel on the **about page**, using easy to diguest text and progress bars to show skills and skill levels attained. 
+
+The site is hosted on **Heroku** as part of the project requirements.
 
 ### The goals of this website are:
 * To build brand awareness.
@@ -39,44 +41,30 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 
 ---
 
-## User story
+## Users
 
-### User goals:
-* A website that allows the user to find a developer to employ.
-* Allow the user to see the developer's experience, skills and education.
-* Allow the user to see the developer's work and open their websites.
-* Allow the user to interact with the developer.
-* Engaging design to be visually appealing and stimulating.
-* Good user experience to keep the user engaged.
-* interact with website on desktop and mobile devices.
+### User stories:
+* As a user of the website, I want to navigate easily and find the information I need quickly.
+* As a user of the website, I want an engaging design that is visually appealing and stimulating.
+* As a user of the website, I want good user experience to keep the me engaged.
+* As a user of the website, I want to view it on all devices and it still to look good and work perfectly.
+* As a user of the website, I want to be able to contact the site owner.
+* As a user of the website, I want to learn more about the developer as a person.
+* As a potential client or employer, I want to view the technical skills of the developer.
+* As a potential client or employer, I want to view the training and relevant education of the developer.
+* As a potential client or employer, I want to view the work portfolio of the developer to decide if I like their style.
+* As a user of the website, I want to be able to view the developer's social media to feel more engaged with them.
+* As a potential client or employer, I want to be able to view the developer's LinkedIn account.
+* As a potential client or employer, I want to be able to view the developer's GitHub account.
+* As a potential client or employer, I want to be able to download the developer's CV.
 
-### Website owner goals:
-* As a shop front for me as a developer.
-* Display skills and work to potential employers.
-* Recieve messages from users which could lead to employment. 
-* Recieve messages from users which could lead to collaboration with other developers. 
-* Update and add skills via the Admin page linked to my MongoDB database.
-* Update and add projects and work to enhance the opportunities for employment.
-
-### User one: me
-As the **website owner** I am using it to **promote myself** and my work to **potential employers**. It is my shop front that refects me as a developer and my personality. I can quickly and easily add new skills as I aquire them via the **admin page** to keep it up to date. I can also add or modify any projects I do. I can sent this as a link to anyone I want to market myself to.
-
-### User two: recruiter
-The users here are looking to **find a developer to work with or employ**. When trying to decide if they want to work with someone, they can find the site and have all the information at their disposal. Not only is the site itself a showcase, the links to previous projects and relevant social media and work sites will help to give a wider picture of the person's workstyle and personality. The **downloadedable CV** is there too as an option if needed. They can get in **contact** for more information or to meet up.
-
-### User three: developers
-The users here are **other developers** looking to see what other people in their field are doing. They want to get ideas, or see who is out there. They may be looking to reach out to fellow developers for advice, inspiration or collaboration. On this site they can quickly decide if they like what they see, and they are able to get in touch.
-
----
-
-## User requirements and expectations
-
-* Navigate the website using navbar and buttons.
-* Content to be displayed in a visually way.
-* Be able to see developer's experience, skills and education.
-* Be able to see and interact with developer's work.
-* Be able to view responsively on all devices.
-* Be able to engage with developer.
+### Website owner stories:
+* As the website owner, I want the website to be a shop front for me as a developer.
+* As the website owner, I want the website to display skills and work to potential employers.
+* As the website owner, I want to recieve messages from users which could lead to employment. 
+* As the website owner, I want to recieve messages from users which could lead to collaboration with other developers. 
+* As the website owner, I want to update and add skills via the admin page linked to my MongoDB database.
+* As the website owner, I want to update and add projects and work to enhance the opportunities for employment.
 
 ---
 
@@ -96,10 +84,10 @@ I created a **simple, complimentary, sophisticated colour scheme** that carries 
 * ```light-blue: #688499```
 
 ### Fonts
-I've used the san serif font **Montserrat** in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
+I've used the sans serif font [Montserrat](https://fonts.google.com/specimen/Montserrat) in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
 
 ### Grid
-I carried the same basic grid throught the pages to add contsiancy and easy of navigation. A lager **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
+I carried the **same basic grid throught** the pages to add contsiancy and easy of navigation. A large **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
 
 ### Illustration
 I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
@@ -122,7 +110,7 @@ View my **Adobe InDesign** wireframes <a href="https://github.com/GarySimons/Gar
 **This holds all the links to the sections of the site:** Logo (home button), home, about, projects and contact. This allows the user to navigate quickly to the relevant section. The **navigation bar** is always visible when you are on the site, allowing for easy navigation to any part, no matter where you first land. The **home button and logo** will take you right back to the **home page** where you can get your bearings and start your journey.
 
 ### Home
-This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration on a bird holding a card with </> on it symbolizes delevering code.** A tasteful **about me** link invites them to enter the website and takes the user straight to the **about page** where they can learn a bit more.
+This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the site is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration of a bird holding a card with </> on it symbolizes delevering code.** A tasteful **about me** link invites them to enter the website and takes the user straight to the **about page** where they can learn a bit more.
 
 ### About
 The about page shows some of the **key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV**.
@@ -131,7 +119,7 @@ The about page shows some of the **key information about me.** There is a brief 
 The projects page highlighs some of the **work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A **view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the website, a list of programs and languages used and a link to the **live website.** This gives the user an insight into the thinking behind the site and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used the two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
 
 ### Contact
-The contact page simply holds an **form for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
+The contact page simply holds a **form for for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the footer, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
 
 ### Admin
 The admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
@@ -139,14 +127,14 @@ The admin page is the **interface with the MongoDB database.** It shows a panel 
 #### Edit
 The **edit button** opened a new page where it shows the data that you've clicked on in a form that allows for them to be edited. Below are a **save changes button** with sends the updated data to **MongoDB**, and a **back to skills button** which takes you back to the list of skills on the **admin page.**
 
-#### Delete
-The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page with no harm done.
-
 #### Add
-The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the MongoDB database. Again there is a **back to skills button** which takes you back to the list of skills on the **admin** page. All the buttons on the website share common styles with two different widths. All the changes made in these panels are reflected in the information on the **about page.**
+The **add skills button** opens a page with a form that needs to be filled in with a new skill and new proficiency level. The form has placeholder text to prompt the correct way to inpurt the data. There is a **add skill button** which adds that skill and level to the **MongoDB database**. Again there is a **back to skills button** which takes you back to the list of skills on the **admin** page. 
+
+#### Delete
+The **delete button** on the page is actually a button that opens a **modal** that acts as a safety net to stop skills being deleted by accident. The message on the modal asks the question **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page with no harm done. All the buttons on the website share common styles with two different widths. All the changes made in these panels are reflected in the information on the **about page.**
 
 ### Favicon
-The website has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the navigation bar on the same grey background to tie it together.
+The website has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS** logo from the navigation bar on the same grey background to tie it together.
 
 ---
 
@@ -184,14 +172,14 @@ The website has a **Favicon** to visually show the user where the site is in the
 ---
 
 ## Testing
-This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. Being very conscious of how easy it was fo these elements to fail.  I had to **test constantly** to make sure they performed how I wanted them to. The testing involved myself and that of my friends and family.
+This was first time using **Python, Flask and MongoDB.** My testing was very thorough as each piece of code and app route had to work and link to the relevant part of the website. Being very conscious of how easy it was fo these elements to fail. I had to **test constantly** to make sure they performed how I wanted them to. The testing involved myself and that of my friends and family.
 
 ### Planning
 The planning for this project involved using my wireframes to sketch a plan of which pages, buttons and forms needed to link to the database and to other parts. 
 
 ### Stories
 
-* After deciding on a palette of colours for the website. It was felt I had too many and need to edit them down. I played around using a **Hex Colour Picker** website to find the colours that worked together as a family. Enough difference that they had their own identity, part similar enough to connect. I chose **four basic colours** and used a dark version and a light version.
+* After deciding on a palette of colours for the website. It was felt I had too many and need to edit them down. I played around using a **Hex Colour Picker** website to find the colours that worked together as a family. Enough difference that they had their own identity, but similar enough to connect. I chose **four basic colours** and used a dark version and a light version.
 
 * On my mock ups and during most of the build, I had my social links as just letters 'Li' (LinkedIn), 'Tw' (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but the world wasn't ready for them.
 
@@ -199,7 +187,7 @@ The planning for this project involved using my wireframes to sketch a plan of w
 
 #### Responsiveness
 * I wanted my website to be fully responsive and work and look perfect on all devices. 
-* I used **Bootstrap** to build the basic grid of my website. This involved selection the best breakpoints to find the perfect balance on all devices. Reviewing the changes using the **Chrome Developer Tools** tools to get it right.
+* I used **Bootstrap** to build the basic grid of my website. This involved selection the best breakpoints to find the perfect balance on all devices. Testing the changes using the **Chrome Developer Tools** tools to get it right.
 * The result was a very balanced and dynamic website that looked slick and stylish when adapting to different devices.
 
 #### Design
@@ -292,6 +280,10 @@ Bird image was sourced from the [iStock](https://www.istockphoto.com/gb) image l
 ### Text
 
 All text written by me.
+
+### Disclaimer
+
+This website is a Milestone Project for the **Full Stack Web Development** course at [Code Institute](https://codeinstitute.net/)
 
 ---
 
