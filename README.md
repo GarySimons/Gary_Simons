@@ -23,9 +23,6 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 * To exibit my creative style to potential employers and recruiters.
 * Intuitive navigation to keep the user engaged.
 
-
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## UX
@@ -40,8 +37,6 @@ The aim of the project is to produce a website using **Flask** and **Python** th
 * Enabling recruiters and employers to contact me.
 * Enabling recruiters and employers to access my social media.
 
-![IMG](/static/images/birdreadmesmall.png)
- 
 ---
 
 ## User story
@@ -71,8 +66,6 @@ The users here are looking to **find a developer to work with or employ**. When 
 
 ### User three: developers
 The users here are **other developers** looking to see what other people in their field are doing. They want to get ideas, or see who is out there. They may be looking to reach out to fellow developers for advice, inspiration or collaboration. On this site they can quickly decide if they like what they see, and they are able to get in touch.
-
-![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -159,16 +152,12 @@ The **add skills button** opens a page with a form that needs to be filled in wi
 ### Favicon
 The website has a **Favicon** to visually show the user where the site is in their open tabs. It uses the **GS logo** from the navigation bar on the same grey background to tie it together.
 
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## Features left to implement
 
 * If time allowed I would have liked to add to the admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
-
-![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -178,12 +167,16 @@ The website has a **Favicon** to visually show the user where the site is in the
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Python](https://www.python.org/)
+* [JavaScript](https://www.javascript.com/)
+* [jQuery](https://jquery.com/)
 
 #### Frameworks and libraries
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [PopperJS](https://popper.js.org/)
+
 
 #### Tools
 * [MongoDB](https://account.mongodb.com/account/login)
@@ -191,9 +184,6 @@ The website has a **Favicon** to visually show the user where the site is in the
 * [Balsamiq Wireframes](https://wireframestogo.com/)
 * [TinyPNG](https://tinypng.com/)
 * [Genfavicon](http://www.genfavicon.com/)
-
-
-![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -217,7 +207,7 @@ The planning for this project involved using my wireframes to sketch a plan of w
 * The result was a very balanced and dynamic website that looked slick and stylish when adapting to different devices.
 
 #### Design
-* The design of the website needed to be clean, stylish and sophisticated. I had most of the elements and feel of the pages all worked out at the **wireframe** stage. Using the simple clean san serif font **Montserrat** in two weights, (300 and 500), and **opening up the letter spacing**, allowed me to create that feel. The **muted colours** all work together as a family to hold it together. 
+* The design of the website needed to be clean, stylish and sophisticated. I had most of the elements and feel of the pages all worked out at the **wireframe** stage. Using the simple clean san serif font [Montserrat](https://fonts.google.com/specimen/Montserrat) in two weights, (300 and 500), and **opening up the letter spacing**, allowed me to create that feel. The **muted colours** all work together as a family to hold it together. 
 * Using **CSS** styling allowed to create styles for images, words and panels that could be **replicated** accross the website. This also meant that it was easy to **change multiple elements quickly and simply.**
 * The result is a website that have an elegant, upmarket design to allow users to see my creative side.
 
@@ -252,8 +242,6 @@ The planning for this project involved using my wireframes to sketch a plan of w
 * It was discovered that the problem was that I had set up an **env.py** file, that was being hidden in a **.gitignore file** to keep my password safe. This information wasn't being uploaded to Heroku, so it couldn't work.
 * I therefore had to set the value for the this in the **Config Vars** of Heroku. Once there, Heroku could read it and the app worked.
 
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## Deployment
@@ -272,7 +260,7 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 8. We need now to associate Heroku as our remote master branch. Back on Heroku you will find the command ```heroku git:remote -a (name of your app)```, in the Deploy using Heroku Git section. Paste this into the terminal to set it up.
 9. Create a **requirements.txt** file which will contain a list of all the applications required for Heroku to run the application.To do this type ```pip3 freeze --local > requirements.txt``` in the terminal. This will create a txt file with the list in.
 10. Add this file, commit it and push it to Heroku with ```git push heroku master```.
-11. You now have to create a **Procfile** which will tell Heroku which file to call to get the application running. To do this, in the terminal write ```echo web: python app.py >Procfile```. Add this to GitHub, and commit. Then ```git push heroku master``` to save it to Heroku.
+11. You now have to create a **Procfile** which will tell Heroku which file to call to get the application running. To do this, in the terminal write ```echo web: python app.py > Procfile```. Add this to GitHub, and commit. Then ```git push heroku master``` to save it to Heroku.
 12. Next, we want to get our application running on Heroku. In the terminal, type ```heroku ps:scale web=1```. 
 13. On Heroku, go to **'settings'**, and click on the **'Reveal Config Vars'** button. 
 14. In here we need to supply a our IP address and our port. The first key is **'IP'** and it's value is **'0.0.0.0'**. The second key is **'PORT'** and it's value is **'5000'**. If you have hidden sensitive data such as your **MONGO_URI** in your **env.py** file, you must also put in the key of **MONGO_URI**, and the value of the **password code** from the env.py file. This is so Heroku can see it.
@@ -284,8 +272,6 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 20. Finally, deploy it by clicking the **Deploy Branch** button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
 
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## Closing notes
@@ -293,15 +279,13 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 * I've really enjoyed building this website has taught me lots of interesting new ways to do it. I really like using the **template inheritance** where you build a skeleton document, then **block codes** to allow you to place elements on pages. This seems to me to be a brilliant way to simplify and reduce the amoount to code that has to be written. It also would prevent errors where you might change one page, but forget another.
 * I've also found the database element of the challenge to be very interetsing and fun. I like how you can control the data on one page the website and it updates it on another.  
 
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## Credits
 
 ### Thanks
 
-My mentor **Simen Daehlin** for all the advice and pointers. And for always pushing me to go further.
+My mentor [Simen Daehlin](https://dehlin.dev/)for all the advice and pointers. And for always pushing me to go further.
 
 All the **tutors** that helped me along the way on the **Tutor Support**. 
 
