@@ -78,8 +78,6 @@ The users here are **other developers** looking to see what other people in thei
 * Be able to view responsively on all devices.
 * Be able to engage with developer.
 
-![IMG](/static/images/birdreadmesmall.png)
-
 ---
 
 ## Design choices
@@ -105,8 +103,6 @@ I carried the same basic grid throught the pages to add contsiancy and easy of n
 
 ### Illustration
 I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
-
-![IMG](/static/images/birdreadmesmall.png)
 
 ---
 
@@ -285,7 +281,7 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 
 ### Thanks
 
-My mentor [Simen Daehlin](https://dehlin.dev/)for all the advice and pointers. And for always pushing me to go further.
+My mentor [Simen Daehlin](https://dehlin.dev/) for all the advice and pointers. And for always pushing me to go further.
 
 All the **tutors** that helped me along the way on the **Tutor Support**. 
 
