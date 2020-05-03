@@ -5,7 +5,7 @@
 
 # Gary Simons - personal resume website
 
----
+
 
 ## Overview
 

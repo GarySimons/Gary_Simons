@@ -356,7 +356,7 @@ body {
 
 #contactbox {
     background-color: #5c9990;
-    padding: 2rem 2rem 4rem;    
+    padding: 2rem 2rem 4rem;   
 }
 
 #contacttext {
@@ -688,3 +688,6 @@ body {
     padding-top: 0.5rem;
 }
 
+.red {
+    background-color: red;
+}
