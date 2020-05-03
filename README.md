@@ -146,7 +146,7 @@ The website has a **Favicon** to visually show the user where the site is in the
 
 * If time allowed I would have liked to add to the admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
-* I would like to wire up the contact for to send messages to my email.
+* I would like to wire up the contact form to send messages to my email.
 
 ---
 

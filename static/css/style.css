@@ -656,12 +656,18 @@ body {
 
 /* Footer */
 
+.contactsection {
+    background-color: red;
+    height: 85vh;
+}
+
 #footer {
     background-color: #bacfb2;
-    position: relative;
+    position: sticky;
     height: 10rem;
     padding-top: 1rem;
     text-align: center !important;
+    bottom: 0;
 }
 
 #adminlink {
@@ -687,3 +693,4 @@ body {
     text-align: center;
     padding-top: 0.5rem;
 }
+
