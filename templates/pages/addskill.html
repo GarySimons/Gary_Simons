@@ -1,15 +1,13 @@
 {% extends "layout/base.html" %}
 {% block content %}
 
-<div class="container-fluid">
 	<div class="row justify-content-center">
 		<h3 class="col-sm-8 sectionhead">admin.</h3>
 	</div>
-
 	<div class="row justify-content-center">
 		<div class="col-sm-12 col-md-8 adminaddbox">
-			<div class="row col-sm-10">
-				<p class="adminsubhead">add skill</p>
+			<div class="adminsubhead col-8">
+				<p>add skill</p>
 			</div>
 			<div class="row justify-content-center">
                 <div class="col-10">
@@ -17,7 +15,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" id="skill" name="skill" placeholder="Enter skill - ie HTML"><br>
                             <input type="text" class="form-control" id="level" name="level" placeholder="Enter level number - ie 80">
-                        </div>
+                            </div>
                             <div>
                                 <button type="submit" class="btnblackadd">add skill</button>
                             </div>
@@ -29,7 +27,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 
 <!-- Bird -->
 {% include 'components/bird.html' %}

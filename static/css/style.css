@@ -357,7 +357,7 @@ body {
 
 #contactbox {
     background-color: #5c9990;
-    padding: 2rem 2rem 8rem;    
+    padding: 2rem 2rem 4rem;    
 }
 
 #contacttext {
@@ -399,18 +399,17 @@ body {
 
 .adminbox {
     background-color: #688499;
-    padding: 2rem 2rem 8rem;
-    align-content: center;
+    padding: 2rem 2rem 4rem;
 }
 
 .adminaddbox {
     background-color: #d996a9;
-    padding: 2rem 2rem 8rem;
+    padding: 2rem 2rem 4rem;
 }
 
 .admineditbox {
     background-color: #bacfb2;
-    padding: 2rem 2rem 8rem;
+    padding: 2rem 2rem 4rem;
 }
 
 .admintext {
