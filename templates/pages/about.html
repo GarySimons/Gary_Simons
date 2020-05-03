@@ -4,15 +4,15 @@
 <div class="row justify-content-center">
 	<h3 class="col-sm-8 sectionhead">about.</h3>
 </div>
-
+<!-- About -->
 <div class="row justify-content-center">
 	<div class="col-sm-8 col-lg-4 aboutpanel">
 		<p class="whitetext">I am creative, enthusiastic full-stack web developer,
 			who is passionate about great design and building dynamic, responsive and
 			intuitive websites using the latest programs and languages
-            <br>
 			<br>
-            Experienced in front-end and back-end development. 
+			<br>
+            Experienced in front-end and back-end development.
             Able to jump from one part of the application to another
 			<br>
 			<br>
@@ -21,7 +21,7 @@
 	</div>
 	<div class="col-sm-4 col-md-8 d-none d-lg-block col-lg-4 aboutpanel"></div>
 </div>
-
+<!-- Skills display from MongoDB database -->
 <div class="row justify-content-center">
 	<div class="col-sm-8 col-lg-4" id="skillspanel">
 		{% for skills in skills %}
@@ -34,13 +34,12 @@
 			</div>
 		</div>
 		{% endfor %}
-
 	</div>
-
+	<!-- Education -->
 	<div class="col-sm-8 col-lg-4" id="educationpanel">
 		<p class="listtextblack">Full-Stack Web Development</p>
 		<p class="listtext">Code Institute</p>
-		<br />
+		<br>
 		<p class="listtextblack">HND Graphic Design</p>
 		<p class="listtext">Lincolnshire College of Art and Design</p>
 	</div>
@@ -55,6 +54,5 @@
 
 <!-- Bird -->
 {% include 'components/bird.html' %}
-
 
 {% endblock content %}

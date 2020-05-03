@@ -78,7 +78,7 @@ body {
     text-align: center;
 }
 
-#me {
+#aboutme {
     color: #fff;
     font-size: .8rem;
     text-align: center;
@@ -86,7 +86,7 @@ body {
     padding-top: 6rem;  
 }
 
-#me:hover{
+#aboutme:hover{
     text-decoration: none !important;
     color: #4d4d4d !important;
     transition: .1s ease-in-out;
@@ -686,8 +686,4 @@ body {
     letter-spacing: 0.1rem; 
     text-align: center;
     padding-top: 0.5rem;
-}
-
-.red {
-    background-color: red;
 }

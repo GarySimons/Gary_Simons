@@ -6,7 +6,7 @@
 </div>
 <div class="row justify-content-center">
 	<div class="col-sm-8 adminbox">
-
+		<!-- Skills display from MongoDB database -->
 		<div class="row">
 			{% for skills in skills %}
 			<div class="col-sm-8 col-md-5">
@@ -18,7 +18,7 @@
 				<p class="adminlisttext">skill: {{skills.skill}} - level: {{skills.level}}%</p>
 			</div>
 
-			<!-- delete modal -->
+			<!-- Delete modal -->
 			<div class="modal fade" id="deletemodal-{{skills._id}}" tabindex="-1" role="dialog"
 				aria-labelledby="Project" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered modal" role="document">
