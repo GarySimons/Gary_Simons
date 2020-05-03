@@ -43,28 +43,21 @@
 {% include 'components/bird.html' %}
 
 <!-- Footer -->
-<footer id="footer">
-
-	<!-- Social Media -->
-	<div class="row justify-content-center">
-		{% include 'components/social.html' %}
-	</div>
-
-	<div class="row justify-content-center">
-		<a id="adminlink" href="{{url_for('admin')}}">admin</a>
-	</div>
-
-	<div class="row justify-content-center">
+<footer>
+	<div id="footer" class="row">
+		<div class="col-12">
+			{% include 'components/social.html' %}
+		</div>
+		<div class="col-12">
+			<a id="adminlink" href="{{url_for('admin')}}">admin</a>
+		</div>
 		<div class="col-12">
 			<p id="copyright">copyright &copy gary simons <script>
 					document.write( new Date().getFullYear() );
 				</script>
 			</p>
 		</div>
-
 	</div>
-
 </footer>
-
 
 {% endblock content %}

@@ -659,8 +659,8 @@ body {
     background-color: #bacfb2;
     position: relative;
     height: 10rem;
-    clear: both;
     padding-top: 1rem;
+    text-align: center !important;
 }
 
 #adminlink {
@@ -670,7 +670,6 @@ body {
     font-weight: 300 !important;
     text-align: center !important;
     text-decoration: none !important;
-    padding-bottom: 0.5rem;
     cursor: pointer;
 }
 
@@ -685,4 +684,5 @@ body {
     font-weight: 300;
     letter-spacing: 0.1rem; 
     text-align: center;
+    padding-top: 0.5rem;
 }
