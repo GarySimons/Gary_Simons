@@ -48,27 +48,27 @@ The site is hosted on **Heroku** as part of the project requirements.
 ## Users
 
 ### User stories:
-* As a user of the website, I want to navigate easily and find the information I need quickly.
-* As a user of the website, I want an engaging design that is visually appealing and stimulating.
-* As a user of the website, I want good user experience to keep the me engaged.
-* As a user of the website, I want to view it on all devices and it still to look good and work perfectly.
-* As a user of the website, I want to be able to contact the site owner.
-* As a user of the website, I want to learn more about the developer as a person.
-* As a potential client or employer, I want to view the technical skills of the developer.
-* As a potential client or employer, I want to view the training and relevant education of the developer.
-* As a potential client or employer, I want to view the work portfolio of the developer to decide if I like their style.
-* As a user of the website, I want to be able to view the developer's social media to feel more engaged with them.
-* As a potential client or employer, I want to be able to view the developer's LinkedIn account.
-* As a potential client or employer, I want to be able to view the developer's GitHub account.
-* As a potential client or employer, I want to be able to download the developer's CV.
+* As a user of the website, I want to **navigate easily** and find the **information I need quickly**.
+* As a user of the website, I want an **engaging design** that is visually appealing and stimulating.
+* As a user of the website, I want **good user experience** to keep the me engaged.
+* As a user of the website, I want to **view it on all devices** and it still to look good and work perfectly.
+* As a user of the website, I want to be able to **contact the site owner**.
+* As a user of the website, I want to **learn more about the developer as a person**.
+* As a potential client or employer, I want to **view the technical skills** of the developer.
+* As a potential client or employer, I want to **view the training and relevant education** of the developer.
+* As a potential client or employer, I want to **view the work portfolio of the developer** to decide if I like their style.
+* As a user of the website, I want to be able to **view the developer's social media** to feel more engaged with them.
+* As a potential client or employer, I want to be able to **view the developer's LinkedIn** account.
+* As a potential client or employer, I want to be able to **view the developer's GitHub** account.
+* As a potential client or employer, I want to be able to **download the developer's CV**.
 
 ### Website owner stories:
-* As the website owner, I want the website to be a shop front for me as a developer.
-* As the website owner, I want the website to display skills and work to potential employers.
-* As the website owner, I want to recieve messages from users which could lead to employment. 
-* As the website owner, I want to recieve messages from users which could lead to collaboration with other developers. 
-* As the website owner, I want to update and add skills via the admin page linked to my MongoDB database.
-* As the website owner, I want to update and add projects and work to enhance the opportunities for employment.
+* As the website owner, I want the website to be a **shop front** for me as a developer.
+* As the website owner, I want the website to **display skills** and work to potential employers.
+* As the website owner, I want to **recieve messages from users which could **lead to employment**. 
+* As the website owner, I want to recieve messages from users which could **lead to collaboration with other developers**. 
+* As the website owner, I want to **update and add skills via the admin page** linked to my MongoDB database.
+* As the website owner, I want to **update and add projects and work** to enhance the opportunities for employment.
 
 ---
 
