@@ -325,7 +325,7 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 3. In the **Choose a Region** drop-down, choose **Europe** as that's our region and delivery will be quicker.
 4. Click on **Create App**.
 5. Next, log in to Heroku in the terminal with ```heroku login```. You will need to enter you email and password. This allows the connection from your project to Heroku and allows us to push changes to Heroku using git.
-6. Create a new Git repository with the command, ```git innit```.
+6. Create a new Git repository with the command, ```git init```.
 7. Do a ```git add .``` to add the files and ```git commit -m "Intial commit"``` to commit those files.
 8. We need now to associate Heroku as our remote master branch. Back on Heroku you will find the command ```heroku git:remote -a (name of your app)```, in the Deploy using Heroku Git section. Paste this into the terminal to set it up.
 9. Create a **requirements.txt** file which will contain a list of all the applications required for Heroku to run the application.To do this type ```pip3 freeze --local > requirements.txt``` in the terminal. This will create a txt file with the list in.

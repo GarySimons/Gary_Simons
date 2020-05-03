@@ -356,7 +356,7 @@ body {
 
 #contactbox {
     background-color: #5c9990;
-    padding: 2rem 2rem 4rem;   
+    padding: 2rem 2rem 4rem;
 }
 
 #contacttext {
@@ -661,13 +661,14 @@ body {
     height: 85vh;
 }
 
-#footer {
+footer {
     background-color: #bacfb2;
     position: sticky;
-    height: 10rem;
+    min-height: 10.4rem;
     padding-top: 1rem;
     text-align: center !important;
     bottom: 0;
+    margin-top: 3.5rem;
 }
 
 #adminlink {
