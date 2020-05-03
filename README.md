@@ -14,9 +14,12 @@
 
 This is a website to **promote me as a full stack web developer**. In the future, I shall be able to use it to send to protential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
 
+
 The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demostrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the **user** of that interface will be **me** as the website's owner. 
-**
+
+
 **I have 'hidden' an admin section**, which can be accessed from the **footer** on the **contact page.** This takes you to the **admin page**, from which you can read, add, update or delete the data. The data is **dislayed to the user** in a panel on the **about page**, using easy to diguest **text and progress bars to show skills and skill levels attained**. This text and the progress bars are **linked to the MongoDB database** and change when it is edited.
+
 
 The site is hosted on **Heroku** as part of the project requirements.
 
@@ -250,10 +253,12 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Enter data in form and click the add skill button to check it closes the page and returns to admin page, and that the admin page displays added data.
 * Hover over buttons to check they change colour.
 * Click on back to skills button to check it returns you to the admin page without changing data.
+* Repeat checks on mobile and tablet to verify they are correct.
 
 #### Heroku
 * Check Heroku is being updated and the changes are being deployed each time it is pushed to GitHub.
 * Open app on Heroku and test all pages, links and forms work correctly.
+* Repeat checks on mobile and tablet to verify they are correct.
 
 ### Planning
 The planning for this project involved using my **wireframes** to sketch a plan of which pages, buttons and forms needed to link to the database and to other parts. 
