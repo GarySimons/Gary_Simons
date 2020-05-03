@@ -164,7 +164,6 @@ body {
     text-decoration: none !important;
 }
 
-
 /* About page */
 
 .aboutpanel {
@@ -399,17 +398,20 @@ body {
 
 .adminbox {
     background-color: #688499;
-    padding: 2rem 2rem 4rem;
+    padding: 2rem 3rem 4rem;
+    text-align: center;
 }
 
 .adminaddbox {
     background-color: #d996a9;
     padding: 2rem 2rem 4rem;
+    text-align: center;
 }
 
 .admineditbox {
     background-color: #bacfb2;
     padding: 2rem 2rem 4rem;
+    text-align: center;
 }
 
 .admintext {
@@ -685,3 +687,4 @@ body {
     text-align: center;
     padding-top: 0.5rem;
 }
+
