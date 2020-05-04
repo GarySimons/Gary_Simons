@@ -184,86 +184,84 @@ The website has a **Favicon** to visually show the user where the site is in the
 ### Manual testing of all elements on pages
 
 #### Navigation bar
-* Click on logo to check it links to home page.
-* Click on all links to check they link to relevant page.
-* Hover over all links to check they change colour.
-* Change screen size to verify that it is responsive and switches from in-line menu to hamburger menu on mobile size.
-* Change screen size to small verify that the hamburger menu drops down and links work.
+* Click on **logo** to check it links to home page.
+* Click on **all links** to check they link to relevant page.
+* Hover over **all links** to check they change colour.
+* Change screen size to verify that it is **fully responsive** and switches from **in-line menu to hamburger menu** on mobile size.
+* Change screen size to small verify that the **hamburger menu drops down and links work.**
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Home page
-* Change screen size to verify that it is responsive and the text and image work on all device sizes.
-* Click on about me button to check it links to about page.
-* Hover over about me link to check it changes colour.
+* Change screen size to verify that it is **fully responsive** and the text and image work on all device sizes.
+* Click on **about me** button to check it links to about page.
+* Hover over **about me** link to check it changes colour.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### About page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Check that the skills panel is showing correct data (skill name and progress bar percentage) from MongoDB database.
-* Click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* Check that the skills panel is **showing correct data** (skill name and progress bar percentage) from MongoDB database.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Projects page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Click on each view button to check it opens relevant modal.
-* Change screen size to verify that each modal is responsive and works on all device sizes.
-* Click on each modal's x and close buttons to check they close the modal.
-* Click on view website buttons on Wildbunch Florist and check it opens relevant website in new window.
-* Click on view website buttons on Handpicked Brighton and check it opens relevant website in new window.
-* Click on view website buttons on Little Monsters and check it is a link. This is a fake website so has no live link.
-* Click on view website buttons on Hummingbird Family Services and check it is a link. This is a fake website so has no live link.
-* Hover over links on main page and modals to check they change colour.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* Click on each view button to check it opens **relevant modal.**
+* Change screen size to verify that each modal is **fully responsive** and works on all device sizes.
+* Click on each modal's **x and close buttons** to check they close the modal.
+* Click on **view website buttons** on Wildbunch Florist and check it opens relevant website in new window.
+* Click on **view website buttons** on Handpicked Brighton and check it opens relevant website in new window.
+* Click on **view website buttons** on Little Monsters and check it is a link. This is a fake website so has no live website.
+* Click on **view website buttons** on Hummingbird Family Services and check it is a link. This is a fake website so has no live website.
+* Hover over **links** on main page and modals to check they change colour.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Contact page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Write into each form field to make sure it works.
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* **Write** into each form field to make sure it works.
 * The send button isn't wire up, so will not send anything.
-* Hover over send button to check it changes colour.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+* Hover over **send button** to check it changes colour.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Admin page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Check data from MongoDB database is correct and displays correctly.
-* Click on edit buttons to check they open the edit page with correct data.
-* Click on delete buttons to check they open the warning modal.
-* Click on x and close on modal to check they close the modal and go back to admin page.
-* Click on yes, I'm sure button on modal to check it removes correct data from MongoDB database.
-* Click on no, keep it button on modal to check it closes the modal and goes back to admin page leaving data in place.
-* Click on add new skill button to check it opens add skill page.
-* Hover over buttons to check they change colour.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* Check **data from MongoDB database** is correct and displays correctly.
+* Click on **edit buttons** to check they open the edit page with correct data.
+* Click on **delete buttons** to check they open the warning modal.
+* Click on **x and close** on modal to check they close the modal and go back to admin page.
+* Click on **yes, I'm sure button** on modal to check it removes correct data from MongoDB database.
+* Click on **no, keep it button** on modal to check it closes the modal and goes back to admin page leaving data in place.
+* Click on **add new skill button** to check it opens add skill page.
+* Hover over **buttons** to check they change colour.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
-#### Edit page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Check form is displaying correct data to be edited.
-* Edit data in form and click the save changes button to check it closes the page and returns to admin page, and that the admin page displays edited data.
-* Click on back to skills button to check it returns you to the admin page without changing data.
-* Hover over buttons to check they change colour.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+#### Edit skills page
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* Check form is **displaying correct data** to be edited.
+* **Edit data** in form and click the save changes button to check it closes the page and returns to admin page, and that the admin page displays edited data.
+* Click on **back to skills button** to check it returns you to the admin page without changing data.
+* Hover over **buttons** to check they change colour.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
-#### Edit page
-* Change screen size to verify that it is responsive and the panels work on all device sizes.
-* Check form is displaying correct data to be edited.
-* Enter data in form and click the add skill button to check it closes the page and returns to admin page, and that the admin page displays added data.
-* Hover over buttons to check they change colour.
-* Click on back to skills button to check it returns you to the admin page without changing data.
-* In Footer click on each social media button to check it takes you to the relevant website in a new window.
-* In Footer click on CV to check it opens the downloadable pdf.
+#### Add skills page
+* Change screen size to verify that it is **fully responsive** and the panels work on all device sizes.
+* **Enter data** in form and click the add skill button to check it closes the page and returns to admin page, and that the admin page displays added data.
+* Hover over **buttons** to check they change colour.
+* Click on **back to skills button** to check it returns you to the admin page without changing data.
+* In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
+* In the footer click on **CV** to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Heroku
-* Check Heroku is being updated and the changes are being deployed each time it is pushed to GitHub.
+* Check Heroku is being **updated** and the changes are being deployed each time it is **pushed to GitHub.**
 * Open app on Heroku and test all pages, links and forms work correctly.
 * Repeat checks on mobile and tablet to verify they are correct.
 
@@ -274,7 +272,7 @@ The planning for this project involved using my **wireframes** to sketch a plan 
 
 * After deciding on a palette of colours for the website. It was felt I had **too many** and need to edit them down. I played around using a **Hex Colour Picker** website to find the colours that worked together as a family. Enough difference that they had their own identity, but similar enough to connect. I chose **four basic colours** and used a dark version and a light version.
 
-* On my mock ups and during most of the build, I had my **social links** as just letters 'Li' (LinkedIn), 'Tw' (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but the world wasn't ready for them.
+* On my mock ups and during most of the build, I had my **social links** as just letters **'Li'** (LinkedIn), **'Tw'** (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but the world wasn't ready for them.
 
 * From my wireframes right up until near the end I had a **button to take you to the admin page.** First it was in the **navigation bar**, but I felt I didn't want users to click on it, so I put it small on the contact page at the bottom in the **footer**. I was still a bit worried about it being still quite public, so my mentor suggested **not having the button at all.** Instead the admin page is accessed by adding **'/admin' to the url.** This makes it more **secure.** It also allowed me to add the footer to each page.
 
@@ -288,7 +286,7 @@ The planning for this project involved using my **wireframes** to sketch a plan 
 #### Design
 * The design of the website needed to be clean, stylish and sophisticated. I had most of the elements and feel of the pages all worked out at the **wireframe** stage. Using the simple clean sans serif font [Montserrat](https://fonts.google.com/specimen/Montserrat) in two weights, (300 and 500), and **opening up the letter spacing**, allowed me to create that feel. The **muted colours** all work together as a family to hold it together. 
 * Using **CSS** styling allowed to create styles for images, words and panels that could be **replicated** across the website. This also meant that it was easy to **change multiple elements quickly and simply.**
-* The result is a website that have an elegant, upmarket design to allow users to see my creative side.
+* The result is a website that has an elegant, upmarket design to allow users to see my creative side.
 
 #### Projects page
 * The projects page needed a way to showcase my work to the user. Originally I simply had each project in a panel with an image of the homepage on a laptop with some text underneath describing the website and a link to the live version. However. it was felt that this wasn't very dynamic. 
@@ -298,7 +296,7 @@ The planning for this project involved using my **wireframes** to sketch a plan 
 
 #### Delete button
 * When I added the **delete** button to the admin page, it originally simply deleted any skill when clicked.
-* It was felt that this was a very dangerous thing to do, as there was no going back once it was clicked.
+* I felt that this was a very dangerous thing to do, as there was no going back once it was clicked.
 * My solution was to wire up a modal that pops up when the **delete button** is clicked saying **'are you sure you want to delete this skill? once you press this button it's gone for good!'** There are then two buttons. **'yes. i'm sure'** which is actually the **'real'** delete button that is wired up to remove the data. The other button **'no. keep it'** takes the user safely back to the **admin** page.
 * This solution means that the data is better protected from being deleted by accident, so makes it **more secure.**
 
@@ -361,7 +359,7 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 ## Closing notes
 
 * I've really enjoyed building this website has taught me lots of interesting new ways to do it. I really like using the **template inheritance** where you build a skeleton document, then **block codes** to allow you to place elements on pages. This seems to me to be a brilliant way to simplify and reduce the amount to code that has to be written. It also would prevent errors where you might change one page, but forget another.
-* I've also found the database element of the challenge to be very interesting and fun. I like how you can control the data on one page the website and it updates it on another.  
+* I've also found the **database** element of the challenge to be very interesting and fun. I like how you can control the data on one page the website and it updates it on another.  
 
 ---
 
@@ -391,7 +389,7 @@ This website is a Milestone Project for the **Full Stack Web Development** cours
 
 ### Anna Gilhespy website
 I used Anna Gilhespy's **Bootstrap** website to help me work out the structure of the grid.
-[Anna Gilhespy](https://ajgreaves.github.io/bootstrap-grid-demo/)
+[Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/)
 
 ### Corey Schafer
 I watched Corey Schafer's YouTube tutorial [Python Flask Tutorial: Full-Featured Web App Part 2 - Templates](https://www.youtube.com/watch?v=QnDWIZuWYW0) to help me understand **Template Inheritance** better.
