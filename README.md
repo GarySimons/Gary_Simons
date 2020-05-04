@@ -125,7 +125,7 @@ The projects page highlights some of the **work I have been doing.** Each projec
 ### Contact
 The contact page simply holds a **form for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** 
 
-### Admin (Accessed by adding '/admin' to the url)
+### Admin (Accessed by adding *'/admin'* to the url)
 The admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
 
 #### Edit
@@ -356,7 +356,7 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 
 ### Deploy locally
 
-In order to deploy this project locally you must do a number of things.
+**In order to deploy this project locally you must do a number of things.**
 
 1. First in the GitHub repository, click on the **Clone or download** button on the repository.
 2. Click on the **Open in Desktop** button.
@@ -366,7 +366,7 @@ In order to deploy this project locally you must do a number of things.
 6. You will need to type ```pip3 install requirements.txt``` in your terminal.
 7. Create an ```env.py``` file.
 8. Inside this file you will need to provide some information for this app to run. ```import os```
-```os.environ["MONGO_URI"] = 'mongodb+srv://GaryCS:<password>@myfirstcluster-2pvma.mongodb.net/test?retryWrites=true&w=majority'```
+```os.environ["MONGO_URI"] = 'mongodb+srv://Name:<password>@collection-2pvma.mongodb.net/test?retryWrites=true&w=majority'```
 
 ---
 
@@ -402,8 +402,8 @@ This website is a Milestone Project for the **Full Stack Web Development** cours
 ## Acknowledgements
 
 ### Anna Gilhespy website
-I used Anna Gilhespy's **Bootstrap** website to help me work out the structure of the grid.
-[Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/)
+I used Anna Gilhespy's **Bootstrap** website [Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/) to help me work out the structure of the grid.
+
 
 ### Corey Schafer
 I watched Corey Schafer's YouTube tutorial [Python Flask Tutorial: Full-Featured Web App Part 2 - Templates](https://www.youtube.com/watch?v=QnDWIZuWYW0) to help me understand **Template Inheritance** better.
