@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html {
     scroll-behavior: smooth;
@@ -656,34 +660,19 @@ body {
 
 /* Footer */
 
-.contactsection {
-    background-color: red;
+#contactsection {
+    background-color: #fff;
     height: 85vh;
 }
 
 footer {
-    background-color: #bacfb2;
-    position: sticky;
-    min-height: 10.4rem;
+    background-color: #a6a6a6;
+    position: relative;
+    height: 9rem;
     padding-top: 1rem;
-    text-align: center !important;
     bottom: 0;
-    margin-top: 3.5rem;
-}
-
-#adminlink {
-    color: #fff !important;
-    font-size: 0.7rem !important;
-    letter-spacing: 0.1rem !important; 
-    font-weight: 300 !important;
     text-align: center !important;
-    text-decoration: none !important;
-    cursor: pointer;
-}
-
-#adminlink:hover{
-    color:#000!important;
-    transition: .1s ease-in-out;
+    margin-top: 1rem;
 }
 
 #copyright {
@@ -692,6 +681,5 @@ footer {
     font-weight: 300;
     letter-spacing: 0.1rem; 
     text-align: center;
-    padding-top: 0.5rem;
 }
 
