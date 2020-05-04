@@ -9,7 +9,7 @@
 
 ## Overview
 
-### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. The link for this is in the footer on the contact page.
+### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. To access this page please enter **'/admin'** at the end of the url.
 
 
 This is a website to **promote me as a full stack web developer**. In the future, I shall be able to use it to send to potential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
@@ -18,7 +18,7 @@ This is a website to **promote me as a full stack web developer**. In the future
 The aim of the project is to produce a website using **Flask** and **Python** that allows the use of data stored in a database on **MongoDB**. The website has to demonstrate the data storage principles that you should be able to **create, read, update and delete (CRUD)** that data through a user interface. For my project, the **user** of that interface will be **me** as the website's owner. 
 
 
-**I have 'hidden' an admin section**, which can be accessed from the **footer** on the **contact page.** This takes you to the **admin page**, from which you can read, add, update or delete the data. The data is **displayed to the user** in a panel on the **about page**, using easy to digest **text and progress bars to show skills and skill levels attained**. This text and the progress bars are **linked to the MongoDB database** and change when it is edited.
+**I have 'hidden' an admin section**, which can be accessed by **entering **'/admin'** at the end of the url.** This takes you to the **admin page**, from which you can read, add, update or delete the data. The data is **displayed to the user** in a panel on the **about page**, using easy to digest **text and progress bars to show skills and skill levels attained**. This text and the progress bars are **linked to the MongoDB database** and change when it is edited.
 
 
 The site is hosted on **Heroku** as part of the project requirements.
@@ -91,7 +91,7 @@ I created a **simple, complimentary, sophisticated colour scheme** that carries 
 I've used the sans serif font [Montserrat](https://fonts.google.com/specimen/Montserrat) in two weights, (300 and 500) with some **sophisticated letter spacing** to add to the airy feel. I like the no-nonsense clean lines of the font, and feel it suits the website perfectly.
 
 ### Grid
-I carried the **same basic grid through** the pages to add consistency and easy of navigation. A large **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page.
+I carried the **same basic grid through** the pages to add consistency and easy of navigation. A large **section header** quickly establishes the page you've landed on, and under that, is a panel holding the content for that page. A footer on each page hold **social media links and a downloadable CV.**
 
 ### Illustration
 I created an image of a **woodcut style bird** carrying a card with the coding symbol **</>** on it. It is not only a beautiful image, but symbolizes me delivering coding solutions. I have used this image throughout the website and a visual logo of the website and of me.
@@ -100,7 +100,7 @@ I created an image of a **woodcut style bird** carrying a card with the coding s
 
 ## Wireframes
 
-I built my wireframes using **Balsamiq Wireframes**. This was a quick and easy way to work out the basic pages and element and how the would interact with each other. I then mocked up more detailed versions using **Adobe InDesign** to allow me to play with fonts, colours and images. The basic structure of my wireframes remained much the same, but colours and styling was adapted as I built the website and saw how it worked as a whole.   
+I built my wireframes using **Balsamiq Wireframes**. This was a quick and easy way to work out the basic pages and element and how the would interact with each other. I then mocked up more detailed versions using **Adobe InDesign** to allow me to play with fonts, colours and images. The basic structure from my wireframes remained much the same, but colours, styling and some elements were adapted as I built the website and saw how it worked as a whole.   
 
 View my **Balsamiq** wireframes <a href="https://github.com/GarySimons/Gary_Simons/tree/master/wireframes/png">here.</a>
 
@@ -117,15 +117,15 @@ View my **Adobe InDesign** wireframes <a href="https://github.com/GarySimons/Gar
 This is the first page a user comes to and it has to make a big impact. It has the job of informing the user as to what sort of site this is and to entice them to move further and engage with it. It opens with **strong simple white typography** on a plain grey background. Having a big name announces very quickly who the website is about. The tag line underneath then gives more context and explains what they do. **A beautiful illustration of a bird holding a card with </> on it symbolizes delivering code.** A tasteful **about me** link invites them to enter the website and takes the user straight to the **about page** where they can learn more.
 
 ### About
-The about page shows some of the **key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** Below them is a panel containing links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV**.
+The about page shows some of the **key information about me.** There is a brief introduction to me and the things I stand for. Below that are two panels. One showing **my skills** with an easy to understand progress bar showing my proficiency level in a graphic way. The other shows my **relevant education and qualifications.** All pages apart from the home page have a **footer**, which holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a **copyright** sign off displaying the current year.  
 
 ### Projects
 The projects page highlights some of the **work I have been doing.** Each project is in a coloured panel with the website showing in a graphic line drawing of a laptop. A **view button** under each title opens a **large modal** with larger images of a laptop, tablet and phone. There is a short description of the website, a list of programs and languages used and a link to the **live website.** This gives the user an insight into the thinking behind the website and the way it was built. They can see how it displays on different devices, and then link to the website to see for themselves. I used the two websites that I have built as **Milestone Projects** and made two **fake website homepages** to show how it would work with more.
 
 ### Contact
-The contact page simply holds a **form for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** At the bottom of this page is the **footer**, which again holds links to my **LinkedIn, GitHub, Twitter, Facebook, Instagram** and a **downloadable pdf of my CV.** It has a copyright sign off and a link to the **'hidden' admin page.** 
+The contact page simply holds a **form for users to fill in and contact me.** I kept the wording on the page very **inviting and conversational** to help the user feel more at ease and give a **friendly vibe.** 
 
-### Admin
+### Admin (Accessed by adding '/admin' to the url)
 The admin page is the **interface with the MongoDB database.** It shows a panel showing the **stored data.** Beside each of the listings are two buttons, **edit** and **delete.** Below is a **add new skill** button. 
 
 #### Edit
@@ -146,7 +146,7 @@ The website has a **Favicon** to visually show the user where the site is in the
 
 * If time allowed I would have liked to add to the admin page, to enable me to **build more projects.** I would build a template that would allow me to quickly and simply add as many as needed.
 * It would be good to add a **blog page.** This would give another insight into my interests, skills and personality, and allow the users to be more engaged with me as a person.
-* I would like to wire up the contact form to send messages to my email.
+* I would like to **wire up the contact form** to send messages to my email.
 
 ---
 
@@ -201,8 +201,8 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Change screen size to verify that it is responsive and the panels work on all device sizes.
 * Check that the skills panel is showing correct data (skill name and progress bar percentage) from MongoDB database.
 * Click on each social media button to check it takes you to the relevant website in a new window.
-* Click on CV to check it opens the downloadable pdf.
-* Hover over social and CV links to check it changes colour.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Projects page
@@ -215,16 +215,17 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Click on view website buttons on Little Monsters and check it is a link. This is a fake website so has no live link.
 * Click on view website buttons on Hummingbird Family Services and check it is a link. This is a fake website so has no live link.
 * Hover over links on main page and modals to check they change colour.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Contact page
 * Change screen size to verify that it is responsive and the panels work on all device sizes.
 * Write into each form field to make sure it works.
 * The send button isn't wire up, so will not send anything.
-* Click on each social media button to check it takes you to the relevant website in a new window.
-* Click on CV to check it opens the downloadable pdf.
-* Click on admin button in footer to check it opens the admin page.
 * Hover over send button to check it changes colour.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Admin page
@@ -237,6 +238,8 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Click on no, keep it button on modal to check it closes the modal and goes back to admin page leaving data in place.
 * Click on add new skill button to check it opens add skill page.
 * Hover over buttons to check they change colour.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Edit page
@@ -245,6 +248,8 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Edit data in form and click the save changes button to check it closes the page and returns to admin page, and that the admin page displays edited data.
 * Click on back to skills button to check it returns you to the admin page without changing data.
 * Hover over buttons to check they change colour.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Edit page
@@ -253,6 +258,8 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Enter data in form and click the add skill button to check it closes the page and returns to admin page, and that the admin page displays added data.
 * Hover over buttons to check they change colour.
 * Click on back to skills button to check it returns you to the admin page without changing data.
+* In Footer click on each social media button to check it takes you to the relevant website in a new window.
+* In Footer click on CV to check it opens the downloadable pdf.
 * Repeat checks on mobile and tablet to verify they are correct.
 
 #### Heroku
@@ -268,6 +275,8 @@ The planning for this project involved using my **wireframes** to sketch a plan 
 * After deciding on a palette of colours for the website. It was felt I had **too many** and need to edit them down. I played around using a **Hex Colour Picker** website to find the colours that worked together as a family. Enough difference that they had their own identity, but similar enough to connect. I chose **four basic colours** and used a dark version and a light version.
 
 * On my mock ups and during most of the build, I had my **social links** as just letters 'Li' (LinkedIn), 'Tw' (Twitter) etc. I felt they added a very stylish 'designer' look to the pages. But after several testers found them confusing and didn't immediately get what they were, I changed them to **FontAwesome** icons to make it clearer. I liked my letters, but the world wasn't ready for them.
+
+* From my wireframes right up until near the end I had a **button to take you to the admin page.** First it was in the **navigation bar**, but I felt I didn't want users to click on it, so I put it small on the contact page at the bottom in the **footer**. I was still a bit worried about it being still quite public, so my mentor suggested **not having the button at all.** Instead the admin page is accessed by adding **'/admin' to the url.** This makes it more **secure.** It also allowed me to add the footer to each page.
 
 ### Overall
 
@@ -311,6 +320,11 @@ The planning for this project involved using my **wireframes** to sketch a plan 
 * However, my app just kept giving me an error when I tried to launch it.
 * It was discovered that the problem was that I had set up an **env.py** file, that was being hidden in a **.gitignore file** to keep my password safe. This information wasn't being uploaded to Heroku, so it couldn't work.
 * I therefore had to set the value for the this in the **Config Vars** of Heroku. Once there, Heroku could read it and the app worked.
+
+#### Footer
+* Viewed on a large screen and manually changing the screen size the footer appeared to work well and stay at the bottom of the page.
+* However, when checking the page via inspect, I found it didn't go to the bottom of the screen on a tablet when there wasn't enough content on the page to push it down.
+* I fixed this problem using flexbox in my css to make it always go to the bottom of the page.  
 
 ---
 
@@ -381,5 +395,8 @@ I used Anna Gilhespy's **Bootstrap** website to help me work out the structure o
 
 ### Corey Schafer
 I watched Corey Schafer's YouTube tutorial [Python Flask Tutorial: Full-Featured Web App Part 2 - Templates](https://www.youtube.com/watch?v=QnDWIZuWYW0) to help me understand **Template Inheritance** better.
+
+### Kevin Powell
+I watched Kevin Powell's YouTube tutorial [Easy sticky footer - stop a footer from floating up a short page!](https://www.youtube.com/watch?v=yc2olxLgKLk) to help me understand **Flexbox** better to fix my footer to the bottom of the pages.
 
 
