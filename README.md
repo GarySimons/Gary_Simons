@@ -354,6 +354,20 @@ I've been using **GitPod**. These are the steps that I used in a **Unique Linux 
 20. Finally, deploy it by clicking the **Deploy Branch** button.
 21. Now every time you push to GitHub, it will automatically push it through to Heroku too.
 
+### Deploy locally
+
+In order to deploy this project locally you must do a number of things.
+
+1. First in the GitHub repository, click on the **Clone or download** button on the repository.
+2. Click on the **Open in Desktop** button.
+3. Click the **Choose** button and navigate to a local path where you want to clone the repository.
+4. Click the **Clone** button.
+5. You will need to make sure you have **Python 3.7** installed.
+6. You will need to type ```pip3 install requirements.txt``` in your terminal.
+7. Create an ```env.py``` file.
+8. Inside this file you will need to provide some information for this app to run. ```import os```
+```os.environ["MONGO_URI"] = 'mongodb+srv://GaryCS:<password>@myfirstcluster-2pvma.mongodb.net/test?retryWrites=true&w=majority'```
+
 ---
 
 ## Closing notes
