@@ -660,10 +660,15 @@ body {
 /* Footer */
 
 #contactcontainer {
+    background-color: red;
     min-height: 100vh;
 }
 
 #contactsection {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
     overflow: auto;
     padding-bottom: 100px;
 }
@@ -674,9 +679,8 @@ footer {
     height: 130px;
     padding-top: 1rem;
     bottom: 0;
-    text-align: center !important;
     margin-top: -130px;
-    clear: both;
+    text-align: center !important;
 }
 
 #copyright {
