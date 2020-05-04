@@ -9,7 +9,7 @@
 
 ## Overview
 
-### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. To access this page please enter **'/admin'** at the end of the url.
+### Please note that the interface for creating, updating and deleting data is on the 'hidden' admin page. To access this page please enter *'/admin'* at the end of the url.
 
 
 This is a website to **promote me as a full stack web developer**. In the future, I shall be able to use it to send to potential employers as a way of **advertising my skills.** It has been built using **template inheritance** which will make it easier to add content as my projects and skills grow. 
@@ -209,10 +209,10 @@ The website has a **Favicon** to visually show the user where the site is in the
 * Click on each view button to check it opens **relevant modal.**
 * Change screen size to verify that each modal is **fully responsive** and works on all device sizes.
 * Click on each modal's **x and close buttons** to check they close the modal.
-* Click on **view website buttons** on Wildbunch Florist and check it opens relevant website in new window.
-* Click on **view website buttons** on Handpicked Brighton and check it opens relevant website in new window.
-* Click on **view website buttons** on Little Monsters and check it is a link. This is a fake website so has no live website.
-* Click on **view website buttons** on Hummingbird Family Services and check it is a link. This is a fake website so has no live website.
+* Click on **view website buttons on Wildbunch Florist** and check it opens relevant website in new window.
+* Click on **view website buttons on Handpicked Brighton** and check it opens relevant website in new window.
+* Click on **view website buttons on Little Monsters** and check it is a link. This is a fake website so has no live website.
+* Click on **view website buttons on Hummingbird Family Services** and check it is a link. This is a fake website so has no live website.
 * Hover over **links** on main page and modals to check they change colour.
 * In the footer click on each **social media button** to check it takes you to the relevant website in a new window.
 * In the footer click on **CV** to check it opens the downloadable pdf.
