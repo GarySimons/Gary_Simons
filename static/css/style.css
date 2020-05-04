@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -137,7 +137,7 @@ body {
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: 0.15rem;
     letter-spacing: 0.1rem;
     text-decoration: none;
@@ -154,7 +154,7 @@ body {
     width: 40px;
     height: 40px;
     padding: 0.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
     line-height: .25rem;
     text-align: center;
@@ -659,27 +659,17 @@ body {
 
 /* Footer */
 
-#contactcontainer {
-    background-color: red;
-    min-height: 100vh;
-}
-
-#contactsection {
-    min-height: 95vh;
+.contactsection {
+    min-height: 82vh;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    overflow: auto;
-    padding-bottom: 100px;
 }
 
 footer {
     background-color: #a6a6a6;
     position: relative;
-    height: 130px;
     padding-top: 1rem;
-    bottom: 0;
-    margin-top: -130px;
+    margin-top: auto;
     text-align: center !important;
 }
 
