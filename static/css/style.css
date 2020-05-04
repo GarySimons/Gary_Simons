@@ -137,7 +137,7 @@ body {
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 0.15rem;
     letter-spacing: 0.1rem;
     text-decoration: none;
@@ -153,12 +153,10 @@ body {
     color: #fff;
     width: 40px;
     height: 40px;
-    padding: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 1.5rem;
     line-height: .25rem;
     text-align: center;
-
 }
 
 .sociallinks li a i:hover {
@@ -659,7 +657,7 @@ body {
 
 /* Footer */
 
-.contactsection {
+.main {
     min-height: 82vh;
     display: flex;
     flex-direction: column;
@@ -668,7 +666,7 @@ body {
 footer {
     background-color: #a6a6a6;
     position: relative;
-    padding-top: 1rem;
+    padding-top: 1.6rem;
     margin-top: auto;
     text-align: center !important;
 }
@@ -679,5 +677,6 @@ footer {
     font-weight: 300;
     letter-spacing: 0.1rem; 
     text-align: center;
+    margin-top: -1rem;
 }
 
