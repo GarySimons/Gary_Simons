@@ -305,8 +305,8 @@ body {
 
 .modaltitle {
     color: #fff;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     letter-spacing: 0.1rem; 
     font-weight: 500;
     text-align: center;
@@ -441,21 +441,6 @@ body {
     font-weight: 300; 
     letter-spacing: 0.1rem; 
     text-decoration: none;
-}
-
-.adminsub {
-    color: yellow;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    font-weight: 500; 
-    letter-spacing: 0.1rem; 
-    text-decoration: none;
-}
-
-.adminsub:hover {
-    text-decoration: none !important;
-    color: #000 !important;
-    transition: .1s ease-in-out;
 }
 
 .list {
@@ -645,7 +630,7 @@ body {
     background-color: #a34966;  
 }
 
-.modaldeletetitle {
+#modaldeletetitle {
     color: #fff;
     font-size: 2.5rem;
     line-height: 2.7rem;
